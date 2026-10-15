@@ -5,7 +5,7 @@ import { existsSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { Resvg } from '@resvg/resvg-js';
-import { VARIANTS } from './variants.mjs';
+import { SOURCE_GRIDS, VARIANTS, selectSourceGrid } from './variants.mjs';
 import { zipStored } from './zip.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -29,7 +29,7 @@ async function main() {
     }
     const files = [];
     for (const variant of VARIANTS) {
-      const svg = sources[variant.grid] ?? sources[16] ?? sources[32];
+      const svg = sources[selectSourceGrid(Object.keys(sources).map(Number), variant.grid)];
       const png = render(svg, variant.size);
       await writeOut(path.join('png', String(variant.size), `${icon.name}.png`), png);
       files.push({ name: `${icon.name}_${variant.scale}.png`, data: png });
@@ -51,7 +51,7 @@ async function main() {
 
 async function readSources(name) {
   const result = {};
-  for (const grid of [16, 32]) {
+  for (const grid of SOURCE_GRIDS) {
     const file = path.join(srcDir, String(grid), `${name}.svg`);
     if (existsSync(file)) {
       result[grid] = await readFile(file, 'utf8');
@@ -83,31 +83,78 @@ function previewHtml(built, missing) {
   const header = PREVIEW_SIZES.map((size) => `<th>${size}</th>`).join('');
   const rows = built
     .map((icon) => {
-      const cells = PREVIEW_SIZES.map((size) => `<td><img src="png/${size}/${icon.name}.png" alt=""></td>`).join('');
-      const tree = `<span class="tree"><img src="png/16/${icon.name}.png" alt="">${icon.title}</span>`;
+      const cells = PREVIEW_SIZES.map((size) => `<td><img class="pixel" src="png/${size}/${icon.name}.png" width="${size}" height="${size}" style="--pixels:${size}" alt=""></td>`).join('');
+      const tree = `<span class="tree"><img class="pixel" data-tree-icon="${icon.name}" src="png/16/${icon.name}.png" width="16" height="16" style="--pixels:16" alt="">${icon.title}</span>`;
       return `<tr><td><code>${icon.name}</code><br>${icon.title}</td>
-<td class="zoom"><img src="png/16/${icon.name}.png" alt=""></td>${cells}
+<td class="zoom"><img class="pixel" src="png/16/${icon.name}.png" width="64" height="64" style="--pixels:64" alt=""></td>${cells}
 <td>${tree}</td><td class="dark">${tree}</td></tr>`;
     })
     .join('\n');
   const todo = missing.map((icon) => `<li><code>${icon.name}</code> — ${icon.title}</li>`).join('');
   return `<!doctype html>
-<html lang="ru"><head><meta charset="utf-8"><title>Иконки метаданных 1С</title>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Иконки метаданных 1С</title>
 <style>
 body{font:14px/1.4 "Segoe UI",Arial,sans-serif;margin:24px;color:#1f2328;background:#fff}
 table{border-collapse:collapse}th,td{border:1px solid #d0d7de;padding:6px 10px;text-align:center;vertical-align:middle}
 td:first-child{text-align:left}th{background:#f6f8fa;font-weight:600}
-.zoom img{width:64px;height:64px;image-rendering:pixelated}
+.pixel{width:calc(var(--pixels)*1px / var(--dpr,1));height:calc(var(--pixels)*1px / var(--dpr,1))}
+.zoom img{image-rendering:pixelated}
 .tree{display:inline-flex;align-items:center;gap:4px;font-size:13px;white-space:nowrap}
 .dark{background:#252526;color:#e6e6e6}
 </style></head><body>
 <h1>Иконки метаданных 1С</h1>
 <p>Нарисовано: ${built.length}. Не нарисовано: ${missing.length}.</p>
+<p>Размеры указаны в точках экрана: PNG показаны пиксель в пиксель, увеличение 16 ×4 занимает 64 точки. В дереве выбран ближайший к плотности экрана вариант. Для 20 и 24 px есть отдельные исходники.</p>
+<noscript><p>Без JavaScript таблица доступна, но плотность экрана не компенсируется: браузер может растягивать PNG.</p></noscript>
 <table><tr><th>Иконка</th><th>16 ×4</th>${header}<th>В дереве</th><th>На тёмном</th></tr>
 ${rows}
 </table>
 ${missing.length ? `<h2>Не нарисованы</h2><ul>${todo}</ul>` : ''}
 <p>© 2026 Журавлев Анатолий, CC BY 4.0</p>
+<script>
+const variants = ${JSON.stringify(VARIANTS.map(({ scale, size }) => ({ scale, size })))};
+let alignmentFrame = null;
+function alignPngOrigins() {
+  if (alignmentFrame !== null) return;
+  alignmentFrame = requestAnimationFrame(() => {
+    alignmentFrame = null;
+    const images = [...document.querySelectorAll('img[src^="png/"]')];
+    for (const img of images) img.style.translate = '';
+    const density = window.devicePixelRatio || 1;
+    const offsets = images.map((img) => {
+      if (!img.getClientRects().length) return null;
+      const rect = img.getBoundingClientRect();
+      const style = getComputedStyle(img);
+      const left = rect.left + (parseFloat(style.borderLeftWidth) || 0) + (parseFloat(style.paddingLeft) || 0);
+      const top = rect.top + (parseFloat(style.borderTopWidth) || 0) + (parseFloat(style.paddingTop) || 0);
+      return {
+        img,
+        x: (Math.round(left * density) - left * density) / density,
+        y: (Math.round(top * density) - top * density) / density,
+      };
+    });
+    for (const offset of offsets) {
+      if (offset) offset.img.style.translate = offset.x + 'px ' + offset.y + 'px';
+    }
+  });
+}
+window.addEventListener('resize', alignPngOrigins);
+document.addEventListener('load', alignPngOrigins, true);
+document.addEventListener('scroll', alignPngOrigins, { capture: true, passive: true });
+function watchDensity() {
+  const density = window.devicePixelRatio || 1;
+  document.documentElement.style.setProperty('--dpr', String(density));
+  const variant = variants.reduce((best, item) => Math.abs(item.scale - density * 100) < Math.abs(best.scale - density * 100) ? item : best);
+  for (const img of document.querySelectorAll('[data-tree-icon]')) {
+    img.src = 'png/' + variant.size + '/' + img.dataset.treeIcon + '.png';
+    img.width = img.height = variant.size;
+    img.style.setProperty('--pixels', String(variant.size));
+  }
+  alignPngOrigins();
+  matchMedia('(resolution: ' + density + 'dppx)').addEventListener('change', watchDensity, { once: true });
+}
+watchDensity();
+</script>
 </body></html>
 `;
 }
@@ -118,7 +165,7 @@ function previewSvg(icons) {
   const FONT = 'Segoe UI, -apple-system, Helvetica, Arial, sans-serif';
   const HEAD = 36;
   const ROW = 72;
-  const FOOT = 32;
+  const FOOT = 44;
   const NAME_W = 268;
   const DARK_W = 256;
   const cells = [];
@@ -131,17 +178,17 @@ function previewSvg(icons) {
   const width = darkX + DARK_W;
   const height = HEAD + ROW * icons.length + FOOT;
 
+  const sourceGrid = (icon, grid) => selectSourceGrid(Object.keys(icon.sources).map(Number), grid);
   const symbols = icons.flatMap((icon) =>
-    [16, 32].map((grid) => {
-      const source = icon.sources[grid] ? grid : grid === 16 ? 32 : 16;
+    [...new Set([16, ...cells.map((cell) => cell.grid)].map((grid) => sourceGrid(icon, grid)))].map((source) => {
       const body = icon.sources[source].replace(/^[\s\S]*?<svg[^>]*>/, '').replace(/<\/svg>\s*$/, '').trim();
-      return `<symbol id="i${grid}-${icon.name}" viewBox="0 0 ${source} ${source}">${body}</symbol>`;
+      return `<symbol id="i${source}-${icon.name}" viewBox="0 0 ${source} ${source}">${body}</symbol>`;
     }),
   );
 
   const rows = icons.map((icon, index) => {
     const top = HEAD + ROW * index;
-    const use = (grid, size, ux, uy) => `<use href="#i${grid}-${icon.name}" x="${ux}" y="${uy}" width="${size}" height="${size}"/>`;
+    const use = (grid, size, ux, uy) => `<use href="#i${sourceGrid(icon, grid)}-${icon.name}" x="${ux}" y="${uy}" width="${size}" height="${size}"/>`;
     return [
       use(16, 16, 12, top + 20),
       `<text x="34" y="${top + 33}" font-size="13">${escapeXml(icon.title)}</text>`,
@@ -171,7 +218,8 @@ ${symbols.join('\n')}
 ${header.join('\n')}
 ${rows.join('\n')}
 <path d="M${NAME_W - 0.5} 0V${HEAD + ROW * icons.length}" stroke="#d0d7de"/>
-<text x="12" y="${height - 12}" font-size="12" fill="#57606a">Иконки метаданных 1С © 2026 Журавлев Анатолий, CC BY 4.0. Размеры 16 и 20 рисуются по сетке 16×16, остальные — по сетке 32×32.</text>
+<text x="12" y="${height - 25}" font-size="12" fill="#57606a">Иконки метаданных 1С © 2026 Журавлев Анатолий, CC BY 4.0.</text>
+<text x="12" y="${height - 9}" font-size="11" fill="#57606a">Исходники: 16, 20, 24 и 32 px. Размер 14 px — из 16; 28, 48 и 64 px — из 32.</text>
 <rect x="0.5" y="0.5" width="${width - 1}" height="${height - 1}" fill="none" stroke="#d0d7de"/>
 </svg>
 `;

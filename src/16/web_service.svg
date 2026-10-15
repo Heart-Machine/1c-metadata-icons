@@ -1,16 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
-  <circle cx="6.5" cy="6.5" r="5.5" fill="#3B82C4"/>
-  <ellipse cx="6.5" cy="6.5" rx="2.2" ry="5.5" fill="none" stroke="#D3E5F8"/>
-  <path d="M1 6.5h11" fill="none" stroke="#D3E5F8"/>
-  <circle cx="6.5" cy="6.5" r="5.5" fill="none" stroke="#23599A"/>
-  <rect x="7.5" y="7.5" width="8" height="8" rx="1.5" fill="#FFFFFF" stroke="#5F6B7A"/>
-  
-  <g transform="translate(11.5 11.5)" fill="#C9711A">
-  <rect x="-0.75" y="-3.25" width="1.5" height="6.5"/>
-  <rect x="-3.25" y="-0.75" width="6.5" height="1.5"/>
-  <rect x="-0.75" y="-3.25" width="1.5" height="6.5" transform="rotate(45)"/>
-  <rect x="-0.75" y="-3.25" width="1.5" height="6.5" transform="rotate(-45)"/>
-  </g>
-  <circle cx="11.5" cy="11.5" r="2" fill="#F2A03D"/>
-  <circle cx="11.5" cy="11.5" r="0.8" fill="#FFFFFF"/>
+  <circle cx="6" cy="6" r="4.5" fill="#3B82C4"/>
+  <ellipse cx="6" cy="6" rx="1.5" ry="4.5" fill="none" stroke="#D3E5F8"/>
+  <path d="M1.5 5.5h9" fill="none" stroke="#D3E5F8" stroke-width="1"/>
+  <circle cx="6" cy="6" r="4.5" fill="none" stroke="#23599A" stroke-width="1"/>
+  <rect x="5.5" y="5.5" width="9" height="9" fill="#FFFFFF" rx="1.5" stroke="#5F6B7A" stroke-width="1"/>
+  <path d="M7 7h1v1H7zM9 7h2v1H9zM12 7h1v1h-1zM7 9h1v2H7zM12 9h1v2h-1zM7 12h1v1H7zM9 12h2v1H9zM12 12h1v1h-1z" fill="#C9711A"/>
+  <rect x="8" y="8" width="4" height="4" fill="#F2A03D"/>
+  <rect x="9" y="9" width="2" height="2" fill="#FFFFFF"/>
 </svg>

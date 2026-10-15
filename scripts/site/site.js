@@ -14,6 +14,40 @@ const toast = document.getElementById('toast');
 // Иконка, открытая в панели
 let current = null;
 
+// Даже при размере 1:1 центрирование может поставить PNG между физическими пикселями.
+// Сдвиг не меняет раскладку. Каждый проход сначала снимает только наш сдвиг,
+// затем отдельно читает координаты всех картинок и только после этого пишет новые.
+let alignmentFrame = null;
+
+function alignPngOrigins() {
+  if (alignmentFrame !== null) return;
+  alignmentFrame = requestAnimationFrame(() => {
+    alignmentFrame = null;
+    const images = [...document.querySelectorAll('img[src^="png/"]')];
+    for (const img of images) img.style.translate = '';
+    const density = window.devicePixelRatio || 1;
+    const offsets = images.map((img) => {
+      if (!img.getClientRects().length) return null;
+      const rect = img.getBoundingClientRect();
+      const style = getComputedStyle(img);
+      const left = rect.left + (parseFloat(style.borderLeftWidth) || 0) + (parseFloat(style.paddingLeft) || 0);
+      const top = rect.top + (parseFloat(style.borderTopWidth) || 0) + (parseFloat(style.paddingTop) || 0);
+      return {
+        img,
+        x: (Math.round(left * density) - left * density) / density,
+        y: (Math.round(top * density) - top * density) / density,
+      };
+    });
+    for (const offset of offsets) {
+      if (offset) offset.img.style.translate = `${offset.x}px ${offset.y}px`;
+    }
+  });
+}
+
+window.addEventListener('resize', alignPngOrigins);
+document.addEventListener('load', alignPngOrigins, true);
+document.addEventListener('scroll', alignPngOrigins, { capture: true, passive: true });
+
 // Настройки посетителя хранятся в браузере; без localStorage сайт работает с настройками по умолчанию
 function load(key) {
   try {
@@ -66,12 +100,13 @@ showTheme();
 
 function watchDensity() {
   root.style.setProperty('--dpr', String(devicePixelRatio));
+  if (!scaleChosen) setScale(defaultScale());
   if (current) {
     renderTree(current);
   }
+  alignPngOrigins();
   matchMedia(`(resolution: ${devicePixelRatio}dppx)`).addEventListener('change', watchDensity, { once: true });
 }
-watchDensity();
 
 // Вариант, ближайший к масштабу: его 1С выбрала бы для экрана с такой плотностью
 function nearest(list, target) {
@@ -86,6 +121,8 @@ function pixelSize(size) {
 // Масштаб интерфейса 1С: 100% — PNG 16 px, 125% — 20 px и так далее
 
 let scale = data.scales[0];
+// Выбор сохраняется в памяти страницы даже при недоступном localStorage.
+let scaleChosen = false;
 const scaleInputs = [...document.querySelectorAll('input[name="scale"]')];
 
 function setScale(value) {
@@ -99,6 +136,7 @@ function setScale(value) {
     img.height = scale.size;
   }
   root.style.setProperty('--size', String(scale.size));
+  alignPngOrigins();
 }
 
 // По умолчанию — масштаб, ближайший к масштабу экрана: на экране 150% иконки выглядят как в 1С на этом экране
@@ -112,11 +150,12 @@ function defaultScale() {
 
 for (const input of scaleInputs) {
   input.addEventListener('change', () => {
+    scaleChosen = true;
     setScale(Number(input.value));
     save('scale', input.value);
   });
 }
-setScale(defaultScale());
+watchDensity();
 
 // Поиск по названию вида, имени картинки и имени файла, без учёта регистра и «ё»
 
@@ -147,6 +186,7 @@ function filter() {
     ? `${shown} из ${cards.length}`
     : `${cards.length} ${plural(cards.length, 'иконка', 'иконки', 'иконок')}`;
   empty.hidden = shown > 0;
+  alignPngOrigins();
 }
 
 search.addEventListener('input', filter);
@@ -218,10 +258,10 @@ function pngUrl(size, name) {
 
 function renderPanel(icon) {
   const code = `БиблиотекаКартинок.${icon.picture}`;
-  const zoom = icon.grids
+  const zoom = [16, 32]
     .map((grid) => {
       const factor = 64 / grid;
-      return `<figure><img src="${pngUrl(grid, icon.name)}" alt="" width="64" height="64"><figcaption>${grid} px ×${factor}</figcaption></figure>`;
+      return `<figure><img src="${pngUrl(grid, icon.name)}" alt="" width="64" height="64" style="${pixelSize(64)}"><figcaption>${grid} px ×${factor}</figcaption></figure>`;
     })
     .join('');
   const sizes = (theme) =>
@@ -257,7 +297,7 @@ function renderPanel(icon) {
   <h3>Размеры</h3>
   ${sizes('light')}
   ${sizes('dark')}
-  <p class="muted">PNG показаны пиксель в пиксель. 14–20 px собраны из исходника 16×16, 24–64 px — из 32×32.</p>
+  <p class="muted">PNG показаны пиксель в пиксель. Для 16, 20 и 24 px есть отдельные исходники; 14 px собраны из сетки 16×16, 28–64 px — из 32×32. Увеличенные образцы сверху: 16 px ×4 и 32 px ×2.</p>
 </section>
 <section class="panel-section">
   <h3>В дереве метаданных</h3>
@@ -292,6 +332,7 @@ function renderTree(icon) {
     tree.innerHTML = rows;
   }
   panelBody.querySelector('#tree-scale').textContent = `${variant.scale}%`;
+  alignPngOrigins();
 }
 
 function openPanel(name) {
@@ -302,6 +343,7 @@ function openPanel(name) {
   if (!panel.open) {
     panel.showModal();
   }
+  alignPngOrigins();
   panelBody.scrollTop = 0;
   panel.scrollTop = 0;
   document.title = `${icon.title} — Иконки метаданных 1С`;

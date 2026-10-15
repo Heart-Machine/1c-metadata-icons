@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
-  <path d="M6 7h4v2H9v1h1v1H9v1h1v1H9v2H6z" fill="#5F6B7A"/>
-  <path d="M7 8h2v1H8v5H7z" fill="#D5DBE2"/>
+  <path d="M6 7h4v3h1v1h-1v1h1v1h-1v2H6z" fill="#5F6B7A"/>
+  <rect x="7" y="8" width="2" height="6" fill="#D5DBE2"/>
   <ellipse cx="8" cy="4.5" rx="4" ry="3" fill="#F2A03D" stroke="#C9711A"/>
   <path d="M6 3h4l1 3H5z" fill="#C9711A"/>
   <rect x="7" y="4" width="2" height="1" fill="#FCE0BD"/>

@@ -7,7 +7,7 @@ import { existsSync } from 'node:fs';
 import { cp, mkdir, readFile, rm, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { VARIANTS } from './variants.mjs';
+import { SOURCE_GRIDS, VARIANTS } from './variants.mjs';
 import { zipStored } from './zip.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -25,7 +25,7 @@ const SCALES = [100, 125, 150, 200, 300, 400];
 async function main() {
   const icons = JSON.parse(await readFile(path.join(root, 'icons.json'), 'utf8'));
   for (const icon of icons) {
-    icon.grids = [16, 32].filter((grid) => existsSync(path.join(root, 'src', String(grid), `${icon.name}.svg`)));
+    icon.grids = SOURCE_GRIDS.filter((grid) => existsSync(path.join(root, 'src', String(grid), `${icon.name}.svg`)));
   }
   const drawn = icons.filter((icon) => icon.grids.length > 0);
   const missing = icons.filter((icon) => icon.grids.length === 0);
@@ -153,7 +153,7 @@ function indexHtml(icons, missing, assets) {
 ${cards}
 </ul>
 <p class="empty" id="empty" hidden>Ничего не найдено.</p>
-<p class="note">PNG на странице показаны пиксель в пиксель: иконка 24 px занимает 24 точки экрана. Масштаб 100% соответствует иконкам 16 px, 125% — 20 px, 150–400% — 24–64 px.</p>
+<p class="note">PNG на странице показаны пиксель в пиксель: иконка 24 px занимает 24 точки экрана. Для 100, 125 и 150% нарисованы отдельные исходники 16, 20 и 24 px; для 200–400% используется сетка 32×32.</p>
 </section>
 ${planned}
 </main>

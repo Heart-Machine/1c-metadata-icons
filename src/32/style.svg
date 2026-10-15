@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-  <path d="M1 28L9 4h5l8 24h-5l-1.6-5H7.6L6 28zM8.8 19h5.4l-2.7-8.6z" fill="#3B82C4" fill-rule="evenodd"/>
-  <path d="M24 24v-7a7 7 0 0 1 7 7z" fill="#3B82C4"/>
-  <path d="M24 24h7a7 7 0 0 1-7 7z" fill="#F2A03D"/>
-  <path d="M24 24v7a7 7 0 0 1-7-7z" fill="#2F9E5A"/>
-  <path d="M24 24h-7a7 7 0 0 1 7-7z" fill="#8250C4"/>
-  <circle cx="24" cy="24" r="7" fill="none" stroke="#5F6B7A" stroke-width="2"/>
-  <circle cx="24" cy="24" r="2.2" fill="#FFFFFF"/>
+  <path d="M3 27l6-22h4l6 22h-4l-1.5-6h-5L7 27zM8.5 17h5L11 8z" fill="#3B82C4" fill-rule="evenodd" stroke="#2B6CB0" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M23 23v-6a6 6 0 0 1 6 6z" fill="#3B82C4"/>
+  <path d="M23 23h6a6 6 0 0 1-6 6z" fill="#F2A03D"/>
+  <path d="M23 23v6a6 6 0 0 1-6-6z" fill="#2F9E5A"/>
+  <path d="M23 23h-6a6 6 0 0 1 6-6z" fill="#8250C4"/>
+  <circle cx="23" cy="23" r="6" fill="none" stroke="#5F6B7A" stroke-width="2"/>
+  <circle cx="23" cy="23" r="2" fill="#FFFFFF"/>
 </svg>
