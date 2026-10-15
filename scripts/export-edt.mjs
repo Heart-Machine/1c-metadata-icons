@@ -181,15 +181,17 @@ function register(config, name, eol) {
     const at = next ? next.index : entries.at(-1).index + entries.at(-1)[0].length;
     return config.slice(0, at) + line(entries[0][1]) + config.slice(at);
   }
-  // Картинок ещё нет: ставим список перед первым следующим за ним элементом или после последнего предыдущего
+  // Картинок ещё нет: ставим список перед первым следующим за ним элементом или после последнего предыдущего.
+  // Элемент бывает ссылкой в одну строку (<roles>Role.Имя</roles>) или вложенным блоком (<languages uuid="…">…</languages>).
   for (const tag of AFTER_PICTURES) {
-    const match = new RegExp(`^([ \\t]*)<${tag}>`, 'm').exec(config);
+    const match = new RegExp(`^([ \\t]*)<${tag}[\\s>]`, 'm').exec(config);
     if (match) {
       return config.slice(0, match.index) + line(match[1]) + config.slice(match.index);
     }
   }
   for (const tag of BEFORE_PICTURES) {
-    const matches = [...config.matchAll(new RegExp(`^([ \\t]*)<${tag}>.*\\r?\\n`, 'gm'))];
+    const element = `^([ \\t]*)<${tag}(?:\\s[^>]*)?(?:/>|>[\\s\\S]*?</${tag}>)[ \\t]*\\r?\\n`;
+    const matches = [...config.matchAll(new RegExp(element, 'gm'))];
     if (matches.length > 0) {
       const last = matches.at(-1);
       const at = last.index + last[0].length;

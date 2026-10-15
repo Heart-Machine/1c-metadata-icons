@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
-// Zip-архив без сжатия: архивы картинок 1С и архивы релиза.
-import { crc32 } from 'node:zlib';
+// Zip-архивы: запись без сжатия (картинки 1С, архивы релиза) и чтение для проверки .cf.
+import { crc32, inflateRawSync } from 'node:zlib';
 
 // Фиксированная дата в архиве, чтобы сборка была воспроизводимой (01.01.2026 00:00)
 const DOS_DATE = ((2026 - 1980) << 9) | (1 << 5) | 1;
@@ -49,4 +49,26 @@ export function zipStored(files) {
   end.writeUInt32LE(directory.length, 12);
   end.writeUInt32LE(offset, 16);
   return Buffer.concat([...parts, directory, end]);
+}
+
+// Читает zip без шифрования и zip64 (stored или deflate) и возвращает Map: имя файла → содержимое
+export function readZip(zip) {
+  const files = new Map();
+  const end = zip.lastIndexOf(Buffer.from([0x50, 0x4b, 0x05, 0x06]));
+  if (end < 0) {
+    throw new Error('Не найден конец zip-архива');
+  }
+  let entry = zip.readUInt32LE(end + 16);
+  for (let i = zip.readUInt16LE(end + 10); i > 0; i--) {
+    const method = zip.readUInt16LE(entry + 10);
+    const size = zip.readUInt32LE(entry + 20);
+    const nameLength = zip.readUInt16LE(entry + 28);
+    const name = zip.toString('utf8', entry + 46, entry + 46 + nameLength);
+    const local = zip.readUInt32LE(entry + 42);
+    const start = local + 30 + zip.readUInt16LE(local + 26) + zip.readUInt16LE(local + 28);
+    const data = zip.subarray(start, start + size);
+    files.set(name, method === 0 ? Buffer.from(data) : inflateRawSync(data));
+    entry += 46 + nameLength + zip.readUInt16LE(entry + 30) + zip.readUInt16LE(entry + 32);
+  }
+  return files;
 }

@@ -12,7 +12,9 @@
   "scripts": {
     "build": "node scripts/build.mjs",
     "export:edt": "npm run build && node scripts/export-edt.mjs",
-    "package": "npm run build && node scripts/package.mjs"
+    "package": "npm run build && node scripts/package.mjs",
+    "package:cf": "node scripts/build-cf.mjs",
+    "release": "npm run package && npm run package:cf"
   },
   "devDependencies": {
     "@resvg/resvg-js": "^2.6.2"

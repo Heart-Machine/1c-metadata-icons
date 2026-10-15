@@ -77,7 +77,17 @@
   - `scripts/export-edt.mjs` с `scripts/LICENSE`;
   - `pictures/<имя>.zip`.
 - `export-edt.mjs` берёт картинки из `pictures/` рядом с `icons.json`, а если такой папки нет — из `dist/1c`. Поэтому он работает в распакованном архиве без `npm install`. В нём допустимы только встроенные модули Node.js.
-- Zip собирается одной функцией [scripts/zip.mjs](scripts/zip.mjs): stored, с фиксированной датой, так что сборка воспроизводима.
+- Zip собирается одной функцией [scripts/zip.mjs](scripts/zip.mjs): stored, с фиксированной датой, так что сборка воспроизводима. В том же модуле `readZip` для проверки `.cf`.
+- `npm run package:cf` ([scripts/build-cf.mjs](scripts/build-cf.mjs)) собирает `dist/release/1c-metadata-icons.cf`. Это только Windows и только локально: нужны EDT и Конфигуратор, в GitHub Actions их нет. `npm run release` = `package` + `package:cf`. `package:cf` не запускает `build`, потому что `build` стирает `dist/` вместе с архивом релиза.
+  - Цепочка: `CREATEINFOBASE` → `/DumpConfigToFiles` → `1cedtcli import --version <платформа>` → `export-edt.mjs` → свойства конфигурации → `1cedtcli export` → `/LoadConfigFromFiles` → `/DumpCfg`. XML для Конфигуратора (формат 2.20 для 8.3.27) порождает EDT, вручную он не пишется.
+  - Свойства конфигурации: имя `ИконкиМетаданных1С`, синоним, комментарий с автором и лицензией, поставщик, версия из `package.json`, режим совместимости 8.3.14 (и расширений тоже), чтобы `.cf` открывался на старых платформах. Собирается самой старой установленной платформой не ниже 8.3.14.
+  - Проверка в конце: база из `.cf` → XML. Все PNG и `manifest.xml` каждой картинки побайтно сравниваются с `dist/1c`, проверяются имя, версия и режим совместимости. Вручную проверено, что `.cf` открывается и в 8.3.27, и в 8.5.1.1529. Само объединение в Конфигураторе не проверялось.
+  - Пути: `V8_DESIGNER`, `EDT_CLI`, `EDT_JAVA_HOME`. Без них — `%ProgramFiles%\1cv8\<версия>\bin\1cv8.exe`, последняя установка в `%LOCALAPPDATA%\1C\1cedtstart\installations`, JDK из `%ProgramFiles%\1C\1CE\components`.
+- Подводные камни сборки `.cf`:
+  - `1cedtcli` не принимает `-vm`. Java он берёт из `JAVA_HOME` и `PATH`. Java 8 из `PATH` даёт окно «Provided Java does not match the required version 25» прямо на экране владельца, поэтому JDK передаётся через `JAVA_HOME`. Вывод `1cedtcli` в CP866.
+  - `1cv8` сам разбирает командную строку и не понимает `\"`: в Node нужны `windowsVerbatimArguments` и кавычки вокруг путей вручную. Из Git Bash ключи `/Out` и `/F` превращаются в пути, поэтому платформу из bash вызывать только через PowerShell или Node.
+  - У платформ 8.5.4.x установлен только тонкий клиент `1cv8c.exe`, полный `1cv8.exe` есть у 8.5.1.1529.
+  - В чистом проекте EDT язык записан в `Configuration.mdo` блоком `<languages uuid="…">…</languages>`, а не ссылкой. `export-edt.mjs` ищет элементы-ориентиры в обеих формах.
 - Префикс по умолчанию пустой. Он должен быть идентификатором 1С: буквы, цифры и `_`, первым символом не цифра.
 - `dist/`, `node_modules/` и `sources/` в `.gitignore`.
 
