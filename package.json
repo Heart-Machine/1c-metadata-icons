@@ -6,6 +6,9 @@
   "author": "Журавлев Анатолий",
   "license": "CC-BY-4.0 AND MIT",
   "type": "module",
+  "engines": {
+    "node": ">=20.15"
+  },
   "scripts": {
     "build": "node scripts/build.mjs",
     "export:edt": "npm run build && node scripts/export-edt.mjs"

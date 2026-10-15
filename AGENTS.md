@@ -61,7 +61,9 @@
 - `npm install`, затем `npm run build` ([scripts/build.mjs](scripts/build.mjs), рендер через `@resvg/resvg-js`):
   - `dist/png/<размер>/<имя>.png` — 14, 16, 20, 24, 28, 32, 48, 64 px;
   - `dist/1c/<имя>.zip` — архив картинки 1С: PNG-варианты и `manifest.xml` с плотностями `bldpi`…`udpi` (85–400%) и размерами `glyphWidth`/`glyphHeight`, как в zip-картинках, которые сохраняет 1С; zip без сжатия;
-  - `dist/preview.html` — превью (открывать в обычном браузере, пути к PNG относительные).
+  - `dist/preview.html` — превью (открывать в обычном браузере, пути к PNG относительные);
+  - `docs/preview.svg` — превью для GitHub, вставлено в README. Этот файл коммитится вместе с изменениями иконок.
+- В `docs/preview.svg` иконки встроены векторными `<symbol>` и выводятся через `<use>`, файл весит около 47 КБ. GitHub не показывает HTML из репозитория, поэтому превью сделано в SVG. Внешних файлов и data-URI в нём нет: для raw-файлов GitHub отдаёт заголовок CSP, который может их заблокировать. Ширина 800 px подобрана так, чтобы README не уменьшал картинку и иконки 16 px оставались чёткими.
 - `npm run export:edt -- [--dry-run] [--prefix <префикс>] <каталог>` ([scripts/export-edt.mjs](scripts/export-edt.mjs)) собирает иконки и пишет их в проект 1C:EDT. Каталог — проект или его `src`, главное, чтобы в нём был `Configuration/Configuration.mdo`. Поддерживается только формат EDT. В проекте скрипт пишет:
   - `CommonPictures/<картинка>/Picture.zip` — обновляется при каждом запуске, другие `Picture.*` в папке удаляются;
   - `<картинка>.mdo` — создаётся только при первом запуске, чтобы сохранить UUID и правки из EDT;
@@ -74,5 +76,6 @@
 
 ## Окружение
 
+- Минимальная версия Node.js — 20.15 (`engines` в `package.json`): сборка использует `zlib.crc32`. Инструкция по установке для Windows и Linux — в README.
 - Windows, Node.js 24. Python: `%LOCALAPPDATA%\Programs\Python\Python313\python.exe` (`python.exe` в PATH — заглушка Microsoft Store), Pillow не установлен.
 - Скрипты PowerShell 5.1 с кириллицей сохранять в UTF-8 с BOM, иначе они читаются в ANSI.

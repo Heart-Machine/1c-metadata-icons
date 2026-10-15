@@ -10,6 +10,7 @@ import { Resvg } from '@resvg/resvg-js';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const srcDir = path.join(root, 'src');
 const distDir = path.join(root, 'dist');
+const docsDir = path.join(root, 'docs');
 
 // Варианты картинки 1С: плотность экрана, суффикс файла (масштаб, %), размер в пикселях, сетка исходника
 const VARIANTS = [
@@ -53,10 +54,13 @@ async function main() {
       await writeOut(path.join('1c', icon.name, file.name), file.data);
     }
     await writeOut(path.join('1c', `${icon.name}.zip`), zipStored(files));
-    built.push(icon);
+    built.push({ ...icon, sources });
   }
 
   await writeOut('preview.html', Buffer.from(previewHtml(built, missing), 'utf8'));
+  // Превью для GitHub лежит вне dist и коммитится: GitHub показывает SVG, но не HTML
+  await mkdir(docsDir, { recursive: true });
+  await writeFile(path.join(docsDir, 'preview.svg'), previewSvg(built));
   console.log(`Собрано иконок: ${built.length}, не нарисовано: ${missing.length}`);
 }
 
@@ -166,6 +170,75 @@ ${missing.length ? `<h2>Не нарисованы</h2><ul>${todo}</ul>` : ''}
 <p>© 2026 Журавлев Анатолий, CC BY 4.0</p>
 </body></html>
 `;
+}
+
+// Превью одним SVG-файлом: каждая иконка встроена один раз символом <symbol> в векторе и выводится через <use>.
+// Без внешних файлов и data-URI, чтобы GitHub показывал его и в просмотре файла, и в README.
+function previewSvg(icons) {
+  const FONT = 'Segoe UI, -apple-system, Helvetica, Arial, sans-serif';
+  const HEAD = 36;
+  const ROW = 72;
+  const FOOT = 32;
+  const NAME_W = 268;
+  const DARK_W = 256;
+  const cells = [];
+  let x = NAME_W;
+  for (const size of PREVIEW_SIZES) {
+    cells.push({ size, x, width: size + 12, grid: VARIANTS.find((variant) => variant.size === size).grid });
+    x += size + 12;
+  }
+  const darkX = x;
+  const width = darkX + DARK_W;
+  const height = HEAD + ROW * icons.length + FOOT;
+
+  const symbols = icons.flatMap((icon) =>
+    [16, 32].map((grid) => {
+      const source = icon.sources[grid] ? grid : grid === 16 ? 32 : 16;
+      const body = icon.sources[source].replace(/^[\s\S]*?<svg[^>]*>/, '').replace(/<\/svg>\s*$/, '').trim();
+      return `<symbol id="i${grid}-${icon.name}" viewBox="0 0 ${source} ${source}">${body}</symbol>`;
+    }),
+  );
+
+  const rows = icons.map((icon, index) => {
+    const top = HEAD + ROW * index;
+    const use = (grid, size, ux, uy) => `<use href="#i${grid}-${icon.name}" x="${ux}" y="${uy}" width="${size}" height="${size}"/>`;
+    return [
+      use(16, 16, 12, top + 20),
+      `<text x="34" y="${top + 33}" font-size="13">${escapeXml(icon.title)}</text>`,
+      `<text x="34" y="${top + 52}" font-size="11" fill="#57606a">${escapeXml(icon.picture ?? icon.name)}</text>`,
+      ...cells.map((cell) => use(cell.grid, cell.size, cell.x + 6, top + (ROW - cell.size) / 2)),
+      use(16, 16, darkX + 12, top + 28),
+      `<text x="${darkX + 34}" y="${top + 41}" font-size="13" fill="#e6e6e6">${escapeXml(icon.title)}</text>`,
+      `<path d="M0 ${top + ROW + 0.5}H${darkX}" stroke="#d0d7de"/><path d="M${darkX} ${top + ROW + 0.5}H${width}" stroke="#3c3c3c"/>`,
+    ].join('');
+  });
+
+  const header = [
+    `<rect width="${width}" height="${HEAD}" fill="#f6f8fa"/>`,
+    `<text x="12" y="23" font-size="13" font-weight="600">Вид метаданных</text>`,
+    ...cells.map((cell) => `<text x="${cell.x + cell.width / 2}" y="23" font-size="13" font-weight="600" text-anchor="middle">${cell.size}</text>`),
+    `<text x="${darkX + 12}" y="23" font-size="13" font-weight="600">На тёмном фоне</text>`,
+    `<path d="M0 ${HEAD - 0.5}H${width}" stroke="#d0d7de"/>`,
+  ];
+
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" font-family="${FONT}" fill="#1f2328">
+<title>Иконки метаданных 1С — превью</title>
+<defs>
+${symbols.join('\n')}
+</defs>
+<rect width="${width}" height="${height}" fill="#ffffff"/>
+<rect x="${darkX}" y="${HEAD}" width="${DARK_W}" height="${ROW * icons.length}" fill="#252526"/>
+${header.join('\n')}
+${rows.join('\n')}
+<path d="M${NAME_W - 0.5} 0V${HEAD + ROW * icons.length}" stroke="#d0d7de"/>
+<text x="12" y="${height - 12}" font-size="12" fill="#57606a">Иконки метаданных 1С © 2026 Журавлев Анатолий, CC BY 4.0. Размеры 16 и 20 рисуются по сетке 16×16, остальные — по сетке 32×32.</text>
+<rect x="0.5" y="0.5" width="${width - 1}" height="${height - 1}" fill="none" stroke="#d0d7de"/>
+</svg>
+`;
+}
+
+function escapeXml(text) {
+  return text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
 await main();
