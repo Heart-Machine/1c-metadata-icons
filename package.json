@@ -14,7 +14,8 @@
     "export:edt": "npm run build && node scripts/export-edt.mjs",
     "package": "npm run build && node scripts/package.mjs",
     "package:1c": "node scripts/build-1c.mjs",
-    "release": "npm run package && npm run package:1c"
+    "release": "npm run package && npm run package:1c",
+    "site": "npm run build && node scripts/site.mjs"
   },
   "devDependencies": {
     "@resvg/resvg-js": "^2.6.2"

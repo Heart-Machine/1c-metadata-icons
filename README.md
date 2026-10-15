@@ -6,6 +6,8 @@
 
 Автор — Журавлев Анатолий.
 
+Посмотреть иконки в светлой и тёмной теме и скачать их по одной можно на сайте [heart-machine.github.io/1c-metadata-icons](https://heart-machine.github.io/1c-metadata-icons/).
+
 ## Состав
 
 Полный список иконок — в [icons.json](icons.json): имя файла, вид метаданных и имя общей картинки 1С («Метаданные» и вид метаданных в единственном числе: `МетаданныеРоль`, `МетаданныеОбщийМодуль`, `МетаданныеWebСервис`…). Исходники лежат в `src/16` и `src/32`.
@@ -17,6 +19,8 @@
 - [1c-metadata-icons-pictures.zip](https://github.com/Heart-Machine/1c-metadata-icons/releases/latest/download/1c-metadata-icons-pictures.zip) — картинки для загрузки в EDT и Конфигуратор и скрипт, который добавляет их в проект EDT (см. [Выгрузка в проект 1C:EDT](#выгрузка-в-проект-1cedt));
 - [1c-metadata-icons.cf](https://github.com/Heart-Machine/1c-metadata-icons/releases/latest/download/1c-metadata-icons.cf) — конфигурация с картинками для объединения в Конфигураторе (см. [Загрузка в Конфигуратор](#загрузка-в-конфигуратор));
 - [1c-metadata-icons.cfe](https://github.com/Heart-Machine/1c-metadata-icons/releases/latest/download/1c-metadata-icons.cfe) — расширение с картинками (см. [Расширение](#расширение)).
+
+Отдельные иконки — картинку 1С, PNG нужного размера и SVG-исходники — можно скачать на [сайте](https://heart-machine.github.io/1c-metadata-icons/). Там же есть архив всех PNG и SVG.
 
 ## Как выглядят иконки
 
@@ -86,6 +90,16 @@ npm run build
 - `preview.html` — превью всех иконок для просмотра в браузере.
 
 Сборка также обновляет [docs/preview.svg](docs/preview.svg) — превью для GitHub, которое показано выше. Иконки встроены в этот файл, поэтому он открывается без остальных файлов репозитория.
+
+## Сайт
+
+```bash
+npm run site
+```
+
+Команда собирает иконки и сайт в `dist/site/`: галерею с поиском, переключателем темы и масштаба 100–400%, панелью каждой иконки и файлами для скачивания. Сайт статический, ссылки в нём относительные, поэтому локально его можно открыть прямо из файла `dist/site/index.html`.
+
+На [GitHub Pages](https://heart-machine.github.io/1c-metadata-icons/) сайт публикует GitHub Actions ([.github/workflows/pages.yml](.github/workflows/pages.yml)) после каждого пуша в `main`, если изменились иконки или скрипты. Картинки 1С, `.cf` и `.cfe` в блоке «Скачать всё» ведут на последний релиз, а PNG, SVG и картинки отдельных иконок собираются из `main`.
 
 ## Выгрузка в проект 1C:EDT
 
