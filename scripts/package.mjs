@@ -1,7 +1,8 @@
 // SPDX-License-Identifier: MIT
-// Архив релиза для EDT: картинки из dist/1c, скрипт выгрузки, список иконок, лицензии и README с установкой Node.js.
+// Архив релиза с картинками: архивы картинок 1С из dist/1c для EDT и Конфигуратора, скрипт выгрузки в EDT,
+// список иконок, лицензии и README с установкой Node.js.
 // Раскладка повторяет репозиторий, поэтому scripts/export-edt.mjs работает в распакованном архиве без изменений.
-// npm run package — сначала собирает иконки, результат в dist/release/1c-metadata-icons-edt.zip
+// npm run package — сначала собирает иконки, результат в dist/release/1c-metadata-icons-pictures.zip
 import { existsSync } from 'node:fs';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
@@ -10,7 +11,7 @@ import { zipStored } from './zip.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 // Имя без версии, чтобы ссылка …/releases/latest/download/<имя> всегда вела на свежий архив
-const NAME = '1c-metadata-icons-edt';
+const NAME = '1c-metadata-icons-pictures';
 const BOM = Buffer.from([0xef, 0xbb, 0xbf]);
 
 async function main() {
