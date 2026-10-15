@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
-// Выгрузка иконок в проект 1C:EDT: общие картинки из dist/1c и их регистрация в Configuration.mdo.
+// Выгрузка иконок в проект 1C:EDT: общие картинки и их регистрация в Configuration.mdo.
 // node scripts/export-edt.mjs [--dry-run] [--prefix <префикс>] <каталог проекта EDT или его src>
+// Работает и в репозитории (картинки из dist/1c после npm run build), и в распакованном архиве релиза (картинки в pictures/).
+// Использует только встроенные модули Node.js, чтобы в релизе обходиться без npm install.
 import { randomUUID } from 'node:crypto';
 import { existsSync } from 'node:fs';
 import { copyFile, mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises';
@@ -8,6 +10,8 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const releasePictures = path.join(root, 'pictures');
+const picturesDir = existsSync(releasePictures) ? releasePictures : path.join(root, 'dist', '1c');
 // По этому комментарию скрипт узнаёт свои картинки и не трогает чужие с тем же именем
 const COMMENT = 'Иконки метаданных 1С © Журавлев Анатолий, CC BY 4.0';
 // Элементы Configuration.mdo, которые идут после списка commonPictures; нужны, когда картинок ещё нет
@@ -27,7 +31,8 @@ async function main() {
     .map((icon) => ({ ...icon, picture: prefix + icon.picture }));
   const notBuilt = icons.filter((icon) => !existsSync(zipFile(icon)));
   if (notBuilt.length > 0) {
-    fail(`Нет архивов в dist/1c: ${notBuilt.map((icon) => icon.name).join(', ')}. Сначала выполните npm run build.`);
+    const hint = picturesDir === releasePictures ? 'Архив релиза неполный, скачайте его заново.' : 'Сначала выполните npm run build.';
+    fail(`Нет архивов картинок в ${picturesDir}: ${notBuilt.map((icon) => icon.name).join(', ')}. ${hint}`);
   }
 
   let config = await readFile(configFile, 'utf8');
@@ -146,7 +151,7 @@ function configPath(srcDir) {
 }
 
 function zipFile(icon) {
-  return path.join(root, 'dist', '1c', `${icon.name}.zip`);
+  return path.join(picturesDir, `${icon.name}.zip`);
 }
 
 function mdo(icon, eol) {
@@ -164,7 +169,7 @@ function mdo(icon, eol) {
   ].join(eol);
 }
 
-// Добавляет строку <commonPictures> в Configuration.mdo, сохраняя порядок по кодам символов, как в EDT
+// Добавляет строку <commonPictures> в Configuration.mdo, сохраняя порядок без учёта регистра: так EDT сортирует список при сохранении
 function register(config, name, eol) {
   if (config.includes(`<commonPictures>CommonPicture.${name}</commonPictures>`)) {
     return config;
@@ -172,7 +177,7 @@ function register(config, name, eol) {
   const line = (indent) => `${indent}<commonPictures>CommonPicture.${name}</commonPictures>${eol}`;
   const entries = [...config.matchAll(/^([ \t]*)<commonPictures>CommonPicture\.([^<]+)<\/commonPictures>\r?\n/gm)];
   if (entries.length > 0) {
-    const next = entries.find((entry) => entry[2] > name);
+    const next = entries.find((entry) => entry[2].toLowerCase() > name.toLowerCase());
     const at = next ? next.index : entries.at(-1).index + entries.at(-1)[0].length;
     return config.slice(0, at) + line(entries[0][1]) + config.slice(at);
   }
