@@ -11,11 +11,12 @@
 <symbol id="i32-common" viewBox="0 0 32 32"><rect x="11" y="1" width="12" height="12" rx="2" fill="#3B82C4" stroke="#23599A" stroke-width="2"/>
   <rect x="3" y="17" width="12" height="12" rx="2" fill="#2F9E5A" stroke="#237A45" stroke-width="2"/>
   <rect x="19" y="17" width="12" height="12" rx="2" fill="#F2A03D" stroke="#C9711A" stroke-width="2"/></symbol>
-<symbol id="i16-subsystem" viewBox="0 0 16 16"><path d="M7.5 6v2.5M2.5 8.5h10M2.5 8.5V10M12.5 8.5V10" fill="none" stroke="#C9711A"/>
+<symbol id="i16-subsystem" viewBox="0 0 16 16"><path d="M7.5 6v2.5M3 8.5h9M2.5 9v1.5M12.5 9v1.5" fill="none" stroke="#C9711A"/>
+  <path d="M2 8h1v1H2zM12 8h1v1h-1z" fill="#C9711A" fill-opacity="0.45"/>
   <rect x="4.5" y="1.5" width="6" height="4" rx="1" fill="#F2A03D" stroke="#C9711A"/>
   <rect x="0.5" y="10.5" width="4" height="4" rx="1" fill="#F2A03D" stroke="#C9711A"/>
   <rect x="10.5" y="10.5" width="4" height="4" rx="1" fill="#F2A03D" stroke="#C9711A"/></symbol>
-<symbol id="i32-subsystem" viewBox="0 0 32 32"><path d="M15 12v5M5 17h20M5 17v4M25 17v4" fill="none" stroke="#C9711A" stroke-width="2"/>
+<symbol id="i32-subsystem" viewBox="0 0 32 32"><path d="M15 12v5M5 21v-2a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v2" fill="none" stroke="#C9711A" stroke-width="2"/>
   <rect x="9" y="3" width="12" height="8" rx="2" fill="#F2A03D" stroke="#C9711A" stroke-width="2"/>
   <rect x="12" y="6" width="6" height="2" rx="1" fill="#FCE0BD"/>
   <rect x="1" y="21" width="8" height="8" rx="2" fill="#F2A03D" stroke="#C9711A" stroke-width="2"/>
@@ -33,17 +34,21 @@
   <rect x="12" y="20" width="8" height="2" rx="1" fill="#E07B1F"/>
   <rect x="8" y="24" width="6" height="2" rx="1" fill="#8250C4"/></symbol>
 <symbol id="i16-session_parameter" viewBox="0 0 16 16"><path d="M8 0.5L15.5 8 8 15.5 0.5 8z" fill="#3B82C4" stroke="#23599A" stroke-linejoin="round"/>
-  <circle cx="8" cy="6" r="1.8" fill="#FFFFFF"/>
-  <path d="M5 11.5c0-1.9 1.3-3 3-3s3 1.1 3 3z" fill="#FFFFFF"/></symbol>
+  <circle cx="8" cy="5.6" r="1.5" fill="#FFFFFF"/>
+  <path d="M5.5 10c0-1.4 1.1-2.2 2.5-2.2s2.5 0.8 2.5 2.2z" fill="#FFFFFF"/></symbol>
 <symbol id="i32-session_parameter" viewBox="0 0 32 32"><path d="M16 1l15 15-15 15L1 16z" fill="#3B82C4" stroke="#23599A" stroke-width="2" stroke-linejoin="round"/>
-  <circle cx="16" cy="12" r="3.6" fill="#FFFFFF"/>
-  <path d="M10 23c0-3.8 2.6-6 6-6s6 2.2 6 6z" fill="#FFFFFF"/></symbol>
-<symbol id="i16-role" viewBox="0 0 16 16"><path d="M8 7h7v5h-2V9h-1v2h-2V9H8z" fill="#5F6B7A"/>
-  <circle cx="5" cy="8" r="3.5" fill="#F2A03D" stroke="#C9711A"/>
-  <circle cx="4" cy="8" r="1.2" fill="#FFFFFF"/></symbol>
-<symbol id="i32-role" viewBox="0 0 32 32"><path d="M16 14h14v10h-4v-6h-2v4h-4v-4h-4z" fill="#5F6B7A"/>
-  <circle cx="10" cy="16" r="7" fill="#F2A03D" stroke="#C9711A" stroke-width="2"/>
-  <circle cx="8" cy="16" r="2.4" fill="#FFFFFF"/></symbol>
+  <circle cx="16" cy="11.2" r="3" fill="#FFFFFF"/>
+  <path d="M11 20c0-2.8 2.2-4.4 5-4.4s5 1.6 5 4.4z" fill="#FFFFFF"/></symbol>
+<symbol id="i16-role" viewBox="0 0 16 16"><path d="M6 7h4v2H9v1h1v1H9v1h1v1H9v2H6z" fill="#5F6B7A"/>
+  <path d="M7 8h2v1H8v5H7z" fill="#D5DBE2"/>
+  <ellipse cx="8" cy="4.5" rx="4" ry="3" fill="#F2A03D" stroke="#C9711A"/>
+  <path d="M6 3h4l1 3H5z" fill="#C9711A"/>
+  <rect x="7" y="4" width="2" height="1" fill="#FCE0BD"/></symbol>
+<symbol id="i32-role" viewBox="0 0 32 32"><path d="M12 14h8v3h-1v1h2v2h-2v2h2v2h-2v2h2v2h-2v2h-6V17h-1z" fill="#5F6B7A"/>
+  <path d="M14 16h4v1h-1v11h-2V17h-1z" fill="#D5DBE2"/>
+  <ellipse cx="16" cy="9" rx="8" ry="6" fill="#F2A03D" stroke="#C9711A" stroke-width="2"/>
+  <path d="M12 6h8l2 6H10z" fill="#C9711A"/>
+  <path d="M14 8h4l1 2h-6z" fill="#FCE0BD"/></symbol>
 <symbol id="i16-common_attribute" viewBox="0 0 16 16"><rect x="3.5" y="2.5" width="12" height="6" rx="1" fill="#D3E5F8" stroke="#2B6CB0"/>
   <rect x="0.5" y="6.5" width="13" height="7" rx="1" fill="#FFFFFF" stroke="#2B6CB0"/>
   <rect x="2" y="8" width="2" height="4" fill="#8250C4"/>
@@ -71,10 +76,12 @@
   <rect x="8" y="12" width="2" height="8" rx="1" fill="#FFFFFF"/></symbol>
 <symbol id="i16-functional_option_parameter" viewBox="0 0 16 16"><rect x="0.5" y="1.5" width="12" height="7" rx="3.5" fill="#F2A03D" stroke="#C9711A"/>
   <circle cx="9" cy="5" r="2.2" fill="#FFFFFF"/>
+  <rect x="3" y="3" width="1" height="4" fill="#FFFFFF"/>
   <path d="M11.5 7.5l4 4-4 4-4-4z" fill="#3B82C4" stroke="#23599A" stroke-linejoin="round"/>
   <rect x="11" y="11" width="1" height="1" fill="#FFFFFF"/></symbol>
 <symbol id="i32-functional_option_parameter" viewBox="0 0 32 32"><rect x="1" y="3" width="24" height="14" rx="7" fill="#F2A03D" stroke="#C9711A" stroke-width="2"/>
   <circle cx="18" cy="10" r="4.4" fill="#FFFFFF"/>
+  <rect x="7" y="7" width="2" height="6" rx="1" fill="#FFFFFF"/>
   <path d="M23 15l8 8-8 8-8-8z" fill="#3B82C4" stroke="#23599A" stroke-width="2" stroke-linejoin="round"/>
   <rect x="21" y="21" width="4" height="4" transform="rotate(45 23 23)" fill="#FFFFFF"/></symbol>
 <symbol id="i16-defined_type" viewBox="0 0 16 16"><rect x="1.5" y="1.5" width="13" height="13" rx="2" fill="#3B82C4" stroke="#23599A"/>
@@ -88,9 +95,9 @@
 <symbol id="i32-common_command" viewBox="0 0 32 32"><circle cx="16" cy="16" r="13" fill="#3B82C4" stroke="#23599A" stroke-width="2"/>
   <path d="M12 9l11 7-11 7z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.5" stroke-linejoin="round"/></symbol>
 <symbol id="i16-command_group" viewBox="0 0 16 16"><path d="M0.5 13.5v-11h5l1.5 2h8.5v9z" fill="#D3E5F8" stroke="#2B6CB0" stroke-linejoin="round"/>
-  <path d="M6 6.5l5 3-5 3z" fill="#3B82C4"/></symbol>
+  <path d="M5 6l6 3-6 3z" fill="#3B82C4"/></symbol>
 <symbol id="i32-command_group" viewBox="0 0 32 32"><path d="M1 27V5h10l3 4h17v18z" fill="#D3E5F8" stroke="#2B6CB0" stroke-width="2" stroke-linejoin="round"/>
-  <path d="M12 13l10 6-10 6z" fill="#3B82C4" stroke="#3B82C4" stroke-width="1.5" stroke-linejoin="round"/></symbol>
+  <path d="M11 12l10 6-10 6z" fill="#3B82C4" stroke="#3B82C4" stroke-width="1.5" stroke-linejoin="round"/></symbol>
 <symbol id="i16-common_template" viewBox="0 0 16 16"><rect x="1.5" y="1.5" width="13" height="13" rx="1" fill="#FFFFFF" stroke="#5F6B7A"/>
   <rect x="2" y="2" width="12" height="2" fill="#2F9E5A"/>
   <path d="M2 7.5h12M2 10.5h12M5.5 4v10M9.5 4v10" fill="none" stroke="#A9B4C0"/>
@@ -105,22 +112,26 @@
 <symbol id="i32-xdto_package" viewBox="0 0 32 32"><rect x="3" y="11" width="26" height="18" fill="#D9A35F" stroke="#8E5E2C" stroke-width="2"/>
   <rect x="1" y="5" width="30" height="6" fill="#E8BE84" stroke="#8E5E2C" stroke-width="2"/>
   <rect x="14" y="6" width="4" height="22" fill="#F1D7AE"/></symbol>
-<symbol id="i16-web_service" viewBox="0 0 16 16"><circle cx="6.5" cy="6.5" r="5.5" fill="#3B82C4" stroke="#23599A"/>
+<symbol id="i16-web_service" viewBox="0 0 16 16"><circle cx="6.5" cy="6.5" r="5.5" fill="#3B82C4"/>
   <ellipse cx="6.5" cy="6.5" rx="2.2" ry="5.5" fill="none" stroke="#D3E5F8"/>
   <path d="M1 6.5h11" fill="none" stroke="#D3E5F8"/>
+  <circle cx="6.5" cy="6.5" r="5.5" fill="none" stroke="#23599A"/>
   <rect x="7.5" y="7.5" width="8" height="8" rx="1.5" fill="#FFFFFF" stroke="#5F6B7A"/>
+  
   <g transform="translate(11.5 11.5)" fill="#C9711A">
-    <rect x="-0.75" y="-3.25" width="1.5" height="6.5"/>
-    <rect x="-3.25" y="-0.75" width="6.5" height="1.5"/>
-    <rect x="-0.75" y="-3.25" width="1.5" height="6.5" transform="rotate(45)"/>
-    <rect x="-0.75" y="-3.25" width="1.5" height="6.5" transform="rotate(-45)"/>
+  <rect x="-0.75" y="-3.25" width="1.5" height="6.5"/>
+  <rect x="-3.25" y="-0.75" width="6.5" height="1.5"/>
+  <rect x="-0.75" y="-3.25" width="1.5" height="6.5" transform="rotate(45)"/>
+  <rect x="-0.75" y="-3.25" width="1.5" height="6.5" transform="rotate(-45)"/>
   </g>
   <circle cx="11.5" cy="11.5" r="2" fill="#F2A03D"/>
   <circle cx="11.5" cy="11.5" r="0.8" fill="#FFFFFF"/></symbol>
-<symbol id="i32-web_service" viewBox="0 0 32 32"><circle cx="13" cy="13" r="11" fill="#3B82C4" stroke="#23599A" stroke-width="2"/>
+<symbol id="i32-web_service" viewBox="0 0 32 32"><circle cx="13" cy="13" r="11" fill="#3B82C4"/>
   <ellipse cx="13" cy="13" rx="4.5" ry="11" fill="none" stroke="#D3E5F8" stroke-width="2"/>
   <path d="M2 13h22" fill="none" stroke="#D3E5F8" stroke-width="2"/>
+  <circle cx="13" cy="13" r="11" fill="none" stroke="#23599A" stroke-width="2"/>
   <rect x="15" y="15" width="16" height="16" rx="3" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2"/>
+  
   <g transform="translate(23 23)" fill="#C9711A">
   <rect x="-1.5" y="-6.5" width="3" height="13"/>
   <rect x="-6.5" y="-1.5" width="13" height="3"/>
@@ -129,72 +140,82 @@
   </g>
   <circle cx="23" cy="23" r="4.2" fill="#F2A03D"/>
   <circle cx="23" cy="23" r="1.7" fill="#FFFFFF"/></symbol>
-<symbol id="i16-http_service" viewBox="0 0 16 16"><circle cx="6.5" cy="6.5" r="5.5" fill="#3B82C4" stroke="#23599A"/>
+<symbol id="i16-http_service" viewBox="0 0 16 16"><circle cx="6.5" cy="6.5" r="5.5" fill="#3B82C4"/>
   <ellipse cx="6.5" cy="6.5" rx="2.2" ry="5.5" fill="none" stroke="#D3E5F8"/>
   <path d="M1 6.5h11" fill="none" stroke="#D3E5F8"/>
+  <circle cx="6.5" cy="6.5" r="5.5" fill="none" stroke="#23599A"/>
   <rect x="7.5" y="7.5" width="8" height="8" rx="1.5" fill="#FFFFFF" stroke="#5F6B7A"/>
-  <path d="M9 9.5h3.5M10.5 12.5H14" fill="none" stroke="#C9711A"/>
-  <path d="M12 8l2.5 1.5L12 11zM11 11l-2.5 1.5L11 14z" fill="#C9711A"/></symbol>
-<symbol id="i32-http_service" viewBox="0 0 32 32"><circle cx="13" cy="13" r="11" fill="#3B82C4" stroke="#23599A" stroke-width="2"/>
+  <path d="M9 10h3V9l2 1.5L12 12v-1H9zM14 13h-3v1l-2-1.5L11 11v1h3z" fill="#C9711A"/></symbol>
+<symbol id="i32-http_service" viewBox="0 0 32 32"><circle cx="13" cy="13" r="11" fill="#3B82C4"/>
   <ellipse cx="13" cy="13" rx="4.5" ry="11" fill="none" stroke="#D3E5F8" stroke-width="2"/>
   <path d="M2 13h22" fill="none" stroke="#D3E5F8" stroke-width="2"/>
+  <circle cx="13" cy="13" r="11" fill="none" stroke="#23599A" stroke-width="2"/>
   <rect x="15" y="15" width="16" height="16" rx="3" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2"/>
-  <path d="M18 19h7M21 26h7" fill="none" stroke="#C9711A" stroke-width="2"/>
-  <path d="M24 15.5l5 3.5-5 3.5zM22 22.5l-5 3.5 5 3.5z" fill="#C9711A"/></symbol>
-<symbol id="i16-ws_reference" viewBox="0 0 16 16"><circle cx="6.5" cy="6.5" r="5.5" fill="#3B82C4" stroke="#23599A"/>
+  <path d="M18 20h6v-2l4 3-4 3v-2h-6zM28 26h-6v2l-4-3 4-3v2h6z" fill="#C9711A"/></symbol>
+<symbol id="i16-ws_reference" viewBox="0 0 16 16"><circle cx="6.5" cy="6.5" r="5.5" fill="#3B82C4"/>
   <ellipse cx="6.5" cy="6.5" rx="2.2" ry="5.5" fill="none" stroke="#D3E5F8"/>
   <path d="M1 6.5h11" fill="none" stroke="#D3E5F8"/>
+  <circle cx="6.5" cy="6.5" r="5.5" fill="none" stroke="#23599A"/>
   <rect x="7.5" y="7.5" width="8" height="8" rx="1.5" fill="#FFFFFF" stroke="#5F6B7A"/>
   <path d="M9.5 13.5l4-4M10.5 9.5h3v3" fill="none" stroke="#2B6CB0" stroke-width="1.2"/></symbol>
-<symbol id="i32-ws_reference" viewBox="0 0 32 32"><circle cx="13" cy="13" r="11" fill="#3B82C4" stroke="#23599A" stroke-width="2"/>
+<symbol id="i32-ws_reference" viewBox="0 0 32 32"><circle cx="13" cy="13" r="11" fill="#3B82C4"/>
   <ellipse cx="13" cy="13" rx="4.5" ry="11" fill="none" stroke="#D3E5F8" stroke-width="2"/>
   <path d="M2 13h22" fill="none" stroke="#D3E5F8" stroke-width="2"/>
+  <circle cx="13" cy="13" r="11" fill="none" stroke="#23599A" stroke-width="2"/>
   <rect x="15" y="15" width="16" height="16" rx="3" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2"/>
   <path d="M19 27l8-8M20 18h8v8" fill="none" stroke="#2B6CB0" stroke-width="2.4"/></symbol>
-<symbol id="i16-web_socket_client" viewBox="0 0 16 16"><circle cx="6.5" cy="6.5" r="5.5" fill="#3B82C4" stroke="#23599A"/>
+<symbol id="i16-web_socket_client" viewBox="0 0 16 16"><circle cx="6.5" cy="6.5" r="5.5" fill="#3B82C4"/>
   <ellipse cx="6.5" cy="6.5" rx="2.2" ry="5.5" fill="none" stroke="#D3E5F8"/>
   <path d="M1 6.5h11" fill="none" stroke="#D3E5F8"/>
+  <circle cx="6.5" cy="6.5" r="5.5" fill="none" stroke="#23599A"/>
   <rect x="7.5" y="7.5" width="8" height="8" rx="1.5" fill="#FFFFFF" stroke="#5F6B7A"/>
+  
   <rect x="10" y="8" width="1" height="2" fill="#5F6B7A"/>
   <rect x="12" y="8" width="1" height="2" fill="#5F6B7A"/>
   <rect x="9" y="10" width="5" height="3" rx="0.5" fill="#23877A"/>
   <rect x="11" y="13" width="1" height="2" fill="#23877A"/></symbol>
-<symbol id="i32-web_socket_client" viewBox="0 0 32 32"><circle cx="13" cy="13" r="11" fill="#3B82C4" stroke="#23599A" stroke-width="2"/>
+<symbol id="i32-web_socket_client" viewBox="0 0 32 32"><circle cx="13" cy="13" r="11" fill="#3B82C4"/>
   <ellipse cx="13" cy="13" rx="4.5" ry="11" fill="none" stroke="#D3E5F8" stroke-width="2"/>
   <path d="M2 13h22" fill="none" stroke="#D3E5F8" stroke-width="2"/>
+  <circle cx="13" cy="13" r="11" fill="none" stroke="#23599A" stroke-width="2"/>
   <rect x="15" y="15" width="16" height="16" rx="3" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2"/>
+  
   <rect x="19" y="17" width="2" height="4" fill="#5F6B7A"/>
   <rect x="25" y="17" width="2" height="4" fill="#5F6B7A"/>
   <rect x="17" y="21" width="12" height="6" rx="1" fill="#23877A"/>
   <rect x="22" y="27" width="2" height="3" fill="#23877A"/></symbol>
-<symbol id="i16-integration_service" viewBox="0 0 16 16"><circle cx="6.5" cy="6.5" r="5.5" fill="#3B82C4" stroke="#23599A"/>
+<symbol id="i16-integration_service" viewBox="0 0 16 16"><circle cx="6.5" cy="6.5" r="5.5" fill="#3B82C4"/>
   <ellipse cx="6.5" cy="6.5" rx="2.2" ry="5.5" fill="none" stroke="#D3E5F8"/>
   <path d="M1 6.5h11" fill="none" stroke="#D3E5F8"/>
+  <circle cx="6.5" cy="6.5" r="5.5" fill="none" stroke="#23599A"/>
   <rect x="7.5" y="7.5" width="8" height="8" rx="1.5" fill="#FFFFFF" stroke="#5F6B7A"/>
-  <rect x="8.5" y="9.5" width="6" height="4" fill="#D3F1EC" stroke="#23877A"/>
-  <path d="M8.5 9.5l3 2.5 3-2.5" fill="none" stroke="#23877A"/></symbol>
-<symbol id="i32-integration_service" viewBox="0 0 32 32"><circle cx="13" cy="13" r="11" fill="#3B82C4" stroke="#23599A" stroke-width="2"/>
+  
+  <rect x="9.5" y="9.5" width="4" height="4" fill="#D3F1EC" stroke="#23877A"/>
+  <path d="M9.5 9.5l2 2 2-2" fill="none" stroke="#23877A"/></symbol>
+<symbol id="i32-integration_service" viewBox="0 0 32 32"><circle cx="13" cy="13" r="11" fill="#3B82C4"/>
   <ellipse cx="13" cy="13" rx="4.5" ry="11" fill="none" stroke="#D3E5F8" stroke-width="2"/>
   <path d="M2 13h22" fill="none" stroke="#D3E5F8" stroke-width="2"/>
+  <circle cx="13" cy="13" r="11" fill="none" stroke="#23599A" stroke-width="2"/>
   <rect x="15" y="15" width="16" height="16" rx="3" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2"/>
-  <rect x="17" y="18" width="12" height="9" fill="#D3F1EC" stroke="#23877A" stroke-width="2"/>
-  <path d="M17 18l6 5 6-5" fill="none" stroke="#23877A" stroke-width="2" stroke-linejoin="round"/></symbol>
+  
+  <rect x="19" y="20" width="8" height="6" fill="#D3F1EC" stroke="#23877A" stroke-width="2"/>
+  <path d="M19 20l4 3.5 4-3.5" fill="none" stroke="#23877A" stroke-width="2" stroke-linejoin="round"/></symbol>
 <symbol id="i16-bot" viewBox="0 0 16 16"><rect x="7" y="2" width="2" height="3" fill="#5F6B7A"/>
   <circle cx="8" cy="2" r="1.5" fill="#E07B1F"/>
-  <rect x="1" y="8" width="1" height="3" fill="#23877A"/>
-  <rect x="14" y="8" width="1" height="3" fill="#23877A"/>
-  <rect x="2.5" y="4.5" width="11" height="9" rx="2.5" fill="#D3F1EC" stroke="#23877A"/>
-  <rect x="5" y="7" width="2" height="2" fill="#23877A"/>
-  <rect x="9" y="7" width="2" height="2" fill="#23877A"/>
-  <rect x="6" y="11" width="4" height="1" fill="#23877A"/></symbol>
+  <rect x="1" y="8" width="1" height="3" fill="#2B6CB0"/>
+  <rect x="14" y="8" width="1" height="3" fill="#2B6CB0"/>
+  <rect x="2.5" y="4.5" width="11" height="9" rx="2.5" fill="#D3E5F8" stroke="#2B6CB0"/>
+  <rect x="5" y="7" width="2" height="2" fill="#2B6CB0"/>
+  <rect x="9" y="7" width="2" height="2" fill="#2B6CB0"/>
+  <rect x="6" y="11" width="4" height="1" fill="#2B6CB0"/></symbol>
 <symbol id="i32-bot" viewBox="0 0 32 32"><rect x="15" y="4" width="2" height="6" fill="#5F6B7A"/>
   <circle cx="16" cy="4" r="3" fill="#E07B1F"/>
-  <rect x="1" y="15" width="3" height="7" rx="1" fill="#23877A"/>
-  <rect x="28" y="15" width="3" height="7" rx="1" fill="#23877A"/>
-  <rect x="5" y="9" width="22" height="18" rx="5" fill="#D3F1EC" stroke="#23877A" stroke-width="2"/>
-  <circle cx="11.5" cy="16" r="2.5" fill="#23877A"/>
-  <circle cx="20.5" cy="16" r="2.5" fill="#23877A"/>
-  <rect x="11" y="21" width="10" height="2" rx="1" fill="#23877A"/></symbol>
+  <rect x="1" y="15" width="3" height="7" rx="1" fill="#2B6CB0"/>
+  <rect x="28" y="15" width="3" height="7" rx="1" fill="#2B6CB0"/>
+  <rect x="5" y="9" width="22" height="18" rx="5" fill="#D3E5F8" stroke="#2B6CB0" stroke-width="2"/>
+  <circle cx="11.5" cy="16" r="2.5" fill="#2B6CB0"/>
+  <circle cx="20.5" cy="16" r="2.5" fill="#2B6CB0"/>
+  <rect x="11" y="21" width="10" height="2" rx="1" fill="#2B6CB0"/></symbol>
 <symbol id="i16-palette_color" viewBox="0 0 16 16"><path d="M8 1.5c3.9 0 6.5 2.4 6.5 5.3 0 1.9-1.3 2.7-2.9 2.7-1.2 0-2.1.7-2.1 1.9 0 1.7-1 3.1-3 3.1-2.8 0-5-2.9-5-6.5S4.4 1.5 8 1.5z" fill="#F1D7AE" stroke="#8E5E2C" stroke-linejoin="round"/>
   <circle cx="4.5" cy="8" r="1.4" fill="#3B82C4"/>
   <circle cx="5.5" cy="4.5" r="1.4" fill="#D64545"/>
@@ -207,49 +228,51 @@
   <circle cx="18" cy="8" r="2.8" fill="#F5C33B"/>
   <circle cx="24" cy="12" r="2.8" fill="#2F9E5A"/>
   <circle cx="11" cy="23" r="2.8" fill="#8250C4"/></symbol>
-<symbol id="i16-style_item" viewBox="0 0 16 16"><path d="M8 8V1.5A6.5 6.5 0 0 1 14.5 8z" fill="#F2A03D"/>
-  <path d="M8 8h6.5A6.5 6.5 0 0 1 8 14.5z" fill="#2F9E5A"/>
-  <path d="M8 8v6.5A6.5 6.5 0 0 1 1.5 8z" fill="#8250C4"/>
-  <path d="M8 8H1.5A6.5 6.5 0 0 1 8 1.5z" fill="#3B82C4"/>
+<symbol id="i16-style_item" viewBox="0 0 16 16"><path d="M8 8V1.5a6.5 6.5 0 0 1 6.5 6.5z" fill="#3B82C4"/>
+  <path d="M8 8h6.5a6.5 6.5 0 0 1-6.5 6.5z" fill="#F2A03D"/>
+  <path d="M8 8v6.5a6.5 6.5 0 0 1-6.5-6.5z" fill="#2F9E5A"/>
+  <path d="M8 8H1.5a6.5 6.5 0 0 1 6.5-6.5z" fill="#8250C4"/>
   <circle cx="8" cy="8" r="6.5" fill="none" stroke="#5F6B7A"/>
   <circle cx="8" cy="8" r="2" fill="#FFFFFF"/></symbol>
-<symbol id="i32-style_item" viewBox="0 0 32 32"><path d="M16 16V3a13 13 0 0 1 13 13z" fill="#F2A03D"/>
-  <path d="M16 16h13a13 13 0 0 1-13 13z" fill="#2F9E5A"/>
-  <path d="M16 16v13A13 13 0 0 1 3 16z" fill="#8250C4"/>
-  <path d="M16 16H3A13 13 0 0 1 16 3z" fill="#3B82C4"/>
+<symbol id="i32-style_item" viewBox="0 0 32 32"><path d="M16 16V3a13 13 0 0 1 13 13z" fill="#3B82C4"/>
+  <path d="M16 16h13a13 13 0 0 1-13 13z" fill="#F2A03D"/>
+  <path d="M16 16v13a13 13 0 0 1-13-13z" fill="#2F9E5A"/>
+  <path d="M16 16H3a13 13 0 0 1 13-13z" fill="#8250C4"/>
   <circle cx="16" cy="16" r="13" fill="none" stroke="#5F6B7A" stroke-width="2"/>
   <circle cx="16" cy="16" r="4" fill="#FFFFFF"/></symbol>
 <symbol id="i16-style" viewBox="0 0 16 16"><path d="M0.5 14L4.5 2h2.5l4 12H8.5l-0.8-2.5H3.8L3 14zM4.4 9.5h2.7L5.75 5.2z" fill="#3B82C4" fill-rule="evenodd"/>
-  <path d="M12 12V8a4 4 0 0 1 4 4z" fill="#F2A03D"/>
-  <path d="M12 12h4a4 4 0 0 1-4 4z" fill="#2F9E5A"/>
-  <path d="M12 12v4a4 4 0 0 1-4-4z" fill="#8250C4"/>
-  <path d="M12 12H8a4 4 0 0 1 4-4z" fill="#3B82C4"/>
-  <circle cx="12" cy="12" r="1.2" fill="#FFFFFF"/></symbol>
+  <path d="M12 12V8.5a3.5 3.5 0 0 1 3.5 3.5z" fill="#3B82C4"/>
+  <path d="M12 12h3.5a3.5 3.5 0 0 1-3.5 3.5z" fill="#F2A03D"/>
+  <path d="M12 12v3.5a3.5 3.5 0 0 1-3.5-3.5z" fill="#2F9E5A"/>
+  <path d="M12 12H8.5a3.5 3.5 0 0 1 3.5-3.5z" fill="#8250C4"/>
+  <circle cx="12" cy="12" r="3.5" fill="none" stroke="#5F6B7A"/>
+  <circle cx="12" cy="12" r="1.1" fill="#FFFFFF"/></symbol>
 <symbol id="i32-style" viewBox="0 0 32 32"><path d="M1 28L9 4h5l8 24h-5l-1.6-5H7.6L6 28zM8.8 19h5.4l-2.7-8.6z" fill="#3B82C4" fill-rule="evenodd"/>
-  <path d="M24 24v-8a8 8 0 0 1 8 8z" fill="#F2A03D"/>
-  <path d="M24 24h8a8 8 0 0 1-8 8z" fill="#2F9E5A"/>
-  <path d="M24 24v8a8 8 0 0 1-8-8z" fill="#8250C4"/>
-  <path d="M24 24h-8a8 8 0 0 1 8-8z" fill="#3B82C4"/>
-  <circle cx="24" cy="24" r="2.4" fill="#FFFFFF"/></symbol>
+  <path d="M24 24v-7a7 7 0 0 1 7 7z" fill="#3B82C4"/>
+  <path d="M24 24h7a7 7 0 0 1-7 7z" fill="#F2A03D"/>
+  <path d="M24 24v7a7 7 0 0 1-7-7z" fill="#2F9E5A"/>
+  <path d="M24 24h-7a7 7 0 0 1 7-7z" fill="#8250C4"/>
+  <circle cx="24" cy="24" r="7" fill="none" stroke="#5F6B7A" stroke-width="2"/>
+  <circle cx="24" cy="24" r="2.2" fill="#FFFFFF"/></symbol>
 <symbol id="i16-language" viewBox="0 0 16 16"><path d="M6.5 1.5h8v6h-1.5v2l-2-2h-4.5z" fill="#FCE0BD" stroke="#C9711A" stroke-linejoin="round"/>
   <path d="M1.5 5.5h8v7h-4.5l-2 2v-2h-1.5z" fill="#3B82C4" stroke="#23599A" stroke-linejoin="round"/>
-  <path d="M3.5 11l2-4.5 2 4.5M4.3 9.5h2.4" fill="none" stroke="#FFFFFF"/></symbol>
+  <path d="M3.5 11L5.5 7.5 7.5 11M4.4 9.5h2.2" fill="none" stroke="#FFFFFF" stroke-linejoin="round"/></symbol>
 <symbol id="i32-language" viewBox="0 0 32 32"><path d="M13 3h16v12h-3v4l-4-4h-9z" fill="#FCE0BD" stroke="#C9711A" stroke-width="2" stroke-linejoin="round"/>
   <rect x="20" y="6" width="6" height="2" rx="1" fill="#E07B1F"/>
   <path d="M3 11h16v14h-9l-4 4v-4H3z" fill="#3B82C4" stroke="#23599A" stroke-width="2" stroke-linejoin="round"/>
-  <path d="M7 22l4-9 4 9M8.6 19h4.8" fill="none" stroke="#FFFFFF" stroke-width="2"/></symbol>
+  <path d="M8 22l3-7 3 7M9.3 19h3.4" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round"/></symbol>
 <symbol id="i16-document_numerator" viewBox="0 0 16 16"><path d="M1.5 1.5h10l3 3v10h-13z" fill="#FFFFFF" stroke="#5F6B7A" stroke-linejoin="round"/>
   <path d="M11.5 1.5v3h3" fill="#D3E5F8" stroke="#5F6B7A" stroke-linejoin="round"/>
-  <path d="M4 9h1v1h-1zM3 10h2v1h-2zM4 11h1v1h-1zM4 12h1v1h-1zM3 13h3v1h-3zM7 7h3v1h-3zM9 8h1v1h-1zM7 9h3v1h-3zM7 10h1v1h-1zM7 11h3v1h-3zM11 5h3v1h-3zM13 6h1v1h-1zM12 7h2v1h-2zM13 8h1v1h-1zM11 9h3v1h-3z" fill="#2B6CB0"/></symbol>
+  <path d="M4 8h1v1h-1zM3 9h2v1h-2zM4 10h1v1h-1zM4 11h1v1h-1zM4 12h1v1h-1zM6 7h3v1h-3zM8 8h1v1h-1zM6 9h3v1h-3zM6 10h1v1h-1zM6 11h3v1h-3zM10 6h3v1h-3zM12 7h1v1h-1zM11 8h2v1h-2zM12 9h1v1h-1zM10 10h3v1h-3z" fill="#2B6CB0"/></symbol>
 <symbol id="i32-document_numerator" viewBox="0 0 32 32"><path d="M3 3h20l6 6v20H3z" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2" stroke-linejoin="round"/>
   <path d="M23 3v6h6" fill="#D3E5F8" stroke="#5F6B7A" stroke-width="2" stroke-linejoin="round"/>
-  <path d="M8 17h2v2h-2zM6 19h4v2h-4zM8 21h2v2h-2zM8 23h2v2h-2zM6 25h6v2h-6zM14 14h6v2h-6zM18 16h2v2h-2zM14 18h6v2h-6zM14 20h2v2h-2zM14 22h6v2h-6zM22 11h6v2h-6zM26 13h2v2h-2zM24 15h4v2h-4zM26 17h2v2h-2zM22 19h6v2h-6z" fill="#2B6CB0"/></symbol>
-<symbol id="i16-sequence" viewBox="0 0 16 16"><path d="M6.5 10.5H12.5V9L15.5 12L12.5 15V13.5H6.5z" fill="#D64545" stroke="#A83232" stroke-linejoin="round"/>
-  <path d="M3.5 6.5H9.5V5L13 8L9.5 11V9.5H3.5z" fill="#2F9E5A" stroke="#237A45" stroke-linejoin="round"/>
-  <path d="M0.5 2.5H6.5V1L10 4L6.5 7V5.5H0.5z" fill="#3B82C4" stroke="#23599A" stroke-linejoin="round"/></symbol>
-<symbol id="i32-sequence" viewBox="0 0 32 32"><path d="M13 21H25V18L31 24L25 30V27H13z" fill="#D64545" stroke="#A83232" stroke-width="2" stroke-linejoin="round"/>
-  <path d="M7 13H19V10L26 16L19 22V19H7z" fill="#2F9E5A" stroke="#237A45" stroke-width="2" stroke-linejoin="round"/>
-  <path d="M1 5H13V2L20 8L13 14V11H1z" fill="#3B82C4" stroke="#23599A" stroke-width="2" stroke-linejoin="round"/></symbol>
+  <path d="M8 16h2v2h-2zM6 18h4v2h-4zM8 20h2v2h-2zM8 22h2v2h-2zM8 24h2v2h-2zM12 14h6v2h-6zM16 16h2v2h-2zM12 18h6v2h-6zM12 20h2v2h-2zM12 22h6v2h-6zM20 12h6v2h-6zM24 14h2v2h-2zM22 16h4v2h-4zM24 18h2v2h-2zM20 20h6v2h-6z" fill="#2B6CB0"/></symbol>
+<symbol id="i16-sequence" viewBox="0 0 16 16"><path d="M1 2H8V1L11 3L8 5V4H1z" fill="#3B82C4"/>
+  <path d="M3 7H10V6L13 8L10 10V9H3z" fill="#2F9E5A"/>
+  <path d="M5 12H12V11L15 13L12 15V14H5z" fill="#D64545"/></symbol>
+<symbol id="i32-sequence" viewBox="0 0 32 32"><path d="M2 4H16V2L22 6L16 10V8H2z" fill="#3B82C4"/>
+  <path d="M6 14H20V12L26 16L20 20V18H6z" fill="#2F9E5A"/>
+  <path d="M10 24H24V22L30 26L24 30V28H10z" fill="#D64545"/></symbol>
 </defs>
 <rect width="800" height="2012" fill="#ffffff"/>
 <rect x="544" y="36" width="256" height="1944" fill="#252526"/>
