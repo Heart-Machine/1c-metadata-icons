@@ -30,10 +30,22 @@ async function main() {
     fail(`Нет архивов в dist/1c: ${notBuilt.map((icon) => icon.name).join(', ')}. Сначала выполните npm run build.`);
   }
 
+  let config = await readFile(configFile, 'utf8');
+  const eol = config.includes('\r\n') ? '\r\n' : '\n';
+  const existing = await existingPictures(srcDir, config);
+
   // Сначала проверяем все картинки и только потом пишем, чтобы не оставить конфигурацию наполовину изменённой
   const plan = [];
   const foreign = [];
+  const caseClash = [];
   for (const icon of icons) {
+    // Имена в 1С не различают регистр: «роль» и «Роль» — одна и та же картинка.
+    // Проверяем до обращения к файлам, потому что на Windows путь к «Роль» откроет папку «роль».
+    const sameName = existing.filter((name) => name !== icon.picture && name.toLowerCase() === icon.picture.toLowerCase());
+    if (sameName.length > 0) {
+      caseClash.push(`${icon.picture} (в конфигурации: ${sameName.join(', ')})`);
+      continue;
+    }
     const dir = path.join(srcDir, 'CommonPictures', icon.picture);
     const mdoFile = path.join(dir, `${icon.picture}.mdo`);
     const isNew = !existsSync(mdoFile);
@@ -45,15 +57,17 @@ async function main() {
     const stale = existsSync(dir) ? (await readdir(dir)).filter((file) => /^Picture\./i.test(file) && file !== 'Picture.zip') : [];
     plan.push({ icon, dir, mdoFile, isNew, stale });
   }
-  if (foreign.length > 0) {
-    fail(
-      `В конфигурации уже есть общие картинки с такими именами, созданные не этим скриптом: ${foreign.join(', ')}.\n` +
-        'Файлы не изменены. Задайте префикс, например --prefix Мой_.',
-    );
+  if (foreign.length > 0 || caseClash.length > 0) {
+    const problems = [];
+    if (foreign.length > 0) {
+      problems.push(`В конфигурации уже есть общие картинки с такими именами, созданные не этим скриптом: ${foreign.join(', ')}.`);
+    }
+    if (caseClash.length > 0) {
+      problems.push(`В конфигурации есть общие картинки, имена которых отличаются только регистром: ${caseClash.join('; ')}.`);
+    }
+    fail(`${problems.join('\n')}\nФайлы не изменены. Задайте префикс, например --prefix Мой_.`);
   }
 
-  let config = await readFile(configFile, 'utf8');
-  const eol = config.includes('\r\n') ? '\r\n' : '\n';
   const report = [];
   for (const { icon, dir, mdoFile, isNew, stale } of plan) {
     if (!dryRun) {
@@ -108,6 +122,23 @@ function parseArgs(args) {
     fail(`Префикс «${result.prefix}» не подходит для имени объекта 1С: допустимы буквы, цифры и «_», первым символом не цифра.`);
   }
   return result;
+}
+
+// Имена общих картинок конфигурации в том написании, в каком они есть: папки CommonPictures и записи в Configuration.mdo
+async function existingPictures(srcDir, config) {
+  const names = new Set();
+  const dir = path.join(srcDir, 'CommonPictures');
+  if (existsSync(dir)) {
+    for (const entry of await readdir(dir, { withFileTypes: true })) {
+      if (entry.isDirectory()) {
+        names.add(entry.name);
+      }
+    }
+  }
+  for (const match of config.matchAll(/<commonPictures>CommonPicture\.([^<]+)<\/commonPictures>/g)) {
+    names.add(match[1]);
+  }
+  return [...names];
 }
 
 function configPath(srcDir) {
