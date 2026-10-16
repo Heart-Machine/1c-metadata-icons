@@ -122,15 +122,16 @@ function indexHtml(icons, missing, assets) {
 <a class="brand" href="./"><img src="svg/32/configuration.svg" alt="" width="28" height="28"><span>Иконки метаданных 1С</span></a>
 <nav class="top-nav">
 <a href="${REPO}">GitHub</a>
-<button class="theme" id="theme" type="button" title="Сменить тему" aria-label="Сменить тему">${SUN_ICON}${MOON_ICON}</button>
+<fieldset class="theme-control" id="theme" disabled><legend class="visually-hidden">Тема оформления</legend><label><input type="radio" name="theme" value="system" checked><span>Системная</span></label><label><input type="radio" name="theme" value="light"><span>Светлая</span></label><label><input type="radio" name="theme" value="dark"><span>Тёмная</span></label></fieldset>
 </nav>
 </div>
 </header>
 <main class="wrap">
 <section class="intro">
 <h1>Иконки метаданных 1С</h1>
-<p>${icons.length} ${plural(icons.length, 'иконка', 'иконки', 'иконок')} для видов метаданных 1С:Предприятие 8, у которых нет стандартной картинки в библиотеке картинок платформы: подсистемы, общие модули, роли, боты и другие. Метафоры и цвета подобраны так, чтобы иконки смотрелись рядом со стандартными картинками 1C:EDT.</p>
+<p>${icons.length} ${plural(icons.length, 'иконка', 'иконки', 'иконок')} для видов метаданных 1С:Предприятие 8 в одном стиле: справочники, документы, регистры, подсистемы, роли, боты, реквизиты, формы и другие. Многие из этих видов не имеют стандартной картинки в библиотеке картинок платформы. Метафоры и цвета подобраны так, чтобы иконки смотрелись рядом со стандартными картинками 1C:EDT.</p>
 <p>В конфигурацию иконки добавляются как общие картинки, в коде к ним обращаются так: <code>БиблиотекаКартинок.МетаданныеРоль</code>.</p>
+<a class="gallery-jump" href="#gallery">Посмотреть иконки</a>
 </section>
 <section class="downloads" aria-labelledby="downloads-title">
 <h2 id="downloads-title">Скачать всё</h2>
@@ -142,7 +143,7 @@ function indexHtml(icons, missing, assets) {
 </ul>
 <p class="note">Файлы 1С — из <a href="${RELEASE}">последнего релиза</a>, как их загрузить — в <a href="${REPO}#скачать">README</a>. Архив PNG и SVG и картинки на этой странице собраны из текущей версии репозитория.</p>
 </section>
-<section class="gallery" aria-labelledby="gallery-title">
+<section class="gallery" id="gallery" aria-labelledby="gallery-title">
 <h2 id="gallery-title" class="visually-hidden">Иконки</h2>
 <div class="toolbar">
 <label class="search">${SEARCH_ICON}<input id="search" type="search" placeholder="Поиск: роль, МетаданныеРоль, role" aria-label="Поиск по названию вида, имени картинки и файла" autocomplete="off" spellcheck="false"></label>
@@ -152,7 +153,7 @@ function indexHtml(icons, missing, assets) {
 <ul class="grid" id="grid">
 ${cards}
 </ul>
-<p class="empty" id="empty" hidden>Ничего не найдено.</p>
+<div class="empty" id="empty" hidden><p>Ничего не найдено.</p><button class="button" id="clear-search" type="button">Сбросить поиск</button></div>
 <p class="note">PNG на странице показаны пиксель в пиксель: иконка 24 px занимает 24 точки экрана. Для 100, 125 и 150% нарисованы отдельные исходники 16, 20 и 24 px; для 200–400% используется сетка 32×32.</p>
 </section>
 ${planned}
@@ -186,11 +187,6 @@ const svgIcon = (body, extra = '') =>
 const COPY_ICON = svgIcon('<rect x="5.5" y="5.5" width="8" height="8" rx="1.5"/><path d="M10.5 3.5v-.5a1.5 1.5 0 0 0-1.5-1.5H4A1.5 1.5 0 0 0 2.5 3v5A1.5 1.5 0 0 0 4 9.5h.5"/>');
 const DOWNLOAD_ICON = svgIcon('<path d="M8 2v8M4.5 6.5 8 10l3.5-3.5M2.5 13.5h11"/>', ' class="download-icon"');
 const SEARCH_ICON = svgIcon('<circle cx="7" cy="7" r="4.5"/><path d="m10.5 10.5 3.5 3.5"/>');
-const SUN_ICON = svgIcon(
-  '<circle cx="8" cy="8" r="3"/><path d="M8 1v1.5M8 13.5V15M1 8h1.5M13.5 8H15M3.05 3.05l1.06 1.06M11.89 11.89l1.06 1.06M3.05 12.95l1.06-1.06M11.89 4.11l1.06-1.06"/>',
-  ' class="sun"',
-);
-const MOON_ICON = svgIcon('<path d="M13.5 9.5A5.5 5.5 0 0 1 6.5 2.5a5.5 5.5 0 1 0 7 7z"/>', ' class="moon"');
 const PREV_ICON = svgIcon('<path d="M10 3 5 8l5 5"/>');
 const NEXT_ICON = svgIcon('<path d="m6 3 5 5-5 5"/>');
 const CLOSE_ICON = svgIcon('<path d="m3.5 3.5 9 9M12.5 3.5l-9 9"/>');

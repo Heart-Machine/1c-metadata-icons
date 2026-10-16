@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="2024" viewBox="0 0 800 2024" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" fill="#1f2328">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="5336" viewBox="0 0 800 5336" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" fill="#1f2328">
 <title>Иконки метаданных 1С — превью</title>
 <defs>
 <symbol id="i16-configuration" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6.5" fill="#F5C33B" stroke="#B8860B"/>
@@ -111,6 +111,41 @@
   <rect x="3" y="13" width="22" height="14" rx="2" fill="#FFFFFF" stroke="#2B6CB0" stroke-width="2"/>
   <rect x="6" y="16" width="4" height="8" rx="1" fill="#8250C4"/>
   <rect x="14" y="19" width="8" height="2" rx="1" fill="#5F6B7A"/></symbol>
+<symbol id="i16-exchange_plan" viewBox="0 0 16 16"><path d="M1.5 2.5v4c0 .6 1.1 1 2.5 1s2.5-.4 2.5-1v-4" fill="#3B82C4" stroke="#23599A"/>
+  <ellipse cx="4" cy="2.5" rx="2.5" ry="1" fill="#D3E5F8" stroke="#23599A"/>
+  <path d="M9.5 9.5v3c0 .6 1.1 1 2.5 1s2.5-.4 2.5-1v-3" fill="#3B82C4" stroke="#23599A"/>
+  <ellipse cx="12" cy="9.5" rx="2.5" ry="1" fill="#D3E5F8" stroke="#23599A"/>
+  <path d="M8 3h4v1H8zM11 4h1v2h-1zM10 6h3v1h-3zM11 7h1v1h-1zM4 12h4v1H4zM4 10h1v2H4zM3 9h3v1H3zM4 8h1v1H4z" fill="#2F9E5A"/></symbol>
+<symbol id="i20-exchange_plan" viewBox="0 0 20 20"><path d="M1.5 3.5v5c0 .8 1.6 1.5 3.5 1.5s3.5-.7 3.5-1.5v-5" fill="#3B82C4" stroke="#23599A"/>
+  <ellipse cx="5" cy="3.5" rx="3.5" ry="1.5" fill="#D3E5F8" stroke="#23599A"/>
+  <path d="M11.5 11.5v5c0 .8 1.6 1.5 3.5 1.5s3.5-.7 3.5-1.5v-5" fill="#3B82C4" stroke="#23599A"/>
+  <ellipse cx="15" cy="11.5" rx="3.5" ry="1.5" fill="#D3E5F8" stroke="#23599A"/>
+  <path d="M10 4h5v1h-5zM14 5h1v2h-1zM13 7h3v1h-3zM14 8h1v1h-1zM5 15h5v1H5zM5 13h1v2H5zM4 12h3v1H4zM5 11h1v1H5z" fill="#2F9E5A"/></symbol>
+<symbol id="i24-exchange_plan" viewBox="0 0 24 24"><path d="M2 4v6c0 .8 1.8 1.5 4 1.5s4-.7 4-1.5V4" fill="#3B82C4" stroke="#23599A" stroke-width="2"/>
+  <ellipse cx="6" cy="4" rx="4" ry="1.5" fill="#D3E5F8" stroke="#23599A" stroke-width="2"/>
+  <path d="M14 14v6c0 .8 1.8 1.5 4 1.5s4-.7 4-1.5v-6" fill="#3B82C4" stroke="#23599A" stroke-width="2"/>
+  <ellipse cx="18" cy="14" rx="4" ry="1.5" fill="#D3E5F8" stroke="#23599A" stroke-width="2"/>
+  <path d="M12 5h6v4M12 19H6v-4" fill="none" stroke="#2F9E5A" stroke-width="2"/>
+  <path d="M15 9h6l-3 3zM9 15H3l3-3z" fill="#2F9E5A"/></symbol>
+<symbol id="i32-exchange_plan" viewBox="0 0 32 32"><path d="M3 6v8c0 1.4 2.7 2.5 6 2.5s6-1.1 6-2.5V6" fill="#3B82C4" stroke="#23599A" stroke-width="2"/>
+  <ellipse cx="9" cy="6" rx="6" ry="2.5" fill="#D3E5F8" stroke="#23599A" stroke-width="2"/>
+  <path d="M17 17v8c0 1.4 2.7 2.5 6 2.5s6-1.1 6-2.5v-8" fill="#3B82C4" stroke="#23599A" stroke-width="2"/>
+  <ellipse cx="23" cy="17" rx="6" ry="2.5" fill="#D3E5F8" stroke="#23599A" stroke-width="2"/>
+  <path d="M17 7h6v4M15 25H9v-4" fill="none" stroke="#2F9E5A" stroke-width="2"/>
+  <path d="M19 10h8l-4 4zM13 22H5l4-4z" fill="#2F9E5A"/></symbol>
+<symbol id="i16-filter_criterion" viewBox="0 0 16 16"><rect x="1.5" y="1.5" width="9" height="12" rx="1" fill="#FFFFFF" stroke="#5F6B7A"/>
+  <path d="M3 4h5v1H3zM3 6h3v1H3z" fill="#5F6B7A"/>
+  <path d="M6.5 7.5h8l-3 3.5v3.5l-2-1V11z" fill="#F2A03D" stroke="#C9711A" stroke-linejoin="round"/></symbol>
+<symbol id="i20-filter_criterion" viewBox="0 0 20 20"><rect x="1.5" y="1.5" width="11" height="15" rx="1" fill="#FFFFFF" stroke="#5F6B7A"/>
+  <path d="M4 5h6v1H4zM4 8h4v1H4z" fill="#5F6B7A"/>
+  <path d="M8.5 9.5h10l-4 4.5v4.5l-2-1V14z" fill="#F2A03D" stroke="#C9711A" stroke-linejoin="round"/></symbol>
+<symbol id="i24-filter_criterion" viewBox="0 0 24 24"><rect x="3" y="3" width="12" height="16" rx="1" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2"/>
+  <path d="M6 7h6v2H6zM6 11h3v2H6z" fill="#5F6B7A"/>
+  <path d="M10 12h12l-4.5 5v5l-3-1.5V17z" fill="#F2A03D" stroke="#C9711A" stroke-width="2" stroke-linejoin="round"/></symbol>
+<symbol id="i32-filter_criterion" viewBox="0 0 32 32"><rect x="3" y="3" width="18" height="24" rx="2" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2"/>
+  <rect x="7" y="8" width="10" height="2" rx="1" fill="#5F6B7A"/>
+  <rect x="7" y="13" width="5" height="2" rx="1" fill="#5F6B7A"/>
+  <path d="M13 15h16l-6 7v7l-4-2v-5z" fill="#F2A03D" stroke="#C9711A" stroke-width="2" stroke-linejoin="round"/></symbol>
 <symbol id="i16-event_subscription" viewBox="0 0 16 16"><rect x="1.5" y="1.5" width="10" height="12" rx="1" fill="#FFFFFF" stroke="#5F6B7A"/>
   <rect x="2" y="2" width="9" height="2" fill="#3B82C4"/>
   <rect x="3" y="6" width="4" height="1" fill="#8250C4"/>
@@ -134,6 +169,26 @@
   <rect x="6" y="16" width="6" height="2" rx="1" fill="#2F9E5A"/>
   <rect x="6" y="20" width="6" height="2" rx="1" fill="#E07B1F"/>
   <path d="M19 9h8l-4 6h6L17 29l3-10h-5z" fill="#F2A03D" stroke="#C9711A" stroke-width="2" stroke-linejoin="round"/></symbol>
+<symbol id="i16-scheduled_job" viewBox="0 0 16 16"><rect x="6" y="1" width="3" height="2" fill="#2B6CB0"/>
+  <rect x="7" y="3" width="1" height="1" fill="#2B6CB0"/>
+  <circle cx="7.5" cy="9.5" r="5" fill="#FFFFFF" stroke="#2B6CB0"/>
+  <path d="M7 6h1v3h3v1H7z" fill="#5F6B7A"/>
+  <path d="M12 1h1v2h2v1h-2v2h-1V4h-2V3h2z" fill="#E07B1F"/></symbol>
+<symbol id="i20-scheduled_job" viewBox="0 0 20 20"><rect x="8" y="1" width="3" height="2" fill="#2B6CB0"/>
+  <rect x="9" y="3" width="1" height="1" fill="#2B6CB0"/>
+  <circle cx="9.5" cy="11.5" r="6.5" fill="#FFFFFF" stroke="#2B6CB0"/>
+  <path d="M9 7h1v4h4v1H9z" fill="#5F6B7A"/>
+  <path d="M15 1h1v2h2v1h-2v2h-1V4h-2V3h2z" fill="#E07B1F"/></symbol>
+<symbol id="i24-scheduled_job" viewBox="0 0 24 24"><rect x="9" y="1" width="4" height="2" fill="#2B6CB0"/>
+  <rect x="10" y="3" width="2" height="3" fill="#2B6CB0"/>
+  <circle cx="11" cy="14" r="7" fill="#FFFFFF" stroke="#2B6CB0" stroke-width="2"/>
+  <path d="M10 9h2v4h4v2h-6z" fill="#5F6B7A"/>
+  <path d="M19 2h1v3h3v1h-3v3h-1V6h-3V5h3z" fill="#E07B1F"/></symbol>
+<symbol id="i32-scheduled_job" viewBox="0 0 32 32"><rect x="12" y="2" width="6" height="3" rx="1" fill="#2B6CB0"/>
+  <rect x="14" y="5" width="2" height="3" fill="#2B6CB0"/>
+  <circle cx="15" cy="19" r="10" fill="#FFFFFF" stroke="#2B6CB0" stroke-width="2"/>
+  <path d="M14 12h2v6h6v2h-8z" fill="#5F6B7A"/>
+  <path d="M25 3h2v3h3v2h-3v3h-2V8h-3V6h3z" fill="#E07B1F"/></symbol>
 <symbol id="i16-functional_option" viewBox="0 0 16 16"><rect x="1.5" y="4.5" width="13" height="7" rx="3.5" fill="#F2A03D" stroke="#C9711A"/>
   <circle cx="11" cy="8" r="2" fill="#FFFFFF"/>
   <rect x="4" y="6" width="2" height="4" rx="1" fill="#FFFFFF"/></symbol>
@@ -178,6 +233,46 @@
 <symbol id="i32-defined_type" viewBox="0 0 32 32"><rect x="3" y="3" width="26" height="26" rx="4" fill="#3B82C4" stroke="#23599A" stroke-width="2"/>
   <rect x="8" y="8" width="16" height="4" fill="#FFFFFF"/>
   <rect x="14" y="12" width="4" height="12" fill="#FFFFFF"/></symbol>
+<symbol id="i16-settings_storage" viewBox="0 0 16 16"><g transform="translate(6 6)" fill="#5F6B7A">
+  <rect x="-1" y="-4.5" width="2" height="9"/>
+  <rect x="-4.5" y="-1" width="9" height="2"/>
+  <rect x="-1" y="-4.5" width="2" height="9" transform="rotate(45)"/>
+  <rect x="-1" y="-4.5" width="2" height="9" transform="rotate(-45)"/>
+  </g>
+  <circle cx="6" cy="6" r="2.5" fill="#D5DBE2" stroke="#5F6B7A"/>
+  <circle cx="6" cy="6" r="1" fill="#FFFFFF"/>
+  <rect x="7.5" y="8.5" width="7" height="6" rx="1" fill="#3B82C4" stroke="#23599A"/>
+  <rect x="10" y="11" width="2" height="1" fill="#FFFFFF"/></symbol>
+<symbol id="i20-settings_storage" viewBox="0 0 20 20"><g transform="translate(7 7)" fill="#5F6B7A">
+  <rect x="-1" y="-5.5" width="2" height="11"/>
+  <rect x="-5.5" y="-1" width="11" height="2"/>
+  <rect x="-1" y="-5.5" width="2" height="11" transform="rotate(45)"/>
+  <rect x="-1" y="-5.5" width="2" height="11" transform="rotate(-45)"/>
+  </g>
+  <circle cx="7" cy="7" r="3.2" fill="#D5DBE2" stroke="#5F6B7A"/>
+  <circle cx="7" cy="7" r="1.3" fill="#FFFFFF"/>
+  <rect x="9.5" y="10.5" width="9" height="8" rx="1" fill="#3B82C4" stroke="#23599A"/>
+  <rect x="12" y="14" width="4" height="1" fill="#FFFFFF"/></symbol>
+<symbol id="i24-settings_storage" viewBox="0 0 24 24"><g transform="translate(9 9)" fill="#5F6B7A">
+  <rect x="-1.5" y="-7" width="3" height="14"/>
+  <rect x="-7" y="-1.5" width="14" height="3"/>
+  <rect x="-1.5" y="-7" width="3" height="14" transform="rotate(45)"/>
+  <rect x="-1.5" y="-7" width="3" height="14" transform="rotate(-45)"/>
+  </g>
+  <circle cx="9" cy="9" r="4.2" fill="#D5DBE2" stroke="#5F6B7A"/>
+  <circle cx="9" cy="9" r="1.7" fill="#FFFFFF"/>
+  <rect x="12" y="13" width="10" height="9" rx="1" fill="#3B82C4" stroke="#23599A" stroke-width="2"/>
+  <rect x="15" y="16" width="4" height="2" fill="#FFFFFF"/></symbol>
+<symbol id="i32-settings_storage" viewBox="0 0 32 32"><g transform="translate(12 12)" fill="#5F6B7A">
+  <rect x="-2" y="-9" width="4" height="18"/>
+  <rect x="-9" y="-2" width="18" height="4"/>
+  <rect x="-2" y="-9" width="4" height="18" transform="rotate(45)"/>
+  <rect x="-2" y="-9" width="4" height="18" transform="rotate(-45)"/>
+  </g>
+  <circle cx="12" cy="12" r="5.5" fill="#D5DBE2" stroke="#5F6B7A"/>
+  <circle cx="12" cy="12" r="2.2" fill="#FFFFFF"/>
+  <rect x="15" y="17" width="14" height="11" rx="2" fill="#3B82C4" stroke="#23599A" stroke-width="2"/>
+  <rect x="19" y="21" width="6" height="2" rx="1" fill="#FFFFFF"/></symbol>
 <symbol id="i16-common_command" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6.5" fill="#3B82C4" stroke="#23599A"/>
   <path d="M6 4.5l5.5 3.5L6 11.5z" fill="#FFFFFF"/></symbol>
 <symbol id="i20-common_command" viewBox="0 0 20 20"><circle cx="10" cy="10" r="8.5" fill="#3B82C4" stroke="#23599A"/>
@@ -194,6 +289,26 @@
   <path d="M8 11l8 3-8 3z" fill="#3B82C4"/></symbol>
 <symbol id="i32-command_group" viewBox="0 0 32 32"><path d="M3 27V7h8l3 4h15v16z" fill="#D3E5F8" stroke="#2B6CB0" stroke-width="2" stroke-linejoin="round"/>
   <path d="M11 14l10 5-10 5z" fill="#3B82C4"/></symbol>
+<symbol id="i16-common_form" viewBox="0 0 16 16"><rect x="4.5" y="1.5" width="10" height="9" rx="1" fill="#FFFFFF" stroke="#5F6B7A"/>
+  <rect x="5" y="2" width="9" height="2" fill="#3B82C4"/>
+  <rect x="1.5" y="5.5" width="10" height="9" rx="1" fill="#FFFFFF" stroke="#5F6B7A"/>
+  <rect x="2" y="6" width="9" height="2" fill="#3B82C4"/>
+  <rect x="3.5" y="9.5" width="6" height="3" fill="#D3E5F8" stroke="#2B6CB0"/></symbol>
+<symbol id="i20-common_form" viewBox="0 0 20 20"><rect x="6.5" y="1.5" width="12" height="10" rx="1" fill="#FFFFFF" stroke="#5F6B7A"/>
+  <rect x="7" y="2" width="11" height="2" fill="#3B82C4"/>
+  <rect x="1.5" y="6.5" width="12" height="12" rx="1" fill="#FFFFFF" stroke="#5F6B7A"/>
+  <rect x="2" y="7" width="11" height="2" fill="#3B82C4"/>
+  <rect x="4.5" y="11.5" width="6" height="3" fill="#D3E5F8" stroke="#2B6CB0"/></symbol>
+<symbol id="i24-common_form" viewBox="0 0 24 24"><rect x="9" y="3" width="12" height="11" rx="1" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2"/>
+  <rect x="10" y="4" width="10" height="2" fill="#3B82C4"/>
+  <rect x="3" y="9" width="12" height="12" rx="1" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2"/>
+  <rect x="4" y="10" width="10" height="3" fill="#3B82C4"/>
+  <rect x="6.5" y="15.5" width="5" height="3" fill="#D3E5F8" stroke="#2B6CB0"/></symbol>
+<symbol id="i32-common_form" viewBox="0 0 32 32"><rect x="11" y="3" width="18" height="16" rx="2" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2"/>
+  <rect x="12" y="4" width="16" height="4" fill="#3B82C4"/>
+  <rect x="3" y="11" width="18" height="18" rx="2" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2"/>
+  <rect x="4" y="12" width="16" height="4" fill="#3B82C4"/>
+  <rect x="7" y="20" width="10" height="5" rx="1" fill="#D3E5F8" stroke="#2B6CB0" stroke-width="2"/></symbol>
 <symbol id="i16-common_template" viewBox="0 0 16 16"><rect x="1.5" y="1.5" width="13" height="13" rx="1" fill="#FFFFFF" stroke="#5F6B7A"/>
   <rect x="2" y="2" width="12" height="2" fill="#2F9E5A"/>
   <path d="M2 7.5h12M2 10.5h12M5.5 4v10M9.5 4v10" fill="none" stroke="#A9B4C0"/>
@@ -210,6 +325,22 @@
   <rect x="4" y="4" width="24" height="4" fill="#2F9E5A"/>
   <path d="M4 15h24M4 22h24M12 8v20M20 8v20" fill="none" stroke="#B8C2CC" stroke-width="2"/>
   <rect x="13" y="16" width="6" height="5" fill="#F2A03D"/></symbol>
+<symbol id="i16-common_picture" viewBox="0 0 16 16"><rect x="1.5" y="2.5" width="13" height="11" rx="1" fill="#FFFFFF" stroke="#5F6B7A"/>
+  <rect x="3" y="4" width="10" height="8" fill="#D3E5F8"/>
+  <path d="M10 5h1v1h1v1h-1v1h-1V7H9V6h1z" fill="#F5C33B"/>
+  <path d="M3 12V10l3-3 2 2 1-1 4 4z" fill="#2F9E5A"/></symbol>
+<symbol id="i20-common_picture" viewBox="0 0 20 20"><rect x="1.5" y="3.5" width="17" height="13" rx="1" fill="#FFFFFF" stroke="#5F6B7A"/>
+  <rect x="3" y="5" width="14" height="10" fill="#D3E5F8"/>
+  <path d="M13 6h2v1h1v2h-1v1h-2V9h-1V7h1z" fill="#F5C33B"/>
+  <path d="M3 15v-3l4-4 3 3 2-2 5 5v1z" fill="#2F9E5A"/></symbol>
+<symbol id="i24-common_picture" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="1" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2"/>
+  <rect x="5" y="7" width="14" height="10" fill="#D3E5F8"/>
+  <circle cx="15" cy="10" r="2" fill="#F5C33B"/>
+  <path d="M5 17v-3l4-4 4 4 2-2 4 4v1z" fill="#2F9E5A"/></symbol>
+<symbol id="i32-common_picture" viewBox="0 0 32 32"><rect x="3" y="5" width="26" height="22" rx="2" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2"/>
+  <rect x="6" y="8" width="20" height="16" fill="#D3E5F8"/>
+  <circle cx="21" cy="13" r="3" fill="#F5C33B"/>
+  <path d="M6 24v-5l6-6 5 5 3-3 6 6v3z" fill="#2F9E5A"/></symbol>
 <symbol id="i16-xdto_package" viewBox="0 0 16 16"><rect x="2.5" y="5.5" width="11" height="9" fill="#D9A35F" stroke="#8E5E2C"/>
   <rect x="1.5" y="2.5" width="13" height="3" fill="#E8BE84" stroke="#8E5E2C"/>
   <rect x="7" y="3" width="2" height="11" fill="#F1D7AE"/></symbol>
@@ -508,6 +639,57 @@
   <rect x="20" y="6" width="6" height="2" rx="1" fill="#E07B1F"/>
   <path d="M3 9h16v16h-9l-4 4v-4H3z" fill="#3B82C4" stroke="#23599A" stroke-width="2" stroke-linejoin="round"/>
   <path d="M6 22l3-10h4l3 10h-2l-.6-2H8.6L8 22zM9.2 18h3.6L11 13z" fill="#FFFFFF" fill-rule="evenodd"/></symbol>
+<symbol id="i16-constant" viewBox="0 0 16 16"><rect x="1.5" y="1.5" width="5" height="5" rx="1" fill="#3B82C4" stroke="#23599A"/>
+  <rect x="9.5" y="1.5" width="5" height="5" rx="1" fill="#D3E5F8" stroke="#2B6CB0"/>
+  <rect x="1.5" y="9.5" width="5" height="5" rx="1" fill="#D3E5F8" stroke="#2B6CB0"/>
+  <rect x="9.5" y="9.5" width="5" height="5" rx="1" fill="#3B82C4" stroke="#23599A"/></symbol>
+<symbol id="i20-constant" viewBox="0 0 20 20"><rect x="1.5" y="1.5" width="7" height="7" rx="1" fill="#3B82C4" stroke="#23599A"/>
+  <rect x="11.5" y="1.5" width="7" height="7" rx="1" fill="#D3E5F8" stroke="#2B6CB0"/>
+  <rect x="1.5" y="11.5" width="7" height="7" rx="1" fill="#D3E5F8" stroke="#2B6CB0"/>
+  <rect x="11.5" y="11.5" width="7" height="7" rx="1" fill="#3B82C4" stroke="#23599A"/></symbol>
+<symbol id="i24-constant" viewBox="0 0 24 24"><rect x="2" y="2" width="8" height="8" rx="1" fill="#3B82C4" stroke="#23599A" stroke-width="2"/>
+  <rect x="14" y="2" width="8" height="8" rx="1" fill="#D3E5F8" stroke="#2B6CB0" stroke-width="2"/>
+  <rect x="2" y="14" width="8" height="8" rx="1" fill="#D3E5F8" stroke="#2B6CB0" stroke-width="2"/>
+  <rect x="14" y="14" width="8" height="8" rx="1" fill="#3B82C4" stroke="#23599A" stroke-width="2"/></symbol>
+<symbol id="i32-constant" viewBox="0 0 32 32"><rect x="3" y="3" width="11" height="11" rx="2" fill="#3B82C4" stroke="#23599A" stroke-width="2"/>
+  <rect x="18" y="3" width="11" height="11" rx="2" fill="#D3E5F8" stroke="#2B6CB0" stroke-width="2"/>
+  <rect x="3" y="18" width="11" height="11" rx="2" fill="#D3E5F8" stroke="#2B6CB0" stroke-width="2"/>
+  <rect x="18" y="18" width="11" height="11" rx="2" fill="#3B82C4" stroke="#23599A" stroke-width="2"/></symbol>
+<symbol id="i16-catalog" viewBox="0 0 16 16"><rect x="5.5" y="1.5" width="9" height="9" rx="1" fill="#D3E5F8" stroke="#2B6CB0"/>
+  <rect x="3.5" y="3.5" width="9" height="9" rx="1" fill="#D3E5F8" stroke="#2B6CB0"/>
+  <rect x="1.5" y="5.5" width="9" height="9" rx="1" fill="#3B82C4" stroke="#23599A"/>
+  <path d="M3 8h6v1H3zM3 11h6v1H3z" fill="#FFFFFF"/></symbol>
+<symbol id="i20-catalog" viewBox="0 0 20 20"><rect x="7.5" y="1.5" width="11" height="11" rx="1" fill="#D3E5F8" stroke="#2B6CB0"/>
+  <rect x="4.5" y="4.5" width="11" height="11" rx="1" fill="#D3E5F8" stroke="#2B6CB0"/>
+  <rect x="1.5" y="7.5" width="11" height="11" rx="1" fill="#3B82C4" stroke="#23599A"/>
+  <path d="M4 11h6v1H4zM4 14h6v1H4z" fill="#FFFFFF"/></symbol>
+<symbol id="i24-catalog" viewBox="0 0 24 24"><rect x="8" y="2" width="14" height="14" rx="2" fill="#D3E5F8" stroke="#2B6CB0" stroke-width="2"/>
+  <rect x="5" y="5" width="14" height="14" rx="2" fill="#D3E5F8" stroke="#2B6CB0" stroke-width="2"/>
+  <rect x="2" y="8" width="14" height="14" rx="2" fill="#3B82C4" stroke="#23599A" stroke-width="2"/>
+  <path d="M5 12h8v2H5zM5 16h8v2H5z" fill="#FFFFFF"/></symbol>
+<symbol id="i32-catalog" viewBox="0 0 32 32"><rect x="11" y="3" width="18" height="18" rx="2" fill="#D3E5F8" stroke="#2B6CB0" stroke-width="2"/>
+  <rect x="7" y="7" width="18" height="18" rx="2" fill="#D3E5F8" stroke="#2B6CB0" stroke-width="2"/>
+  <rect x="3" y="11" width="18" height="18" rx="2" fill="#3B82C4" stroke="#23599A" stroke-width="2"/>
+  <rect x="7" y="17" width="10" height="2" rx="1" fill="#FFFFFF"/>
+  <rect x="7" y="22" width="10" height="2" rx="1" fill="#FFFFFF"/></symbol>
+<symbol id="i16-document" viewBox="0 0 16 16"><rect x="5.5" y="1.5" width="9" height="10" rx="1" fill="#D3E5F8" stroke="#5F6B7A"/>
+  <path d="M1.5 4.5h6l3 3v7h-9z" fill="#FFFFFF" stroke="#5F6B7A" stroke-linejoin="round"/>
+  <path d="M7.5 4.5v3h3" fill="#D3E5F8" stroke="#5F6B7A" stroke-linejoin="round"/>
+  <path d="M3 7h3v1H3zM3 9h5v1H3zM3 11h5v1H3z" fill="#5F6B7A"/></symbol>
+<symbol id="i20-document" viewBox="0 0 20 20"><rect x="6.5" y="1.5" width="12" height="13" rx="1" fill="#D3E5F8" stroke="#5F6B7A"/>
+  <path d="M1.5 5.5h8l4 4v9h-12z" fill="#FFFFFF" stroke="#5F6B7A" stroke-linejoin="round"/>
+  <path d="M9.5 5.5v4h4" fill="#D3E5F8" stroke="#5F6B7A" stroke-linejoin="round"/>
+  <path d="M4 9h4v1H4zM4 12h7v1H4zM4 15h7v1H4z" fill="#5F6B7A"/></symbol>
+<symbol id="i24-document" viewBox="0 0 24 24"><rect x="9" y="2" width="13" height="15" rx="1" fill="#D3E5F8" stroke="#5F6B7A" stroke-width="2"/>
+  <path d="M2 7h10l4 4v11H2z" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M12 7v4h4" fill="#D3E5F8" stroke="#5F6B7A" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M5 10h4v2H5zM5 14h8v2H5zM5 18h8v2H5z" fill="#5F6B7A"/></symbol>
+<symbol id="i32-document" viewBox="0 0 32 32"><rect x="11" y="3" width="18" height="20" rx="2" fill="#D3E5F8" stroke="#5F6B7A" stroke-width="2"/>
+  <path d="M3 9h12l6 6v14H3z" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M15 9v6h6" fill="#D3E5F8" stroke="#5F6B7A" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="7" y="13" width="5" height="2" rx="1" fill="#5F6B7A"/>
+  <rect x="7" y="18" width="10" height="2" rx="1" fill="#5F6B7A"/>
+  <rect x="7" y="23" width="10" height="2" rx="1" fill="#5F6B7A"/></symbol>
 <symbol id="i16-document_numerator" viewBox="0 0 16 16"><path d="M1.5 1.5h10l3 3v10h-13z" fill="#FFFFFF" stroke="#5F6B7A" stroke-linejoin="round"/>
   <path d="M11.5 1.5v3h3" fill="#D3E5F8" stroke="#5F6B7A" stroke-linejoin="round"/>
   <path d="M4 8h1v1h-1zM3 9h2v1h-2zM4 10h1v1h-1zM4 11h1v1h-1zM4 12h1v1h-1zM6 7h3v1h-3zM8 8h1v1h-1zM6 9h3v1h-3zM6 10h1v1h-1zM6 11h3v1h-3zM10 6h3v1h-3zM12 7h1v1h-1zM11 8h2v1h-2zM12 9h1v1h-1zM10 10h3v1h-3z" fill="#2B6CB0"/></symbol>
@@ -532,9 +714,513 @@
 <symbol id="i32-sequence" viewBox="0 0 32 32"><path d="M2 4h18V2l6 4-6 4V8H2z" fill="#3B82C4"/>
   <path d="M4 14h18v-2l6 4-6 4v-2H4z" fill="#2F9E5A"/>
   <path d="M6 24h18v-2l6 4-6 4v-2H6z" fill="#D64545"/></symbol>
+<symbol id="i16-document_journal" viewBox="0 0 16 16"><rect x="3.5" y="1.5" width="10" height="13" rx="1" fill="#2F9E5A" stroke="#237A45"/>
+  <rect x="4" y="2" width="2" height="12" fill="#237A45"/>
+  <rect x="7" y="4" width="5" height="3" fill="#FFFFFF"/>
+  <path d="M2 3h3v1H2zM2 6h3v1H2zM2 9h3v1H2zM2 12h3v1H2z" fill="#5F6B7A"/></symbol>
+<symbol id="i20-document_journal" viewBox="0 0 20 20"><rect x="4.5" y="1.5" width="13" height="17" rx="1" fill="#2F9E5A" stroke="#237A45"/>
+  <rect x="5" y="2" width="2" height="16" fill="#237A45"/>
+  <rect x="9" y="4" width="6" height="4" fill="#FFFFFF"/>
+  <path d="M2 3h4v2H2zM2 7h4v2H2zM2 11h4v2H2zM2 15h4v2H2z" fill="#5F6B7A"/></symbol>
+<symbol id="i24-document_journal" viewBox="0 0 24 24"><rect x="6" y="2" width="16" height="20" rx="2" fill="#2F9E5A" stroke="#237A45" stroke-width="2"/>
+  <rect x="7" y="3" width="3" height="18" fill="#237A45"/>
+  <rect x="12" y="6" width="7" height="5" rx="1" fill="#FFFFFF"/>
+  <path d="M2 5h6v2H2zM2 9h6v2H2zM2 13h6v2H2zM2 17h6v2H2z" fill="#5F6B7A"/></symbol>
+<symbol id="i32-document_journal" viewBox="0 0 32 32"><rect x="7" y="3" width="21" height="26" rx="2" fill="#2F9E5A" stroke="#237A45" stroke-width="2"/>
+  <rect x="8" y="4" width="4" height="24" fill="#237A45"/>
+  <rect x="15" y="7" width="10" height="6" rx="1" fill="#FFFFFF"/>
+  <rect x="3" y="6" width="7" height="2" rx="1" fill="#5F6B7A"/>
+  <rect x="3" y="12" width="7" height="2" rx="1" fill="#5F6B7A"/>
+  <rect x="3" y="18" width="7" height="2" rx="1" fill="#5F6B7A"/>
+  <rect x="3" y="24" width="7" height="2" rx="1" fill="#5F6B7A"/></symbol>
+<symbol id="i16-enum" viewBox="0 0 16 16"><path d="M3 2h2v1H3zM2 3h1v4H2zM1 7h1v2H1zM2 9h1v4H2zM3 13h2v1H3zM11 2h2v1h-2zM13 3h1v4h-1zM14 7h1v2h-1zM13 9h1v4h-1zM11 13h2v1h-2z" fill="#2B6CB0"/>
+  <path d="M4 7h2v2H4zM7 7h2v2H7zM10 7h2v2h-2z" fill="#E07B1F"/></symbol>
+<symbol id="i20-enum" viewBox="0 0 20 20"><path d="M3 2h3v1H3zM2 3h1v6H2zM1 9h1v2H1zM2 11h1v6H2zM3 17h3v1H3zM14 2h3v1h-3zM17 3h1v6h-1zM18 9h1v2h-1zM17 11h1v6h-1zM14 17h3v1h-3z" fill="#2B6CB0"/>
+  <path d="M5 9h2v2H5zM9 9h2v2H9zM13 9h2v2h-2z" fill="#E07B1F"/></symbol>
+<symbol id="i24-enum" viewBox="0 0 24 24"><path d="M8 3H7a2 2 0 0 0-2 2v5l-2 2 2 2v5a2 2 0 0 0 2 2h1M16 3h1a2 2 0 0 1 2 2v5l2 2-2 2v5a2 2 0 0 1-2 2h-1" fill="none" stroke="#2B6CB0" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M8 11h2v2H8zM11 11h2v2h-2zM14 11h2v2h-2z" fill="#E07B1F"/></symbol>
+<symbol id="i32-enum" viewBox="0 0 32 32"><path d="M10 4H8a2 2 0 0 0-2 2v7l-3 3 3 3v7a2 2 0 0 0 2 2h2M22 4h2a2 2 0 0 1 2 2v7l3 3-3 3v7a2 2 0 0 1-2 2h-2" fill="none" stroke="#2B6CB0" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="11" cy="16" r="2" fill="#E07B1F"/>
+  <circle cx="16" cy="16" r="2" fill="#E07B1F"/>
+  <circle cx="21" cy="16" r="2" fill="#E07B1F"/></symbol>
+<symbol id="i16-report" viewBox="0 0 16 16"><rect x="2.5" y="2.5" width="11" height="12" rx="1" fill="#FFFFFF" stroke="#5F6B7A"/>
+  <rect x="5" y="1" width="6" height="3" rx="1" fill="#5F6B7A"/>
+  <rect x="4" y="10" width="2" height="3" fill="#3B82C4"/>
+  <rect x="7" y="8" width="2" height="5" fill="#2F9E5A"/>
+  <rect x="10" y="6" width="2" height="7" fill="#E07B1F"/></symbol>
+<symbol id="i20-report" viewBox="0 0 20 20"><rect x="3.5" y="3.5" width="13" height="15" rx="1" fill="#FFFFFF" stroke="#5F6B7A"/>
+  <rect x="7" y="1" width="6" height="4" rx="1" fill="#5F6B7A"/>
+  <rect x="5" y="13" width="2" height="4" fill="#3B82C4"/>
+  <rect x="9" y="11" width="2" height="6" fill="#2F9E5A"/>
+  <rect x="13" y="8" width="2" height="9" fill="#E07B1F"/></symbol>
+<symbol id="i24-report" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="18" rx="1" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2"/>
+  <rect x="8" y="1" width="8" height="5" rx="1" fill="#5F6B7A"/>
+  <rect x="10" y="2" width="4" height="2" fill="#FFFFFF"/>
+  <rect x="7" y="15" width="2" height="4" fill="#3B82C4"/>
+  <rect x="11" y="12" width="2" height="7" fill="#2F9E5A"/>
+  <rect x="15" y="9" width="2" height="10" fill="#E07B1F"/></symbol>
+<symbol id="i32-report" viewBox="0 0 32 32"><rect x="5" y="5" width="22" height="24" rx="2" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2"/>
+  <rect x="11" y="2" width="10" height="6" rx="1" fill="#5F6B7A"/>
+  <rect x="14" y="4" width="4" height="2" rx="1" fill="#FFFFFF"/>
+  <rect x="9" y="20" width="4" height="6" fill="#3B82C4"/>
+  <rect x="14" y="15" width="4" height="11" fill="#2F9E5A"/>
+  <rect x="19" y="11" width="4" height="15" fill="#E07B1F"/></symbol>
+<symbol id="i16-data_processor" viewBox="0 0 16 16"><rect x="1.5" y="9.5" width="8" height="5" rx="1" fill="#3B82C4" stroke="#23599A"/>
+  <path d="M11 1.5l3.5 3.5L11 8.5 7.5 5z" fill="#F2A03D" stroke="#C9711A" stroke-linejoin="round"/>
+  <path d="M5 4h3v1H6v2H5zM4 7h3v1H4zM5 8h1v1H5z" fill="#5F6B7A"/></symbol>
+<symbol id="i20-data_processor" viewBox="0 0 20 20"><rect x="1.5" y="11.5" width="10" height="7" rx="1" fill="#3B82C4" stroke="#23599A"/>
+  <path d="M14 1.5l4.5 4.5-4.5 4.5L9.5 6z" fill="#F2A03D" stroke="#C9711A" stroke-linejoin="round"/>
+  <path d="M6 5h4v1H7v3H6zM5 9h3v1H5zM6 10h1v1H6z" fill="#5F6B7A"/></symbol>
+<symbol id="i24-data_processor" viewBox="0 0 24 24"><rect x="3" y="14" width="12" height="8" rx="1" fill="#3B82C4" stroke="#23599A" stroke-width="2"/>
+  <path d="M17 2l5 5-5 5-5-5z" fill="#F2A03D" stroke="#C9711A" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M12 7H9v3" fill="none" stroke="#5F6B7A" stroke-width="2"/>
+  <path d="M6 10h6l-3 3z" fill="#5F6B7A"/></symbol>
+<symbol id="i32-data_processor" viewBox="0 0 32 32"><rect x="3" y="19" width="16" height="10" rx="2" fill="#3B82C4" stroke="#23599A" stroke-width="2"/>
+  <path d="M22 3l7 7-7 7-7-7z" fill="#F2A03D" stroke="#C9711A" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M15 10h-4v4" fill="none" stroke="#5F6B7A" stroke-width="2"/>
+  <path d="M7 13h8l-4 4z" fill="#5F6B7A"/></symbol>
+<symbol id="i16-chart_of_characteristic_types" viewBox="0 0 16 16"><rect x="1.5" y="1.5" width="13" height="13" rx="1" fill="#FFFFFF" stroke="#5F6B7A"/>
+  <rect x="2" y="2" width="12" height="2" fill="#3B82C4"/>
+  <path d="M4 5h2v2H4zM7 5h2v2H7zM10 5h2v2h-2zM4 8h2v2H4zM7 8h2v2H7zM10 8h2v2h-2zM4 11h2v2H4zM7 11h2v2H7zM10 11h2v2h-2z" fill="#2B6CB0"/></symbol>
+<symbol id="i20-chart_of_characteristic_types" viewBox="0 0 20 20"><rect x="1.5" y="1.5" width="17" height="17" rx="1" fill="#FFFFFF" stroke="#5F6B7A"/>
+  <rect x="2" y="2" width="16" height="3" fill="#3B82C4"/>
+  <path d="M5 6h2v2H5zM9 6h2v2H9zM13 6h2v2h-2zM5 10h2v2H5zM9 10h2v2H9zM13 10h2v2h-2zM5 14h2v2H5zM9 14h2v2H9zM13 14h2v2h-2z" fill="#2B6CB0"/></symbol>
+<symbol id="i24-chart_of_characteristic_types" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2"/>
+  <rect x="4" y="4" width="16" height="3" fill="#3B82C4"/>
+  <path d="M8 9h2v2H8zM11 9h2v2h-2zM14 9h2v2h-2zM8 12h2v2H8zM11 12h2v2h-2zM14 12h2v2h-2zM8 15h2v2H8zM11 15h2v2h-2zM14 15h2v2h-2z" fill="#2B6CB0"/></symbol>
+<symbol id="i32-chart_of_characteristic_types" viewBox="0 0 32 32"><rect x="3" y="3" width="26" height="26" rx="2" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2"/>
+  <rect x="4" y="4" width="24" height="4" fill="#3B82C4"/>
+  <path d="M8 10h4v4H8zM14 10h4v4h-4zM20 10h4v4h-4zM8 16h4v4H8zM14 16h4v4h-4zM20 16h4v4h-4zM8 22h4v4H8zM14 22h4v4h-4zM20 22h4v4h-4z" fill="#2B6CB0"/></symbol>
+<symbol id="i16-chart_of_accounts" viewBox="0 0 16 16"><path d="M1.5 1.5h6v3h-2v5h-2v-5h-2z" fill="#D3E5F8" stroke="#2B6CB0" stroke-linejoin="round"/>
+  <path d="M8.5 6.5h6v3h-2v5h-2v-5h-2z" fill="#3B82C4" stroke="#23599A" stroke-linejoin="round"/></symbol>
+<symbol id="i20-chart_of_accounts" viewBox="0 0 20 20"><path d="M1.5 1.5h8v4h-3v7h-2v-7h-3z" fill="#D3E5F8" stroke="#2B6CB0" stroke-linejoin="round"/>
+  <path d="M10.5 7.5h8v4h-3v7h-2v-7h-3z" fill="#3B82C4" stroke="#23599A" stroke-linejoin="round"/></symbol>
+<symbol id="i24-chart_of_accounts" viewBox="0 0 24 24"><path d="M2 2h10v4H9v8H5V6H2z" fill="#D3E5F8" stroke="#2B6CB0" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M12 10h10v4h-3v8h-4v-8h-3z" fill="#3B82C4" stroke="#23599A" stroke-width="2" stroke-linejoin="round"/></symbol>
+<symbol id="i32-chart_of_accounts" viewBox="0 0 32 32"><path d="M3 3h12v6h-4v10H7V9H3z" fill="#D3E5F8" stroke="#2B6CB0" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M17 13h12v6h-4v10h-4V19h-4z" fill="#3B82C4" stroke="#23599A" stroke-width="2" stroke-linejoin="round"/></symbol>
+<symbol id="i16-chart_of_calculation_types" viewBox="0 0 16 16"><path d="M8 7l6 3-6 3-6-3z" fill="#237A45" stroke="#237A45" stroke-linejoin="round"/>
+  <path d="M8 3l6 3-6 3-6-3z" fill="#2F9E5A" stroke="#237A45" stroke-linejoin="round"/></symbol>
+<symbol id="i20-chart_of_calculation_types" viewBox="0 0 20 20"><path d="M10 8.5l8 4-8 4-8-4z" fill="#237A45" stroke="#237A45" stroke-linejoin="round"/>
+  <path d="M10 3.5l8 4-8 4-8-4z" fill="#2F9E5A" stroke="#237A45" stroke-linejoin="round"/></symbol>
+<symbol id="i24-chart_of_calculation_types" viewBox="0 0 24 24"><path d="M12 10l10 5-10 5L2 15z" fill="#237A45" stroke="#237A45" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M12 4l10 5-10 5L2 9z" fill="#2F9E5A" stroke="#237A45" stroke-width="2" stroke-linejoin="round"/></symbol>
+<symbol id="i32-chart_of_calculation_types" viewBox="0 0 32 32"><path d="M16 12l13 6.5L16 25 3 18.5z" fill="#237A45" stroke="#237A45" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M16 5l13 6.5L16 18 3 11.5z" fill="#2F9E5A" stroke="#237A45" stroke-width="2" stroke-linejoin="round"/></symbol>
+<symbol id="i16-information_register" viewBox="0 0 16 16"><path d="M1.5 1.5h10l3 3v10h-13z" fill="#FFFFFF" stroke="#5F6B7A" stroke-linejoin="round"/>
+  <path d="M11.5 1.5v3h3" fill="#D3E5F8" stroke="#5F6B7A" stroke-linejoin="round"/>
+  <rect x="3.5" y="9.5" width="3" height="3" fill="none" stroke="#2F9E5A"/>
+  <rect x="7.5" y="5.5" width="3" height="3" fill="none" stroke="#2F9E5A"/></symbol>
+<symbol id="i20-information_register" viewBox="0 0 20 20"><path d="M1.5 1.5h13l4 4v13h-17z" fill="#FFFFFF" stroke="#5F6B7A" stroke-linejoin="round"/>
+  <path d="M14.5 1.5v4h4" fill="#D3E5F8" stroke="#5F6B7A" stroke-linejoin="round"/>
+  <rect x="4.5" y="11.5" width="4" height="4" fill="none" stroke="#2F9E5A"/>
+  <rect x="9.5" y="6.5" width="4" height="4" fill="none" stroke="#2F9E5A"/></symbol>
+<symbol id="i24-information_register" viewBox="0 0 24 24"><path d="M2 2h17l3 3v17H2z" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M19 2v3h3" fill="#D3E5F8" stroke="#5F6B7A" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="6" y="14" width="4" height="4" fill="none" stroke="#2F9E5A" stroke-width="2"/>
+  <rect x="12" y="8" width="4" height="4" fill="none" stroke="#2F9E5A" stroke-width="2"/></symbol>
+<symbol id="i32-information_register" viewBox="0 0 32 32"><path d="M3 3h20l6 6v20H3z" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M23 3v6h6" fill="#D3E5F8" stroke="#5F6B7A" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="8" y="19" width="6" height="6" rx="1" fill="none" stroke="#2F9E5A" stroke-width="2"/>
+  <rect x="15" y="12" width="6" height="6" rx="1" fill="none" stroke="#2F9E5A" stroke-width="2"/></symbol>
+<symbol id="i16-accumulation_register" viewBox="0 0 16 16"><path d="M1.5 1.5h10l3 3v10h-13z" fill="#FFFFFF" stroke="#5F6B7A" stroke-linejoin="round"/>
+  <path d="M11.5 1.5v3h3" fill="#D3E5F8" stroke="#5F6B7A" stroke-linejoin="round"/>
+  <ellipse cx="7.5" cy="11.5" rx="3.5" ry="1.5" fill="#F5C33B" stroke="#B8860B"/>
+  <ellipse cx="7.5" cy="9.5" rx="3.5" ry="1.5" fill="#F5C33B" stroke="#B8860B"/>
+  <ellipse cx="7.5" cy="7.5" rx="3.5" ry="1.5" fill="#FDEBB0" stroke="#B8860B"/></symbol>
+<symbol id="i20-accumulation_register" viewBox="0 0 20 20"><path d="M1.5 1.5h13l4 4v13h-17z" fill="#FFFFFF" stroke="#5F6B7A" stroke-linejoin="round"/>
+  <path d="M14.5 1.5v4h4" fill="#D3E5F8" stroke="#5F6B7A" stroke-linejoin="round"/>
+  <ellipse cx="9" cy="14" rx="4.5" ry="2" fill="#F5C33B" stroke="#B8860B"/>
+  <ellipse cx="9" cy="11.5" rx="4.5" ry="2" fill="#F5C33B" stroke="#B8860B"/>
+  <ellipse cx="9" cy="9" rx="4.5" ry="2" fill="#FDEBB0" stroke="#B8860B"/></symbol>
+<symbol id="i24-accumulation_register" viewBox="0 0 24 24"><path d="M2 2h17l3 3v17H2z" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M19 2v3h3" fill="#D3E5F8" stroke="#5F6B7A" stroke-width="2" stroke-linejoin="round"/>
+  <ellipse cx="11" cy="17" rx="5" ry="2" fill="#F5C33B" stroke="#B8860B" stroke-width="1.5"/>
+  <ellipse cx="11" cy="14" rx="5" ry="2" fill="#F5C33B" stroke="#B8860B" stroke-width="1.5"/>
+  <ellipse cx="11" cy="11" rx="5" ry="2" fill="#FDEBB0" stroke="#B8860B" stroke-width="1.5"/></symbol>
+<symbol id="i32-accumulation_register" viewBox="0 0 32 32"><path d="M3 3h20l6 6v20H3z" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M23 3v6h6" fill="#D3E5F8" stroke="#5F6B7A" stroke-width="2" stroke-linejoin="round"/>
+  <ellipse cx="14" cy="22" rx="7" ry="3" fill="#F5C33B" stroke="#B8860B" stroke-width="2"/>
+  <ellipse cx="14" cy="18" rx="7" ry="3" fill="#F5C33B" stroke="#B8860B" stroke-width="2"/>
+  <ellipse cx="14" cy="14" rx="7" ry="3" fill="#FDEBB0" stroke="#B8860B" stroke-width="2"/></symbol>
+<symbol id="i16-accounting_register" viewBox="0 0 16 16"><path d="M1.5 1.5h10l3 3v10h-13z" fill="#FFFFFF" stroke="#5F6B7A" stroke-linejoin="round"/>
+  <path d="M11.5 1.5v3h3" fill="#D3E5F8" stroke="#5F6B7A" stroke-linejoin="round"/>
+  <path d="M3.5 5.5h7v3h-2v4h-3v-4h-2z" fill="#3B82C4" stroke="#23599A" stroke-linejoin="round"/></symbol>
+<symbol id="i20-accounting_register" viewBox="0 0 20 20"><path d="M1.5 1.5h13l4 4v13h-17z" fill="#FFFFFF" stroke="#5F6B7A" stroke-linejoin="round"/>
+  <path d="M14.5 1.5v4h4" fill="#D3E5F8" stroke="#5F6B7A" stroke-linejoin="round"/>
+  <path d="M4.5 7.5h9v3h-3v6h-3v-6h-3z" fill="#3B82C4" stroke="#23599A" stroke-linejoin="round"/></symbol>
+<symbol id="i24-accounting_register" viewBox="0 0 24 24"><path d="M2 2h17l3 3v17H2z" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M19 2v3h3" fill="#D3E5F8" stroke="#5F6B7A" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M6 8h10v4h-3v6H9v-6H6z" fill="#3B82C4" stroke="#23599A" stroke-width="2" stroke-linejoin="round"/></symbol>
+<symbol id="i32-accounting_register" viewBox="0 0 32 32"><path d="M3 3h20l6 6v20H3z" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M23 3v6h6" fill="#D3E5F8" stroke="#5F6B7A" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M7 12h12v6h-3v7h-6v-7H7z" fill="#3B82C4" stroke="#23599A" stroke-width="2" stroke-linejoin="round"/></symbol>
+<symbol id="i16-calculation_register" viewBox="0 0 16 16"><path d="M1.5 1.5h10l3 3v10h-13z" fill="#FFFFFF" stroke="#5F6B7A" stroke-linejoin="round"/>
+  <path d="M11.5 1.5v3h3" fill="#D3E5F8" stroke="#5F6B7A" stroke-linejoin="round"/>
+  <path d="M7.5 8.5l4 2-4 2-4-2z" fill="#237A45" stroke="#237A45" stroke-linejoin="round"/>
+  <path d="M7.5 5.5l4 2-4 2-4-2z" fill="#2F9E5A" stroke="#237A45" stroke-linejoin="round"/></symbol>
+<symbol id="i20-calculation_register" viewBox="0 0 20 20"><path d="M1.5 1.5h13l4 4v13h-17z" fill="#FFFFFF" stroke="#5F6B7A" stroke-linejoin="round"/>
+  <path d="M14.5 1.5v4h4" fill="#D3E5F8" stroke="#5F6B7A" stroke-linejoin="round"/>
+  <path d="M9.5 10l6 3-6 3-6-3z" fill="#237A45" stroke="#237A45" stroke-linejoin="round"/>
+  <path d="M9.5 6l6 3-6 3-6-3z" fill="#2F9E5A" stroke="#237A45" stroke-linejoin="round"/></symbol>
+<symbol id="i24-calculation_register" viewBox="0 0 24 24"><path d="M2 2h17l3 3v17H2z" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M19 2v3h3" fill="#D3E5F8" stroke="#5F6B7A" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M12 12l6 3-6 3-6-3z" fill="#237A45" stroke="#237A45" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M12 8l6 3-6 3-6-3z" fill="#2F9E5A" stroke="#237A45" stroke-width="2" stroke-linejoin="round"/></symbol>
+<symbol id="i32-calculation_register" viewBox="0 0 32 32"><path d="M3 3h20l6 6v20H3z" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M23 3v6h6" fill="#D3E5F8" stroke="#5F6B7A" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M15 16l8 4-8 4-8-4z" fill="#237A45" stroke="#237A45" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M15 11l8 4-8 4-8-4z" fill="#2F9E5A" stroke="#237A45" stroke-width="2" stroke-linejoin="round"/></symbol>
+<symbol id="i16-business_process" viewBox="0 0 16 16"><path d="M7 5h1v2h4v2h-1V8H4v1H3V7h4z" fill="#5F6B7A"/>
+  <rect x="5.5" y="1.5" width="4" height="3" fill="#3B82C4" stroke="#23599A"/>
+  <rect x="1.5" y="9.5" width="4" height="4" fill="#3B82C4" stroke="#23599A"/>
+  <path d="M11.5 8.5l3 3-3 3-3-3z" fill="#F2A03D" stroke="#C9711A" stroke-linejoin="round"/></symbol>
+<symbol id="i20-business_process" viewBox="0 0 20 20"><path d="M9 6h1v2h5v2h-1V9H5v1H4V8h5z" fill="#5F6B7A"/>
+  <rect x="6.5" y="1.5" width="6" height="4" fill="#3B82C4" stroke="#23599A"/>
+  <rect x="1.5" y="10.5" width="6" height="6" fill="#3B82C4" stroke="#23599A"/>
+  <path d="M14.5 9.5l4 4-4 4-4-4z" fill="#F2A03D" stroke="#C9711A" stroke-linejoin="round"/></symbol>
+<symbol id="i24-business_process" viewBox="0 0 24 24"><path d="M12 8v3M6 14v-3h12v3" fill="none" stroke="#5F6B7A" stroke-width="2"/>
+  <rect x="8" y="2" width="8" height="5" rx="1" fill="#3B82C4" stroke="#23599A" stroke-width="2"/>
+  <rect x="3" y="15" width="6" height="6" rx="1" fill="#3B82C4" stroke="#23599A" stroke-width="2"/>
+  <path d="M18 14l4 4-4 4-4-4z" fill="#F2A03D" stroke="#C9711A" stroke-width="2" stroke-linejoin="round"/></symbol>
+<symbol id="i32-business_process" viewBox="0 0 32 32"><path d="M16 11v4M8 19v-4h16v5" fill="none" stroke="#5F6B7A" stroke-width="2"/>
+  <rect x="11" y="3" width="10" height="7" rx="1" fill="#3B82C4" stroke="#23599A" stroke-width="2"/>
+  <rect x="4" y="20" width="8" height="8" rx="1" fill="#3B82C4" stroke="#23599A" stroke-width="2"/>
+  <path d="M24 20l4.5 4.5L24 29l-4.5-4.5z" fill="#F2A03D" stroke="#C9711A" stroke-width="2" stroke-linejoin="round"/></symbol>
+<symbol id="i16-task" viewBox="0 0 16 16"><rect x="2.5" y="2.5" width="11" height="12" rx="1" fill="#FFFFFF" stroke="#5F6B7A"/>
+  <rect x="5" y="1" width="6" height="3" rx="1" fill="#5F6B7A"/>
+  <path d="M4 5h2v2H4zM4 8h2v2H4z" fill="#2F9E5A"/>
+  <rect x="4" y="11" width="2" height="2" fill="#A9B4C0"/>
+  <path d="M7 5h5v2H7zM7 8h5v2H7zM7 11h4v2H7z" fill="#A9B4C0"/></symbol>
+<symbol id="i20-task" viewBox="0 0 20 20"><rect x="3.5" y="3.5" width="13" height="15" rx="1" fill="#FFFFFF" stroke="#5F6B7A"/>
+  <rect x="7" y="1" width="6" height="4" rx="1" fill="#5F6B7A"/>
+  <path d="M5 7h2v2H5zM5 11h2v2H5z" fill="#2F9E5A"/>
+  <rect x="5" y="15" width="2" height="2" fill="#A9B4C0"/>
+  <path d="M9 7h6v2H9zM9 11h6v2H9zM9 15h4v2H9z" fill="#A9B4C0"/></symbol>
+<symbol id="i24-task" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="18" rx="1" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2"/>
+  <rect x="8" y="1" width="8" height="5" rx="1" fill="#5F6B7A"/>
+  <rect x="10" y="2" width="4" height="2" fill="#FFFFFF"/>
+  <path d="M7 8h2v2H7zM7 12h2v2H7z" fill="#2F9E5A"/>
+  <rect x="7" y="16" width="2" height="2" fill="#A9B4C0"/>
+  <path d="M11 8h7v2h-7zM11 12h7v2h-7zM11 16h5v2h-5z" fill="#A9B4C0"/></symbol>
+<symbol id="i32-task" viewBox="0 0 32 32"><rect x="5" y="5" width="22" height="24" rx="2" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2"/>
+  <rect x="11" y="2" width="10" height="6" rx="1" fill="#5F6B7A"/>
+  <rect x="14" y="4" width="4" height="2" rx="1" fill="#FFFFFF"/>
+  <rect x="9" y="10" width="4" height="4" rx="1" fill="#2F9E5A"/>
+  <rect x="9" y="16" width="4" height="4" rx="1" fill="#2F9E5A"/>
+  <rect x="9" y="22" width="4" height="4" rx="1" fill="#A9B4C0"/>
+  <rect x="15" y="11" width="9" height="2" rx="1" fill="#A9B4C0"/>
+  <rect x="15" y="17" width="9" height="2" rx="1" fill="#A9B4C0"/>
+  <rect x="15" y="23" width="6" height="2" rx="1" fill="#A9B4C0"/></symbol>
+<symbol id="i16-external_data_source" viewBox="0 0 16 16"><path d="M6.5 3.5v9c0 .8 1.8 1.5 4 1.5s4-.7 4-1.5v-9" fill="#3B82C4" stroke="#23599A"/>
+  <ellipse cx="10.5" cy="3.5" rx="4" ry="1.5" fill="#D3E5F8" stroke="#23599A"/>
+  <path d="M1.5 9.5l1-1h4l-1 1z" fill="#FDEBB0" stroke="#B8860B" stroke-linejoin="round"/>
+  <path d="M5.5 9.5l1-1v4l-1 1z" fill="#B8860B" stroke="#B8860B" stroke-linejoin="round"/>
+  <rect x="1.5" y="9.5" width="4" height="4" fill="#F5C33B" stroke="#B8860B"/></symbol>
+<symbol id="i20-external_data_source" viewBox="0 0 20 20"><path d="M8.5 4.5v11c0 1 2.2 2 5 2s5-1 5-2v-11" fill="#3B82C4" stroke="#23599A"/>
+  <ellipse cx="13.5" cy="4.5" rx="5" ry="2" fill="#D3E5F8" stroke="#23599A"/>
+  <path d="M1.5 11.5L3 10h6l-1.5 1.5z" fill="#FDEBB0" stroke="#B8860B" stroke-linejoin="round"/>
+  <path d="M7.5 11.5L9 10v6l-1.5 1.5z" fill="#B8860B" stroke="#B8860B" stroke-linejoin="round"/>
+  <rect x="1.5" y="11.5" width="6" height="6" fill="#F5C33B" stroke="#B8860B"/></symbol>
+<symbol id="i24-external_data_source" viewBox="0 0 24 24"><path d="M10 5v13c0 1.1 2.7 2 6 2s6-.9 6-2V5" fill="#3B82C4" stroke="#23599A" stroke-width="2"/>
+  <ellipse cx="16" cy="5" rx="6" ry="2.5" fill="#D3E5F8" stroke="#23599A" stroke-width="2"/>
+  <path d="M2 14l2-2h7l-2 2z" fill="#FDEBB0" stroke="#B8860B" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M9 14l2-2v7l-2 2z" fill="#B8860B" stroke="#B8860B" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="2" y="14" width="7" height="7" fill="#F5C33B" stroke="#B8860B" stroke-width="2"/></symbol>
+<symbol id="i32-external_data_source" viewBox="0 0 32 32"><path d="M13 6v18c0 1.7 3.6 3 8 3s8-1.3 8-3V6" fill="#3B82C4" stroke="#23599A" stroke-width="2"/>
+  <ellipse cx="21" cy="6" rx="8" ry="3" fill="#D3E5F8" stroke="#23599A" stroke-width="2"/>
+  <path d="M3 18l3-3h9l-3 3z" fill="#FDEBB0" stroke="#B8860B" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M12 18l3-3v9l-3 3z" fill="#B8860B" stroke="#B8860B" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="3" y="18" width="9" height="9" fill="#F5C33B" stroke="#B8860B" stroke-width="2"/></symbol>
+<symbol id="i16-attribute" viewBox="0 0 16 16"><rect x="1.5" y="4.5" width="13" height="7" rx="1" fill="#FFFFFF" stroke="#2B6CB0"/>
+  <rect x="3" y="6" width="2" height="4" fill="#8250C4"/>
+  <rect x="7" y="7" width="5" height="2" fill="#5F6B7A"/></symbol>
+<symbol id="i20-attribute" viewBox="0 0 20 20"><rect x="1.5" y="5.5" width="17" height="9" rx="1" fill="#FFFFFF" stroke="#2B6CB0"/>
+  <rect x="4" y="7" width="2" height="6" fill="#8250C4"/>
+  <rect x="9" y="9" width="7" height="2" fill="#5F6B7A"/></symbol>
+<symbol id="i24-attribute" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="10" rx="1" fill="#FFFFFF" stroke="#2B6CB0" stroke-width="2"/>
+  <rect x="6" y="10" width="3" height="4" fill="#8250C4"/>
+  <rect x="12" y="11" width="6" height="2" fill="#5F6B7A"/></symbol>
+<symbol id="i32-attribute" viewBox="0 0 32 32"><rect x="3" y="9" width="26" height="14" rx="2" fill="#FFFFFF" stroke="#2B6CB0" stroke-width="2"/>
+  <rect x="7" y="12" width="4" height="8" rx="1" fill="#8250C4"/>
+  <rect x="15" y="15" width="10" height="2" rx="1" fill="#5F6B7A"/></symbol>
+<symbol id="i16-addressing_attribute" viewBox="0 0 16 16"><rect x="1.5" y="4.5" width="13" height="7" rx="1" fill="#FFFFFF" stroke="#237A45"/>
+  <rect x="3" y="6" width="2" height="4" fill="#2F9E5A"/>
+  <rect x="7" y="7" width="5" height="2" fill="#5F6B7A"/></symbol>
+<symbol id="i20-addressing_attribute" viewBox="0 0 20 20"><rect x="1.5" y="5.5" width="17" height="9" rx="1" fill="#FFFFFF" stroke="#237A45"/>
+  <rect x="4" y="7" width="2" height="6" fill="#2F9E5A"/>
+  <rect x="9" y="9" width="7" height="2" fill="#5F6B7A"/></symbol>
+<symbol id="i24-addressing_attribute" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="10" rx="1" fill="#FFFFFF" stroke="#237A45" stroke-width="2"/>
+  <rect x="6" y="10" width="3" height="4" fill="#2F9E5A"/>
+  <rect x="12" y="11" width="6" height="2" fill="#5F6B7A"/></symbol>
+<symbol id="i32-addressing_attribute" viewBox="0 0 32 32"><rect x="3" y="9" width="26" height="14" rx="2" fill="#FFFFFF" stroke="#237A45" stroke-width="2"/>
+  <rect x="7" y="12" width="4" height="8" rx="1" fill="#2F9E5A"/>
+  <rect x="15" y="15" width="10" height="2" rx="1" fill="#5F6B7A"/></symbol>
+<symbol id="i16-tabular_section" viewBox="0 0 16 16"><rect x="1.5" y="2.5" width="13" height="11" rx="1" fill="#FFFFFF" stroke="#5F6B7A"/>
+  <rect x="2" y="3" width="12" height="2" fill="#3B82C4"/>
+  <path d="M2 7.5h12M2 10.5h12M5.5 5v8" fill="none" stroke="#A9B4C0"/></symbol>
+<symbol id="i20-tabular_section" viewBox="0 0 20 20"><rect x="1.5" y="2.5" width="17" height="15" rx="1" fill="#FFFFFF" stroke="#5F6B7A"/>
+  <rect x="2" y="3" width="16" height="3" fill="#3B82C4"/>
+  <path d="M2 9.5h16M2 13.5h16M6.5 6v11" fill="none" stroke="#A9B4C0"/></symbol>
+<symbol id="i24-tabular_section" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="1" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2"/>
+  <rect x="4" y="5" width="16" height="3" fill="#3B82C4"/>
+  <path d="M4 11.5h16M4 15.5h16M8.5 8v11" fill="none" stroke="#B8C2CC"/></symbol>
+<symbol id="i32-tabular_section" viewBox="0 0 32 32"><rect x="3" y="5" width="26" height="22" rx="2" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2"/>
+  <rect x="4" y="6" width="24" height="4" fill="#3B82C4"/>
+  <path d="M4 15h24M4 21h24M11 10v16" fill="none" stroke="#B8C2CC" stroke-width="2"/></symbol>
+<symbol id="i16-form" viewBox="0 0 16 16"><rect x="1.5" y="1.5" width="13" height="13" rx="1" fill="#FFFFFF" stroke="#5F6B7A"/>
+  <rect x="2" y="2" width="12" height="2" fill="#3B82C4"/>
+  <path d="M3 6h3v1H3zM3 10h3v1H3z" fill="#5F6B7A"/>
+  <rect x="7.5" y="5.5" width="5" height="2" fill="#D3E5F8" stroke="#2B6CB0"/>
+  <rect x="7.5" y="9.5" width="5" height="2" fill="#D3E5F8" stroke="#2B6CB0"/></symbol>
+<symbol id="i20-form" viewBox="0 0 20 20"><rect x="1.5" y="1.5" width="17" height="17" rx="1" fill="#FFFFFF" stroke="#5F6B7A"/>
+  <rect x="2" y="2" width="16" height="3" fill="#3B82C4"/>
+  <path d="M4 8h4v1H4zM4 13h4v1H4z" fill="#5F6B7A"/>
+  <rect x="9.5" y="6.5" width="6" height="3" fill="#D3E5F8" stroke="#2B6CB0"/>
+  <rect x="9.5" y="11.5" width="6" height="3" fill="#D3E5F8" stroke="#2B6CB0"/></symbol>
+<symbol id="i24-form" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2"/>
+  <rect x="4" y="4" width="16" height="3" fill="#3B82C4"/>
+  <path d="M6 10h4v2H6zM6 15h4v2H6z" fill="#5F6B7A"/>
+  <rect x="11.5" y="9.5" width="6" height="3" fill="#D3E5F8" stroke="#2B6CB0"/>
+  <rect x="11.5" y="14.5" width="6" height="3" fill="#D3E5F8" stroke="#2B6CB0"/></symbol>
+<symbol id="i32-form" viewBox="0 0 32 32"><rect x="3" y="3" width="26" height="26" rx="2" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2"/>
+  <rect x="4" y="4" width="24" height="4" fill="#3B82C4"/>
+  <rect x="7" y="13" width="6" height="2" rx="1" fill="#5F6B7A"/>
+  <rect x="7" y="21" width="6" height="2" rx="1" fill="#5F6B7A"/>
+  <rect x="16" y="11" width="9" height="5" rx="1" fill="#D3E5F8" stroke="#2B6CB0" stroke-width="2"/>
+  <rect x="16" y="19" width="9" height="5" rx="1" fill="#D3E5F8" stroke="#2B6CB0" stroke-width="2"/></symbol>
+<symbol id="i16-command" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6.5" fill="#FFFFFF" stroke="#2B6CB0"/>
+  <path d="M6 4.5l5.5 3.5L6 11.5z" fill="#3B82C4"/></symbol>
+<symbol id="i20-command" viewBox="0 0 20 20"><circle cx="10" cy="10" r="8.5" fill="#FFFFFF" stroke="#2B6CB0"/>
+  <path d="M8 6l6 4-6 4z" fill="#3B82C4"/></symbol>
+<symbol id="i24-command" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="#FFFFFF" stroke="#2B6CB0" stroke-width="2"/>
+  <path d="M9 7l8 5-8 5z" fill="#3B82C4"/></symbol>
+<symbol id="i32-command" viewBox="0 0 32 32"><circle cx="16" cy="16" r="13" fill="#FFFFFF" stroke="#2B6CB0" stroke-width="2"/>
+  <path d="M12 9l11 7-11 7z" fill="#3B82C4" stroke="#3B82C4" stroke-width="1.5" stroke-linejoin="round"/></symbol>
+<symbol id="i16-template" viewBox="0 0 16 16"><rect x="1.5" y="1.5" width="13" height="13" rx="1" fill="#FFFFFF" stroke="#5F6B7A"/>
+  <rect x="3.5" y="3.5" width="9" height="9" fill="none" stroke="#D64545" stroke-dasharray="2 1"/>
+  <path d="M5 6h6v1H5zM5 9h4v1H5z" fill="#5F6B7A"/></symbol>
+<symbol id="i20-template" viewBox="0 0 20 20"><rect x="1.5" y="1.5" width="17" height="17" rx="1" fill="#FFFFFF" stroke="#5F6B7A"/>
+  <rect x="4.5" y="4.5" width="11" height="11" fill="none" stroke="#D64545" stroke-dasharray="2 1"/>
+  <path d="M7 8h6v1H7zM7 11h4v1H7z" fill="#5F6B7A"/></symbol>
+<symbol id="i24-template" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2"/>
+  <rect x="7" y="7" width="10" height="10" fill="none" stroke="#D64545" stroke-width="2" stroke-dasharray="3 2"/>
+  <path d="M10 10h5v2h-5zM10 13h3v2h-3z" fill="#5F6B7A"/></symbol>
+<symbol id="i32-template" viewBox="0 0 32 32"><rect x="3" y="3" width="26" height="26" rx="2" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2"/>
+  <rect x="8" y="8" width="16" height="16" fill="none" stroke="#D64545" stroke-width="2" stroke-dasharray="4 2"/>
+  <rect x="12" y="12" width="9" height="2" rx="1" fill="#5F6B7A"/>
+  <rect x="12" y="17" width="5" height="2" rx="1" fill="#5F6B7A"/></symbol>
+<symbol id="i16-dimension" viewBox="0 0 16 16"><path d="M3 1h1v1h1v1h1v1H1V3h1V2h1zM3 4h1v6H3zM5 11h7v1H5zM12 9h1v1h1v1h1v1h-1v1h-1v1h-1z" fill="#5F6B7A"/>
+  <rect x="2" y="10" width="3" height="3" fill="#D64545"/></symbol>
+<symbol id="i20-dimension" viewBox="0 0 20 20"><path d="M3 2h1v1h1v1h1v1H1V4h1V3h1zM3 5h1v9H3zM5 15h10v1H5zM15 13h1v1h1v1h1v1h-1v1h-1v1h-1z" fill="#5F6B7A"/>
+  <rect x="2" y="14" width="3" height="3" fill="#D64545"/></symbol>
+<symbol id="i24-dimension" viewBox="0 0 24 24"><path d="M4 2l3 5H1zM3 7h2v10H3zM6 18h11v2H6zM23 19l-6 3v-6z" fill="#5F6B7A"/>
+  <rect x="2" y="17" width="4" height="4" fill="#D64545"/></symbol>
+<symbol id="i32-dimension" viewBox="0 0 32 32"><path d="M7 2l5 7H2zM6 9h2v10H6zM11 22h12v2H11zM30 23l-7 5V18z" fill="#5F6B7A"/>
+  <rect x="4" y="20" width="6" height="6" rx="1" fill="#D64545" stroke="#A83232" stroke-width="2"/></symbol>
+<symbol id="i16-resource" viewBox="0 0 16 16"><path d="M2.5 13.5C2.5 6.5 6.5 2.5 13.5 2.5c0 7-4 11-11 11z" fill="#2F9E5A" stroke="#237A45" stroke-linejoin="round"/>
+  <path d="M4.5 11.5l6-6" fill="none" stroke="#FFFFFF" stroke-linecap="round"/></symbol>
+<symbol id="i20-resource" viewBox="0 0 20 20"><path d="M2.5 17.5C2.5 8.5 8.5 2.5 17.5 2.5c0 9-6 15-15 15z" fill="#2F9E5A" stroke="#237A45" stroke-linejoin="round"/>
+  <path d="M5 15l8-8" fill="none" stroke="#FFFFFF" stroke-linecap="round"/></symbol>
+<symbol id="i24-resource" viewBox="0 0 24 24"><path d="M3 21C3 10.5 10.5 3 21 3c0 10.5-7.5 18-18 18z" fill="#2F9E5A" stroke="#237A45" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M6.5 17.5l9-9" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/></symbol>
+<symbol id="i32-resource" viewBox="0 0 32 32"><path d="M4 28C4 14 14 4 28 4c0 14-10 24-24 24z" fill="#2F9E5A" stroke="#237A45" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M8 24L20 12" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/></symbol>
+<symbol id="i16-enum_value" viewBox="0 0 16 16"><path d="M3 2h2v1H3zM2 3h1v4H2zM1 7h1v2H1zM2 9h1v4H2zM3 13h2v1H3zM11 2h2v1h-2zM13 3h1v4h-1zM14 7h1v2h-1zM13 9h1v4h-1zM11 13h2v1h-2z" fill="#2B6CB0"/>
+  <path d="M7 6h2v1h1v2H9v1H7V9H6V7h1z" fill="#E07B1F"/></symbol>
+<symbol id="i20-enum_value" viewBox="0 0 20 20"><path d="M3 2h3v1H3zM2 3h1v6H2zM1 9h1v2H1zM2 11h1v6H2zM3 17h3v1H3zM14 2h3v1h-3zM17 3h1v6h-1zM18 9h1v2h-1zM17 11h1v6h-1zM14 17h3v1h-3z" fill="#2B6CB0"/>
+  <path d="M9 8h2v1h1v2h-1v1H9v-1H8V9h1z" fill="#E07B1F"/></symbol>
+<symbol id="i24-enum_value" viewBox="0 0 24 24"><path d="M8 3H7a2 2 0 0 0-2 2v5l-2 2 2 2v5a2 2 0 0 0 2 2h1M16 3h1a2 2 0 0 1 2 2v5l2 2-2 2v5a2 2 0 0 1-2 2h-1" fill="none" stroke="#2B6CB0" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="12" cy="12" r="3" fill="#E07B1F"/></symbol>
+<symbol id="i32-enum_value" viewBox="0 0 32 32"><path d="M10 4H8a2 2 0 0 0-2 2v7l-3 3 3 3v7a2 2 0 0 0 2 2h2M22 4h2a2 2 0 0 1 2 2v7l3 3-3 3v7a2 2 0 0 1-2 2h-2" fill="none" stroke="#2B6CB0" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="16" cy="16" r="4" fill="#E07B1F"/></symbol>
+<symbol id="i16-column" viewBox="0 0 16 16"><rect x="4.5" y="1.5" width="7" height="13" rx="1" fill="#FFFFFF" stroke="#5F6B7A"/>
+  <rect x="5" y="2" width="6" height="2" fill="#3B82C4"/>
+  <path d="M5 7.5h6M5 10.5h6" fill="none" stroke="#A9B4C0"/></symbol>
+<symbol id="i20-column" viewBox="0 0 20 20"><rect x="5.5" y="1.5" width="9" height="17" rx="1" fill="#FFFFFF" stroke="#5F6B7A"/>
+  <rect x="6" y="2" width="8" height="3" fill="#3B82C4"/>
+  <path d="M6 9.5h8M6 13.5h8" fill="none" stroke="#A9B4C0"/></symbol>
+<symbol id="i24-column" viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="20" rx="1" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2"/>
+  <rect x="8" y="3" width="8" height="3" fill="#3B82C4"/>
+  <path d="M8 10.5h8M8 16.5h8" fill="none" stroke="#B8C2CC"/></symbol>
+<symbol id="i32-column" viewBox="0 0 32 32"><rect x="9" y="3" width="14" height="26" rx="2" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2"/>
+  <rect x="10" y="4" width="12" height="4" fill="#3B82C4"/>
+  <path d="M10 14h12M10 22h12" fill="none" stroke="#B8C2CC" stroke-width="2"/></symbol>
+<symbol id="i16-accounting_flag" viewBox="0 0 16 16"><rect x="1.5" y="1.5" width="11" height="5" rx="1" fill="#FFFFFF" stroke="#2B6CB0"/>
+  <rect x="3" y="3" width="2" height="2" fill="#8250C4"/>
+  <rect x="6" y="3" width="5" height="2" fill="#5F6B7A"/>
+  <rect x="8.5" y="8.5" width="6" height="6" rx="1" fill="#2F9E5A" stroke="#237A45"/>
+  <path d="M9.8 11.6l1.6 1.6 2.6-3" fill="none" stroke="#FFFFFF" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i20-accounting_flag" viewBox="0 0 20 20"><rect x="1.5" y="1.5" width="13" height="7" rx="1" fill="#FFFFFF" stroke="#2B6CB0"/>
+  <rect x="3" y="3" width="2" height="4" fill="#8250C4"/>
+  <rect x="7" y="4" width="5" height="2" fill="#5F6B7A"/>
+  <rect x="10.5" y="10.5" width="8" height="8" rx="1" fill="#2F9E5A" stroke="#237A45"/>
+  <path d="M12.5 14.5l2 2 3.5-4" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i24-accounting_flag" viewBox="0 0 24 24"><rect x="2" y="2" width="15" height="8" rx="1" fill="#FFFFFF" stroke="#2B6CB0" stroke-width="2"/>
+  <rect x="5" y="5" width="2" height="2" fill="#8250C4"/>
+  <rect x="9" y="5" width="5" height="2" fill="#5F6B7A"/>
+  <rect x="13" y="13" width="9" height="9" rx="1" fill="#2F9E5A" stroke="#237A45" stroke-width="2"/>
+  <path d="M15.5 17.5l2 2 3.5-4" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i32-accounting_flag" viewBox="0 0 32 32"><rect x="3" y="3" width="20" height="10" rx="2" fill="#FFFFFF" stroke="#2B6CB0" stroke-width="2"/>
+  <rect x="6" y="6" width="3" height="4" rx="1" fill="#8250C4"/>
+  <rect x="12" y="7" width="8" height="2" rx="1" fill="#5F6B7A"/>
+  <rect x="17" y="17" width="12" height="12" rx="2" fill="#2F9E5A" stroke="#237A45" stroke-width="2"/>
+  <path d="M20 23l3 3 5-6" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i16-ext_dimension_accounting_flag" viewBox="0 0 16 16"><rect x="1.5" y="1.5" width="8" height="5" rx="1" fill="#FFFFFF" stroke="#2B6CB0"/>
+  <rect x="3" y="3" width="2" height="2" fill="#8250C4"/>
+  <rect x="6" y="3" width="2" height="2" fill="#5F6B7A"/>
+  <rect x="10.5" y="7.5" width="4" height="4" rx="1" fill="#FFFFFF" stroke="#237A45"/>
+  <rect x="7.5" y="9.5" width="5" height="5" rx="1" fill="#2F9E5A" stroke="#237A45"/>
+  <path d="M8.9 12.1l1.1 1.1 1.8-2.2" fill="none" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i20-ext_dimension_accounting_flag" viewBox="0 0 20 20"><rect x="1.5" y="1.5" width="10" height="7" rx="1" fill="#FFFFFF" stroke="#2B6CB0"/>
+  <rect x="3" y="3" width="2" height="4" fill="#8250C4"/>
+  <rect x="7" y="4" width="3" height="2" fill="#5F6B7A"/>
+  <rect x="13.5" y="8.5" width="5" height="5" rx="1" fill="#FFFFFF" stroke="#237A45"/>
+  <rect x="9.5" y="11.5" width="7" height="7" rx="1" fill="#2F9E5A" stroke="#237A45"/>
+  <path d="M11.5 15l1.7 1.7 3-3.5" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i24-ext_dimension_accounting_flag" viewBox="0 0 24 24"><rect x="2" y="2" width="12" height="8" rx="1" fill="#FFFFFF" stroke="#2B6CB0" stroke-width="2"/>
+  <rect x="5" y="5" width="2" height="2" fill="#8250C4"/>
+  <rect x="9" y="5" width="3" height="2" fill="#5F6B7A"/>
+  <rect x="16" y="10" width="6" height="6" rx="1" fill="#FFFFFF" stroke="#237A45" stroke-width="2"/>
+  <rect x="11" y="14" width="8" height="8" rx="1" fill="#2F9E5A" stroke="#237A45" stroke-width="2"/>
+  <path d="M13 18l2 2 3-3.5" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i32-ext_dimension_accounting_flag" viewBox="0 0 32 32"><rect x="3" y="3" width="16" height="10" rx="2" fill="#FFFFFF" stroke="#2B6CB0" stroke-width="2"/>
+  <rect x="6" y="6" width="3" height="4" rx="1" fill="#8250C4"/>
+  <rect x="12" y="7" width="4" height="2" rx="1" fill="#5F6B7A"/>
+  <rect x="21" y="12" width="8" height="8" rx="2" fill="#FFFFFF" stroke="#237A45" stroke-width="2"/>
+  <rect x="15" y="17" width="12" height="12" rx="2" fill="#2F9E5A" stroke="#237A45" stroke-width="2"/>
+  <path d="M18 23l3 3 5-6" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i16-recalculation" viewBox="0 0 16 16"><path d="M3.5 9A4.5 4.5 0 1 0 8 4.5" fill="none" stroke="#2F9E5A" stroke-width="2"/>
+  <path d="M4 4.5L8 1.5v6z" fill="#2F9E5A"/></symbol>
+<symbol id="i20-recalculation" viewBox="0 0 20 20"><path d="M4.5 11A5.5 5.5 0 1 0 10 5.5" fill="none" stroke="#2F9E5A" stroke-width="2.5"/>
+  <path d="M5 5.5L10 2v7z" fill="#2F9E5A"/></symbol>
+<symbol id="i24-recalculation" viewBox="0 0 24 24"><path d="M5 13A7 7 0 1 0 12 6" fill="none" stroke="#2F9E5A" stroke-width="3"/>
+  <path d="M6 6l6-4.5v9z" fill="#2F9E5A"/></symbol>
+<symbol id="i32-recalculation" viewBox="0 0 32 32"><path d="M6.5 17A9.5 9.5 0 1 0 16 7.5" fill="none" stroke="#2F9E5A" stroke-width="4"/>
+  <path d="M8 7.5L16 2v11z" fill="#2F9E5A"/></symbol>
+<symbol id="i16-web_service_operation" viewBox="0 0 16 16"><circle cx="6" cy="6" r="4.5" fill="#3B82C4"/>
+  <ellipse cx="6" cy="6" rx="1.5" ry="4.5" fill="none" stroke="#D3E5F8"/>
+  <path d="M1.5 5.5h9" fill="none" stroke="#D3E5F8"/>
+  <circle cx="6" cy="6" r="4.5" fill="none" stroke="#23599A"/>
+  <circle cx="11" cy="11" r="3.5" fill="#2F9E5A" stroke="#237A45"/>
+  <path d="M10 9l3 2-3 2z" fill="#FFFFFF"/></symbol>
+<symbol id="i20-web_service_operation" viewBox="0 0 20 20"><circle cx="7" cy="7" r="5.5" fill="#3B82C4"/>
+  <ellipse cx="7" cy="7" rx="2.5" ry="5.5" fill="none" stroke="#D3E5F8"/>
+  <path d="M1.5 6.5h11" fill="none" stroke="#D3E5F8"/>
+  <circle cx="7" cy="7" r="5.5" fill="none" stroke="#23599A"/>
+  <circle cx="14" cy="14" r="4.5" fill="#2F9E5A" stroke="#237A45"/>
+  <path d="M12.5 11.5l4 2.5-4 2.5z" fill="#FFFFFF"/></symbol>
+<symbol id="i24-web_service_operation" viewBox="0 0 24 24"><circle cx="8" cy="8" r="6" fill="#3B82C4"/>
+  <ellipse cx="8" cy="8" rx="2.5" ry="6" fill="none" stroke="#D3E5F8" stroke-width="2"/>
+  <path d="M2 8h12" fill="none" stroke="#D3E5F8" stroke-width="2"/>
+  <circle cx="8" cy="8" r="6" fill="none" stroke="#23599A" stroke-width="2"/>
+  <circle cx="16" cy="16" r="6" fill="#2F9E5A" stroke="#237A45" stroke-width="2"/>
+  <path d="M14 13l5 3-5 3z" fill="#FFFFFF"/></symbol>
+<symbol id="i32-web_service_operation" viewBox="0 0 32 32"><circle cx="12" cy="12" r="9" fill="#3B82C4"/>
+  <ellipse cx="12" cy="12" rx="3.5" ry="9" fill="none" stroke="#D3E5F8" stroke-width="2"/>
+  <path d="M3 12h18" fill="none" stroke="#D3E5F8" stroke-width="2"/>
+  <circle cx="12" cy="12" r="9" fill="none" stroke="#23599A" stroke-width="2"/>
+  <circle cx="22" cy="22" r="7" fill="#2F9E5A" stroke="#237A45" stroke-width="2"/>
+  <path d="M19.5 18l6.5 4-6.5 4z" fill="#FFFFFF"/></symbol>
+<symbol id="i16-parameter" viewBox="0 0 16 16"><path d="M8 1.5L14.5 8 8 14.5 1.5 8z" fill="#3B82C4" stroke="#23599A" stroke-linejoin="round"/>
+  <path d="M8 5.5l2.5 2.5L8 10.5 5.5 8z" fill="#FFFFFF"/></symbol>
+<symbol id="i20-parameter" viewBox="0 0 20 20"><path d="M10 1.5L18.5 10 10 18.5 1.5 10z" fill="#3B82C4" stroke="#23599A" stroke-linejoin="round"/>
+  <path d="M10 6.5l3.5 3.5-3.5 3.5L6.5 10z" fill="#FFFFFF"/></symbol>
+<symbol id="i24-parameter" viewBox="0 0 24 24"><path d="M12 2l10 10-10 10L2 12z" fill="#3B82C4" stroke="#23599A" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M12 8l4 4-4 4-4-4z" fill="#FFFFFF"/></symbol>
+<symbol id="i32-parameter" viewBox="0 0 32 32"><path d="M16 3l13 13-13 13L3 16z" fill="#3B82C4" stroke="#23599A" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M16 10l6 6-6 6-6-6z" fill="#FFFFFF"/></symbol>
+<symbol id="i16-url_template" viewBox="0 0 16 16"><rect x="1.5" y="4.5" width="13" height="7" rx="3.5" fill="#FFFFFF" stroke="#2B6CB0"/>
+  <path d="M7 6h1v1H7zM6 7h1v1H6zM5 8h1v1H5zM4 9h1v1H4zM11 6h1v1h-1zM10 7h1v1h-1zM9 8h1v1H9zM8 9h1v1H8z" fill="#E07B1F"/></symbol>
+<symbol id="i20-url_template" viewBox="0 0 20 20"><rect x="1.5" y="5.5" width="17" height="9" rx="4.5" fill="#FFFFFF" stroke="#2B6CB0"/>
+  <path d="M6.5 12.5l3-5M10.5 12.5l3-5" fill="none" stroke="#E07B1F" stroke-width="1.5" stroke-linecap="round"/></symbol>
+<symbol id="i24-url_template" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="10" rx="5" fill="#FFFFFF" stroke="#2B6CB0" stroke-width="2"/>
+  <path d="M8 15l3-6M12.5 15l3-6" fill="none" stroke="#E07B1F" stroke-width="2" stroke-linecap="round"/></symbol>
+<symbol id="i32-url_template" viewBox="0 0 32 32"><rect x="3" y="9" width="26" height="14" rx="7" fill="#FFFFFF" stroke="#2B6CB0" stroke-width="2"/>
+  <path d="M10.5 20l4-8M16.5 20l4-8" fill="none" stroke="#E07B1F" stroke-width="2.5" stroke-linecap="round"/></symbol>
+<symbol id="i16-method" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6.5" fill="#2F9E5A" stroke="#237A45"/>
+  <path d="M6 4.5l5.5 3.5L6 11.5z" fill="#FFFFFF"/></symbol>
+<symbol id="i20-method" viewBox="0 0 20 20"><circle cx="10" cy="10" r="8.5" fill="#2F9E5A" stroke="#237A45"/>
+  <path d="M8 6l6 4-6 4z" fill="#FFFFFF"/></symbol>
+<symbol id="i24-method" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="#2F9E5A" stroke="#237A45" stroke-width="2"/>
+  <path d="M9 7l8 5-8 5z" fill="#FFFFFF"/></symbol>
+<symbol id="i32-method" viewBox="0 0 32 32"><circle cx="16" cy="16" r="13" fill="#2F9E5A" stroke="#237A45" stroke-width="2"/>
+  <path d="M12 9l11 7-11 7z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.5" stroke-linejoin="round"/></symbol>
+<symbol id="i16-integration_service_channel" viewBox="0 0 16 16"><path d="M3.5 4.5h9a2 3.5 0 0 1 0 7h-9a2 3.5 0 0 1 0-7z" fill="#F2A03D" stroke="#C9711A"/>
+  <ellipse cx="12.5" cy="8" rx="2" ry="3.5" fill="#FCE0BD" stroke="#C9711A"/></symbol>
+<symbol id="i20-integration_service_channel" viewBox="0 0 20 20"><path d="M4.5 5.5h11a2.5 4.5 0 0 1 0 9h-11a2.5 4.5 0 0 1 0-9z" fill="#F2A03D" stroke="#C9711A"/>
+  <ellipse cx="15.5" cy="10" rx="2.5" ry="4.5" fill="#FCE0BD" stroke="#C9711A"/></symbol>
+<symbol id="i24-integration_service_channel" viewBox="0 0 24 24"><path d="M6 6h12a3 6 0 0 1 0 12H6a3 6 0 0 1 0-12z" fill="#F2A03D" stroke="#C9711A" stroke-width="2"/>
+  <ellipse cx="18" cy="12" rx="3" ry="6" fill="#FCE0BD" stroke="#C9711A" stroke-width="2"/></symbol>
+<symbol id="i32-integration_service_channel" viewBox="0 0 32 32"><path d="M8 8h16a4 8 0 0 1 0 16H8a4 8 0 0 1 0-16z" fill="#F2A03D" stroke="#C9711A" stroke-width="2"/>
+  <ellipse cx="24" cy="16" rx="4" ry="8" fill="#FCE0BD" stroke="#C9711A" stroke-width="2"/></symbol>
+<symbol id="i16-external_data_source_table" viewBox="0 0 16 16"><rect x="1.5" y="2.5" width="13" height="11" rx="1" fill="#FFFFFF" stroke="#5F6B7A"/>
+  <rect x="2" y="3" width="12" height="2" fill="#F5C33B"/>
+  <path d="M2 7.5h12M2 10.5h12M5.5 5v8M9.5 5v8" fill="none" stroke="#A9B4C0"/></symbol>
+<symbol id="i20-external_data_source_table" viewBox="0 0 20 20"><rect x="1.5" y="2.5" width="17" height="15" rx="1" fill="#FFFFFF" stroke="#5F6B7A"/>
+  <rect x="2" y="3" width="16" height="3" fill="#F5C33B"/>
+  <path d="M2 9.5h16M2 13.5h16M7.5 6v11M12.5 6v11" fill="none" stroke="#A9B4C0"/></symbol>
+<symbol id="i24-external_data_source_table" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="1" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2"/>
+  <rect x="4" y="5" width="16" height="3" fill="#F5C33B"/>
+  <path d="M4 11.5h16M4 15.5h16M9.5 8v11M14.5 8v11" fill="none" stroke="#B8C2CC"/></symbol>
+<symbol id="i32-external_data_source_table" viewBox="0 0 32 32"><rect x="3" y="5" width="26" height="22" rx="2" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2"/>
+  <rect x="4" y="6" width="24" height="4" fill="#F5C33B"/>
+  <path d="M4 15h24M4 21h24M12 10v16M20 10v16" fill="none" stroke="#B8C2CC" stroke-width="2"/></symbol>
+<symbol id="i16-field" viewBox="0 0 16 16"><rect x="1.5" y="4.5" width="13" height="7" rx="1" fill="#FFFFFF" stroke="#B8860B"/>
+  <rect x="3" y="6" width="2" height="4" fill="#F5C33B"/>
+  <rect x="7" y="7" width="5" height="2" fill="#5F6B7A"/></symbol>
+<symbol id="i20-field" viewBox="0 0 20 20"><rect x="1.5" y="5.5" width="17" height="9" rx="1" fill="#FFFFFF" stroke="#B8860B"/>
+  <rect x="4" y="7" width="2" height="6" fill="#F5C33B"/>
+  <rect x="9" y="9" width="7" height="2" fill="#5F6B7A"/></symbol>
+<symbol id="i24-field" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="10" rx="1" fill="#FFFFFF" stroke="#B8860B" stroke-width="2"/>
+  <rect x="6" y="10" width="3" height="4" fill="#F5C33B"/>
+  <rect x="12" y="11" width="6" height="2" fill="#5F6B7A"/></symbol>
+<symbol id="i32-field" viewBox="0 0 32 32"><rect x="3" y="9" width="26" height="14" rx="2" fill="#FFFFFF" stroke="#B8860B" stroke-width="2"/>
+  <rect x="7" y="12" width="4" height="8" rx="1" fill="#F5C33B"/>
+  <rect x="15" y="15" width="10" height="2" rx="1" fill="#5F6B7A"/></symbol>
+<symbol id="i16-cube" viewBox="0 0 16 16"><path d="M8 1.5l6 3-6 3-6-3z" fill="#FDEBB0" stroke="#B8860B" stroke-linejoin="round"/>
+  <path d="M2 4.5l6 3v7l-6-3z" fill="#F5C33B" stroke="#B8860B" stroke-linejoin="round"/>
+  <path d="M14 4.5v7l-6 3v-7z" fill="#B8860B" stroke="#B8860B" stroke-linejoin="round"/></symbol>
+<symbol id="i20-cube" viewBox="0 0 20 20"><path d="M10 1.5l8 4-8 4-8-4z" fill="#FDEBB0" stroke="#B8860B" stroke-linejoin="round"/>
+  <path d="M2 5.5l8 4v9l-8-4z" fill="#F5C33B" stroke="#B8860B" stroke-linejoin="round"/>
+  <path d="M18 5.5v9l-8 4v-9z" fill="#B8860B" stroke="#B8860B" stroke-linejoin="round"/></symbol>
+<symbol id="i24-cube" viewBox="0 0 24 24"><path d="M12 2l9 4.5-9 4.5L3 6.5z" fill="#FDEBB0" stroke="#B8860B" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M3 6.5l9 4.5v11l-9-4.5z" fill="#F5C33B" stroke="#B8860B" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M21 6.5v11l-9 4.5V11z" fill="#B8860B" stroke="#B8860B" stroke-width="2" stroke-linejoin="round"/></symbol>
+<symbol id="i32-cube" viewBox="0 0 32 32"><path d="M16 3l12 6-12 6L4 9z" fill="#FDEBB0" stroke="#B8860B" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M4 9l12 6v14L4 23z" fill="#F5C33B" stroke="#B8860B" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M28 9v14l-12 6V15z" fill="#B8860B" stroke="#B8860B" stroke-width="2" stroke-linejoin="round"/></symbol>
+<symbol id="i16-dimension_table" viewBox="0 0 16 16"><rect x="5.5" y="1.5" width="9" height="9" rx="1" fill="#FFFFFF" stroke="#5F6B7A"/>
+  <rect x="6" y="2" width="8" height="2" fill="#F5C33B"/>
+  <path d="M6 6.5h8M9.5 4v6" fill="none" stroke="#A9B4C0"/>
+  <path d="M2 4h1v1h1v1H1V5h1zM2 6h1v6H2zM4 13h8v1H4zM12 12h1v1h1v1h-1v1h-1z" fill="#5F6B7A"/>
+  <rect x="1" y="12" width="3" height="3" fill="#D64545"/></symbol>
+<symbol id="i20-dimension_table" viewBox="0 0 20 20"><rect x="7.5" y="1.5" width="11" height="11" rx="1" fill="#FFFFFF" stroke="#5F6B7A"/>
+  <rect x="8" y="2" width="10" height="3" fill="#F5C33B"/>
+  <path d="M8 8.5h10M12.5 5v7" fill="none" stroke="#A9B4C0"/>
+  <path d="M2 5h1v1h1v1H1V6h1zM2 7h1v8H2zM4 16h11v1H4zM15 15h1v1h1v1h-1v1h-1z" fill="#5F6B7A"/>
+  <rect x="1" y="15" width="3" height="3" fill="#D64545"/></symbol>
+<symbol id="i24-dimension_table" viewBox="0 0 24 24"><rect x="10" y="2" width="12" height="12" rx="1" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2"/>
+  <rect x="11" y="3" width="10" height="3" fill="#F5C33B"/>
+  <path d="M11 9.5h10M15.5 6v7" fill="none" stroke="#B8C2CC"/>
+  <path d="M4 3l3 5H1zM3 8h2v10H3zM6 19h11v2H6zM23 20l-6 3v-6z" fill="#5F6B7A"/>
+  <rect x="2" y="18" width="4" height="4" fill="#D64545"/></symbol>
+<symbol id="i32-dimension_table" viewBox="0 0 32 32"><rect x="14" y="3" width="15" height="15" rx="2" fill="#FFFFFF" stroke="#5F6B7A" stroke-width="2"/>
+  <rect x="15" y="4" width="13" height="4" fill="#F5C33B"/>
+  <path d="M15 12h13M21 8v9" fill="none" stroke="#B8C2CC" stroke-width="2"/>
+  <path d="M7 3l4.5 7h-9zM6 10h2v11H6zM11 24h12v2H11zM30 25l-6 4.5v-9z" fill="#5F6B7A"/>
+  <rect x="4" y="22" width="6" height="6" rx="1" fill="#D64545" stroke="#A83232" stroke-width="2"/></symbol>
+<symbol id="i16-function" viewBox="0 0 16 16"><path d="M7 2h3v1H7zM6 3h1v9H6zM4 6h2v1H4zM7 6h2v1H7zM5 12h1v1H5zM3 13h2v1H3z" fill="#2B6CB0"/>
+  <path d="M9 8h1v1H9zM13 8h1v1h-1zM10 9h1v1h-1zM12 9h1v1h-1zM11 10h1v1h-1zM10 11h1v1h-1zM12 11h1v1h-1zM9 12h1v1H9zM13 12h1v1h-1z" fill="#E07B1F"/></symbol>
+<symbol id="i20-function" viewBox="0 0 20 20"><path d="M12 2h-1a3 3 0 0 0-3 3v10a3 3 0 0 1-3 3H4M5 7h6" fill="none" stroke="#2B6CB0" stroke-width="2"/>
+  <path d="M11 10l5 6M16 10l-5 6" fill="none" stroke="#E07B1F" stroke-width="2" stroke-linecap="round"/></symbol>
+<symbol id="i24-function" viewBox="0 0 24 24"><path d="M14 2h-1.5A3.5 3.5 0 0 0 9 5.5v12A3.5 3.5 0 0 1 5.5 21H4M5 8h8" fill="none" stroke="#2B6CB0" stroke-width="2"/>
+  <path d="M13.5 12.5l6 7.5M19.5 12.5l-6 7.5" fill="none" stroke="#E07B1F" stroke-width="2" stroke-linecap="round"/></symbol>
+<symbol id="i32-function" viewBox="0 0 32 32"><path d="M20 3.5h-2.5a5 5 0 0 0-5 5v15a5 5 0 0 1-5 5H5M7 11.5h10" fill="none" stroke="#2B6CB0" stroke-width="3"/>
+  <path d="M17 16.5l8 10.5M25 16.5l-8 10.5" fill="none" stroke="#E07B1F" stroke-width="3" stroke-linecap="round"/></symbol>
 </defs>
-<rect width="800" height="2024" fill="#ffffff"/>
-<rect x="544" y="36" width="256" height="1944" fill="#252526"/>
+<rect width="800" height="5336" fill="#ffffff"/>
+<rect x="544" y="36" width="256" height="5256" fill="#252526"/>
 <rect width="800" height="36" fill="#f6f8fa"/>
 <text x="12" y="23" font-size="13" font-weight="600">Вид метаданных</text>
 <text x="282" y="23" font-size="13" font-weight="600" text-anchor="middle">16</text>
@@ -552,28 +1238,74 @@
 <use href="#i16-session_parameter" x="12" y="344" width="16" height="16"/><text x="34" y="357" font-size="13">Параметры сеанса</text><text x="34" y="376" font-size="10" fill="#57606a">МетаданныеПараметрСеанса</text><use href="#i16-session_parameter" x="274" y="352" width="16" height="16"/><use href="#i20-session_parameter" x="302" y="350" width="20" height="20"/><use href="#i24-session_parameter" x="334" y="348" width="24" height="24"/><use href="#i32-session_parameter" x="370" y="344" width="32" height="32"/><use href="#i32-session_parameter" x="414" y="336" width="48" height="48"/><use href="#i32-session_parameter" x="474" y="328" width="64" height="64"/><use href="#i16-session_parameter" x="556" y="352" width="16" height="16"/><text x="578" y="365" font-size="13" fill="#e6e6e6">Параметры сеанса</text><path d="M0 396.5H544" stroke="#d0d7de"/><path d="M544 396.5H800" stroke="#3c3c3c"/>
 <use href="#i16-role" x="12" y="416" width="16" height="16"/><text x="34" y="429" font-size="13">Роли</text><text x="34" y="448" font-size="10" fill="#57606a">МетаданныеРоль</text><use href="#i16-role" x="274" y="424" width="16" height="16"/><use href="#i20-role" x="302" y="422" width="20" height="20"/><use href="#i24-role" x="334" y="420" width="24" height="24"/><use href="#i32-role" x="370" y="416" width="32" height="32"/><use href="#i32-role" x="414" y="408" width="48" height="48"/><use href="#i32-role" x="474" y="400" width="64" height="64"/><use href="#i16-role" x="556" y="424" width="16" height="16"/><text x="578" y="437" font-size="13" fill="#e6e6e6">Роли</text><path d="M0 468.5H544" stroke="#d0d7de"/><path d="M544 468.5H800" stroke="#3c3c3c"/>
 <use href="#i16-common_attribute" x="12" y="488" width="16" height="16"/><text x="34" y="501" font-size="13">Общие реквизиты</text><text x="34" y="520" font-size="10" fill="#57606a">МетаданныеОбщийРеквизит</text><use href="#i16-common_attribute" x="274" y="496" width="16" height="16"/><use href="#i20-common_attribute" x="302" y="494" width="20" height="20"/><use href="#i24-common_attribute" x="334" y="492" width="24" height="24"/><use href="#i32-common_attribute" x="370" y="488" width="32" height="32"/><use href="#i32-common_attribute" x="414" y="480" width="48" height="48"/><use href="#i32-common_attribute" x="474" y="472" width="64" height="64"/><use href="#i16-common_attribute" x="556" y="496" width="16" height="16"/><text x="578" y="509" font-size="13" fill="#e6e6e6">Общие реквизиты</text><path d="M0 540.5H544" stroke="#d0d7de"/><path d="M544 540.5H800" stroke="#3c3c3c"/>
-<use href="#i16-event_subscription" x="12" y="560" width="16" height="16"/><text x="34" y="573" font-size="13">Подписки на события</text><text x="34" y="592" font-size="10" fill="#57606a">МетаданныеПодпискаНаСобытие</text><use href="#i16-event_subscription" x="274" y="568" width="16" height="16"/><use href="#i20-event_subscription" x="302" y="566" width="20" height="20"/><use href="#i24-event_subscription" x="334" y="564" width="24" height="24"/><use href="#i32-event_subscription" x="370" y="560" width="32" height="32"/><use href="#i32-event_subscription" x="414" y="552" width="48" height="48"/><use href="#i32-event_subscription" x="474" y="544" width="64" height="64"/><use href="#i16-event_subscription" x="556" y="568" width="16" height="16"/><text x="578" y="581" font-size="13" fill="#e6e6e6">Подписки на события</text><path d="M0 612.5H544" stroke="#d0d7de"/><path d="M544 612.5H800" stroke="#3c3c3c"/>
-<use href="#i16-functional_option" x="12" y="632" width="16" height="16"/><text x="34" y="645" font-size="13">Функциональные опции</text><text x="34" y="664" font-size="10" fill="#57606a">МетаданныеФункциональнаяОпция</text><use href="#i16-functional_option" x="274" y="640" width="16" height="16"/><use href="#i20-functional_option" x="302" y="638" width="20" height="20"/><use href="#i24-functional_option" x="334" y="636" width="24" height="24"/><use href="#i32-functional_option" x="370" y="632" width="32" height="32"/><use href="#i32-functional_option" x="414" y="624" width="48" height="48"/><use href="#i32-functional_option" x="474" y="616" width="64" height="64"/><use href="#i16-functional_option" x="556" y="640" width="16" height="16"/><text x="578" y="653" font-size="13" fill="#e6e6e6">Функциональные опции</text><path d="M0 684.5H544" stroke="#d0d7de"/><path d="M544 684.5H800" stroke="#3c3c3c"/>
-<use href="#i16-functional_option_parameter" x="12" y="704" width="16" height="16"/><text x="34" y="717" font-size="13">Параметры функциональных опций</text><text x="34" y="736" font-size="10" fill="#57606a">МетаданныеПараметрФункциональныхОпций</text><use href="#i16-functional_option_parameter" x="274" y="712" width="16" height="16"/><use href="#i20-functional_option_parameter" x="302" y="710" width="20" height="20"/><use href="#i24-functional_option_parameter" x="334" y="708" width="24" height="24"/><use href="#i32-functional_option_parameter" x="370" y="704" width="32" height="32"/><use href="#i32-functional_option_parameter" x="414" y="696" width="48" height="48"/><use href="#i32-functional_option_parameter" x="474" y="688" width="64" height="64"/><use href="#i16-functional_option_parameter" x="556" y="712" width="16" height="16"/><text x="578" y="725" font-size="13" fill="#e6e6e6">Параметры функциональных опций</text><path d="M0 756.5H544" stroke="#d0d7de"/><path d="M544 756.5H800" stroke="#3c3c3c"/>
-<use href="#i16-defined_type" x="12" y="776" width="16" height="16"/><text x="34" y="789" font-size="13">Определяемые типы</text><text x="34" y="808" font-size="10" fill="#57606a">МетаданныеОпределяемыйТип</text><use href="#i16-defined_type" x="274" y="784" width="16" height="16"/><use href="#i20-defined_type" x="302" y="782" width="20" height="20"/><use href="#i24-defined_type" x="334" y="780" width="24" height="24"/><use href="#i32-defined_type" x="370" y="776" width="32" height="32"/><use href="#i32-defined_type" x="414" y="768" width="48" height="48"/><use href="#i32-defined_type" x="474" y="760" width="64" height="64"/><use href="#i16-defined_type" x="556" y="784" width="16" height="16"/><text x="578" y="797" font-size="13" fill="#e6e6e6">Определяемые типы</text><path d="M0 828.5H544" stroke="#d0d7de"/><path d="M544 828.5H800" stroke="#3c3c3c"/>
-<use href="#i16-common_command" x="12" y="848" width="16" height="16"/><text x="34" y="861" font-size="13">Общие команды</text><text x="34" y="880" font-size="10" fill="#57606a">МетаданныеОбщаяКоманда</text><use href="#i16-common_command" x="274" y="856" width="16" height="16"/><use href="#i20-common_command" x="302" y="854" width="20" height="20"/><use href="#i24-common_command" x="334" y="852" width="24" height="24"/><use href="#i32-common_command" x="370" y="848" width="32" height="32"/><use href="#i32-common_command" x="414" y="840" width="48" height="48"/><use href="#i32-common_command" x="474" y="832" width="64" height="64"/><use href="#i16-common_command" x="556" y="856" width="16" height="16"/><text x="578" y="869" font-size="13" fill="#e6e6e6">Общие команды</text><path d="M0 900.5H544" stroke="#d0d7de"/><path d="M544 900.5H800" stroke="#3c3c3c"/>
-<use href="#i16-command_group" x="12" y="920" width="16" height="16"/><text x="34" y="933" font-size="13">Группы команд</text><text x="34" y="952" font-size="10" fill="#57606a">МетаданныеГруппаКоманд</text><use href="#i16-command_group" x="274" y="928" width="16" height="16"/><use href="#i20-command_group" x="302" y="926" width="20" height="20"/><use href="#i24-command_group" x="334" y="924" width="24" height="24"/><use href="#i32-command_group" x="370" y="920" width="32" height="32"/><use href="#i32-command_group" x="414" y="912" width="48" height="48"/><use href="#i32-command_group" x="474" y="904" width="64" height="64"/><use href="#i16-command_group" x="556" y="928" width="16" height="16"/><text x="578" y="941" font-size="13" fill="#e6e6e6">Группы команд</text><path d="M0 972.5H544" stroke="#d0d7de"/><path d="M544 972.5H800" stroke="#3c3c3c"/>
-<use href="#i16-common_template" x="12" y="992" width="16" height="16"/><text x="34" y="1005" font-size="13">Общие макеты</text><text x="34" y="1024" font-size="10" fill="#57606a">МетаданныеОбщийМакет</text><use href="#i16-common_template" x="274" y="1000" width="16" height="16"/><use href="#i20-common_template" x="302" y="998" width="20" height="20"/><use href="#i24-common_template" x="334" y="996" width="24" height="24"/><use href="#i32-common_template" x="370" y="992" width="32" height="32"/><use href="#i32-common_template" x="414" y="984" width="48" height="48"/><use href="#i32-common_template" x="474" y="976" width="64" height="64"/><use href="#i16-common_template" x="556" y="1000" width="16" height="16"/><text x="578" y="1013" font-size="13" fill="#e6e6e6">Общие макеты</text><path d="M0 1044.5H544" stroke="#d0d7de"/><path d="M544 1044.5H800" stroke="#3c3c3c"/>
-<use href="#i16-xdto_package" x="12" y="1064" width="16" height="16"/><text x="34" y="1077" font-size="13">XDTO-пакеты</text><text x="34" y="1096" font-size="10" fill="#57606a">МетаданныеПакетXDTO</text><use href="#i16-xdto_package" x="274" y="1072" width="16" height="16"/><use href="#i20-xdto_package" x="302" y="1070" width="20" height="20"/><use href="#i24-xdto_package" x="334" y="1068" width="24" height="24"/><use href="#i32-xdto_package" x="370" y="1064" width="32" height="32"/><use href="#i32-xdto_package" x="414" y="1056" width="48" height="48"/><use href="#i32-xdto_package" x="474" y="1048" width="64" height="64"/><use href="#i16-xdto_package" x="556" y="1072" width="16" height="16"/><text x="578" y="1085" font-size="13" fill="#e6e6e6">XDTO-пакеты</text><path d="M0 1116.5H544" stroke="#d0d7de"/><path d="M544 1116.5H800" stroke="#3c3c3c"/>
-<use href="#i16-web_service" x="12" y="1136" width="16" height="16"/><text x="34" y="1149" font-size="13">Web-сервисы</text><text x="34" y="1168" font-size="10" fill="#57606a">МетаданныеWebСервис</text><use href="#i16-web_service" x="274" y="1144" width="16" height="16"/><use href="#i20-web_service" x="302" y="1142" width="20" height="20"/><use href="#i24-web_service" x="334" y="1140" width="24" height="24"/><use href="#i32-web_service" x="370" y="1136" width="32" height="32"/><use href="#i32-web_service" x="414" y="1128" width="48" height="48"/><use href="#i32-web_service" x="474" y="1120" width="64" height="64"/><use href="#i16-web_service" x="556" y="1144" width="16" height="16"/><text x="578" y="1157" font-size="13" fill="#e6e6e6">Web-сервисы</text><path d="M0 1188.5H544" stroke="#d0d7de"/><path d="M544 1188.5H800" stroke="#3c3c3c"/>
-<use href="#i16-http_service" x="12" y="1208" width="16" height="16"/><text x="34" y="1221" font-size="13">HTTP-сервисы</text><text x="34" y="1240" font-size="10" fill="#57606a">МетаданныеHTTPСервис</text><use href="#i16-http_service" x="274" y="1216" width="16" height="16"/><use href="#i20-http_service" x="302" y="1214" width="20" height="20"/><use href="#i24-http_service" x="334" y="1212" width="24" height="24"/><use href="#i32-http_service" x="370" y="1208" width="32" height="32"/><use href="#i32-http_service" x="414" y="1200" width="48" height="48"/><use href="#i32-http_service" x="474" y="1192" width="64" height="64"/><use href="#i16-http_service" x="556" y="1216" width="16" height="16"/><text x="578" y="1229" font-size="13" fill="#e6e6e6">HTTP-сервисы</text><path d="M0 1260.5H544" stroke="#d0d7de"/><path d="M544 1260.5H800" stroke="#3c3c3c"/>
-<use href="#i16-ws_reference" x="12" y="1280" width="16" height="16"/><text x="34" y="1293" font-size="13">WS-ссылки</text><text x="34" y="1312" font-size="10" fill="#57606a">МетаданныеWSСсылка</text><use href="#i16-ws_reference" x="274" y="1288" width="16" height="16"/><use href="#i20-ws_reference" x="302" y="1286" width="20" height="20"/><use href="#i24-ws_reference" x="334" y="1284" width="24" height="24"/><use href="#i32-ws_reference" x="370" y="1280" width="32" height="32"/><use href="#i32-ws_reference" x="414" y="1272" width="48" height="48"/><use href="#i32-ws_reference" x="474" y="1264" width="64" height="64"/><use href="#i16-ws_reference" x="556" y="1288" width="16" height="16"/><text x="578" y="1301" font-size="13" fill="#e6e6e6">WS-ссылки</text><path d="M0 1332.5H544" stroke="#d0d7de"/><path d="M544 1332.5H800" stroke="#3c3c3c"/>
-<use href="#i16-web_socket_client" x="12" y="1352" width="16" height="16"/><text x="34" y="1365" font-size="13">WebSocket-клиенты</text><text x="34" y="1384" font-size="10" fill="#57606a">МетаданныеWebSocketКлиент</text><use href="#i16-web_socket_client" x="274" y="1360" width="16" height="16"/><use href="#i20-web_socket_client" x="302" y="1358" width="20" height="20"/><use href="#i24-web_socket_client" x="334" y="1356" width="24" height="24"/><use href="#i32-web_socket_client" x="370" y="1352" width="32" height="32"/><use href="#i32-web_socket_client" x="414" y="1344" width="48" height="48"/><use href="#i32-web_socket_client" x="474" y="1336" width="64" height="64"/><use href="#i16-web_socket_client" x="556" y="1360" width="16" height="16"/><text x="578" y="1373" font-size="13" fill="#e6e6e6">WebSocket-клиенты</text><path d="M0 1404.5H544" stroke="#d0d7de"/><path d="M544 1404.5H800" stroke="#3c3c3c"/>
-<use href="#i16-integration_service" x="12" y="1424" width="16" height="16"/><text x="34" y="1437" font-size="13">Сервисы интеграции</text><text x="34" y="1456" font-size="10" fill="#57606a">МетаданныеСервисИнтеграции</text><use href="#i16-integration_service" x="274" y="1432" width="16" height="16"/><use href="#i20-integration_service" x="302" y="1430" width="20" height="20"/><use href="#i24-integration_service" x="334" y="1428" width="24" height="24"/><use href="#i32-integration_service" x="370" y="1424" width="32" height="32"/><use href="#i32-integration_service" x="414" y="1416" width="48" height="48"/><use href="#i32-integration_service" x="474" y="1408" width="64" height="64"/><use href="#i16-integration_service" x="556" y="1432" width="16" height="16"/><text x="578" y="1445" font-size="13" fill="#e6e6e6">Сервисы интеграции</text><path d="M0 1476.5H544" stroke="#d0d7de"/><path d="M544 1476.5H800" stroke="#3c3c3c"/>
-<use href="#i16-bot" x="12" y="1496" width="16" height="16"/><text x="34" y="1509" font-size="13">Боты</text><text x="34" y="1528" font-size="10" fill="#57606a">МетаданныеБот</text><use href="#i16-bot" x="274" y="1504" width="16" height="16"/><use href="#i20-bot" x="302" y="1502" width="20" height="20"/><use href="#i24-bot" x="334" y="1500" width="24" height="24"/><use href="#i32-bot" x="370" y="1496" width="32" height="32"/><use href="#i32-bot" x="414" y="1488" width="48" height="48"/><use href="#i32-bot" x="474" y="1480" width="64" height="64"/><use href="#i16-bot" x="556" y="1504" width="16" height="16"/><text x="578" y="1517" font-size="13" fill="#e6e6e6">Боты</text><path d="M0 1548.5H544" stroke="#d0d7de"/><path d="M544 1548.5H800" stroke="#3c3c3c"/>
-<use href="#i16-palette_color" x="12" y="1568" width="16" height="16"/><text x="34" y="1581" font-size="13">Цвета палитры</text><text x="34" y="1600" font-size="10" fill="#57606a">МетаданныеЦветПалитры</text><use href="#i16-palette_color" x="274" y="1576" width="16" height="16"/><use href="#i20-palette_color" x="302" y="1574" width="20" height="20"/><use href="#i24-palette_color" x="334" y="1572" width="24" height="24"/><use href="#i32-palette_color" x="370" y="1568" width="32" height="32"/><use href="#i32-palette_color" x="414" y="1560" width="48" height="48"/><use href="#i32-palette_color" x="474" y="1552" width="64" height="64"/><use href="#i16-palette_color" x="556" y="1576" width="16" height="16"/><text x="578" y="1589" font-size="13" fill="#e6e6e6">Цвета палитры</text><path d="M0 1620.5H544" stroke="#d0d7de"/><path d="M544 1620.5H800" stroke="#3c3c3c"/>
-<use href="#i16-style_item" x="12" y="1640" width="16" height="16"/><text x="34" y="1653" font-size="13">Элементы стиля</text><text x="34" y="1672" font-size="10" fill="#57606a">МетаданныеЭлементСтиля</text><use href="#i16-style_item" x="274" y="1648" width="16" height="16"/><use href="#i20-style_item" x="302" y="1646" width="20" height="20"/><use href="#i24-style_item" x="334" y="1644" width="24" height="24"/><use href="#i32-style_item" x="370" y="1640" width="32" height="32"/><use href="#i32-style_item" x="414" y="1632" width="48" height="48"/><use href="#i32-style_item" x="474" y="1624" width="64" height="64"/><use href="#i16-style_item" x="556" y="1648" width="16" height="16"/><text x="578" y="1661" font-size="13" fill="#e6e6e6">Элементы стиля</text><path d="M0 1692.5H544" stroke="#d0d7de"/><path d="M544 1692.5H800" stroke="#3c3c3c"/>
-<use href="#i16-style" x="12" y="1712" width="16" height="16"/><text x="34" y="1725" font-size="13">Стили</text><text x="34" y="1744" font-size="10" fill="#57606a">МетаданныеСтиль</text><use href="#i16-style" x="274" y="1720" width="16" height="16"/><use href="#i20-style" x="302" y="1718" width="20" height="20"/><use href="#i24-style" x="334" y="1716" width="24" height="24"/><use href="#i32-style" x="370" y="1712" width="32" height="32"/><use href="#i32-style" x="414" y="1704" width="48" height="48"/><use href="#i32-style" x="474" y="1696" width="64" height="64"/><use href="#i16-style" x="556" y="1720" width="16" height="16"/><text x="578" y="1733" font-size="13" fill="#e6e6e6">Стили</text><path d="M0 1764.5H544" stroke="#d0d7de"/><path d="M544 1764.5H800" stroke="#3c3c3c"/>
-<use href="#i16-language" x="12" y="1784" width="16" height="16"/><text x="34" y="1797" font-size="13">Языки</text><text x="34" y="1816" font-size="10" fill="#57606a">МетаданныеЯзык</text><use href="#i16-language" x="274" y="1792" width="16" height="16"/><use href="#i20-language" x="302" y="1790" width="20" height="20"/><use href="#i24-language" x="334" y="1788" width="24" height="24"/><use href="#i32-language" x="370" y="1784" width="32" height="32"/><use href="#i32-language" x="414" y="1776" width="48" height="48"/><use href="#i32-language" x="474" y="1768" width="64" height="64"/><use href="#i16-language" x="556" y="1792" width="16" height="16"/><text x="578" y="1805" font-size="13" fill="#e6e6e6">Языки</text><path d="M0 1836.5H544" stroke="#d0d7de"/><path d="M544 1836.5H800" stroke="#3c3c3c"/>
-<use href="#i16-document_numerator" x="12" y="1856" width="16" height="16"/><text x="34" y="1869" font-size="13">Нумераторы документов</text><text x="34" y="1888" font-size="10" fill="#57606a">МетаданныеНумераторДокументов</text><use href="#i16-document_numerator" x="274" y="1864" width="16" height="16"/><use href="#i20-document_numerator" x="302" y="1862" width="20" height="20"/><use href="#i24-document_numerator" x="334" y="1860" width="24" height="24"/><use href="#i32-document_numerator" x="370" y="1856" width="32" height="32"/><use href="#i32-document_numerator" x="414" y="1848" width="48" height="48"/><use href="#i32-document_numerator" x="474" y="1840" width="64" height="64"/><use href="#i16-document_numerator" x="556" y="1864" width="16" height="16"/><text x="578" y="1877" font-size="13" fill="#e6e6e6">Нумераторы документов</text><path d="M0 1908.5H544" stroke="#d0d7de"/><path d="M544 1908.5H800" stroke="#3c3c3c"/>
-<use href="#i16-sequence" x="12" y="1928" width="16" height="16"/><text x="34" y="1941" font-size="13">Последовательности</text><text x="34" y="1960" font-size="10" fill="#57606a">МетаданныеПоследовательность</text><use href="#i16-sequence" x="274" y="1936" width="16" height="16"/><use href="#i20-sequence" x="302" y="1934" width="20" height="20"/><use href="#i24-sequence" x="334" y="1932" width="24" height="24"/><use href="#i32-sequence" x="370" y="1928" width="32" height="32"/><use href="#i32-sequence" x="414" y="1920" width="48" height="48"/><use href="#i32-sequence" x="474" y="1912" width="64" height="64"/><use href="#i16-sequence" x="556" y="1936" width="16" height="16"/><text x="578" y="1949" font-size="13" fill="#e6e6e6">Последовательности</text><path d="M0 1980.5H544" stroke="#d0d7de"/><path d="M544 1980.5H800" stroke="#3c3c3c"/>
-<path d="M267.5 0V1980" stroke="#d0d7de"/>
-<text x="12" y="1999" font-size="12" fill="#57606a">Иконки метаданных 1С © 2026 Журавлев Анатолий, CC BY 4.0.</text>
-<text x="12" y="2015" font-size="11" fill="#57606a">Исходники: 16, 20, 24 и 32 px. Размер 14 px — из 16; 28, 48 и 64 px — из 32.</text>
-<rect x="0.5" y="0.5" width="799" height="2023" fill="none" stroke="#d0d7de"/>
+<use href="#i16-exchange_plan" x="12" y="560" width="16" height="16"/><text x="34" y="573" font-size="13">Планы обмена</text><text x="34" y="592" font-size="10" fill="#57606a">МетаданныеПланОбмена</text><use href="#i16-exchange_plan" x="274" y="568" width="16" height="16"/><use href="#i20-exchange_plan" x="302" y="566" width="20" height="20"/><use href="#i24-exchange_plan" x="334" y="564" width="24" height="24"/><use href="#i32-exchange_plan" x="370" y="560" width="32" height="32"/><use href="#i32-exchange_plan" x="414" y="552" width="48" height="48"/><use href="#i32-exchange_plan" x="474" y="544" width="64" height="64"/><use href="#i16-exchange_plan" x="556" y="568" width="16" height="16"/><text x="578" y="581" font-size="13" fill="#e6e6e6">Планы обмена</text><path d="M0 612.5H544" stroke="#d0d7de"/><path d="M544 612.5H800" stroke="#3c3c3c"/>
+<use href="#i16-filter_criterion" x="12" y="632" width="16" height="16"/><text x="34" y="645" font-size="13">Критерии отбора</text><text x="34" y="664" font-size="10" fill="#57606a">МетаданныеКритерийОтбора</text><use href="#i16-filter_criterion" x="274" y="640" width="16" height="16"/><use href="#i20-filter_criterion" x="302" y="638" width="20" height="20"/><use href="#i24-filter_criterion" x="334" y="636" width="24" height="24"/><use href="#i32-filter_criterion" x="370" y="632" width="32" height="32"/><use href="#i32-filter_criterion" x="414" y="624" width="48" height="48"/><use href="#i32-filter_criterion" x="474" y="616" width="64" height="64"/><use href="#i16-filter_criterion" x="556" y="640" width="16" height="16"/><text x="578" y="653" font-size="13" fill="#e6e6e6">Критерии отбора</text><path d="M0 684.5H544" stroke="#d0d7de"/><path d="M544 684.5H800" stroke="#3c3c3c"/>
+<use href="#i16-event_subscription" x="12" y="704" width="16" height="16"/><text x="34" y="717" font-size="13">Подписки на события</text><text x="34" y="736" font-size="10" fill="#57606a">МетаданныеПодпискаНаСобытие</text><use href="#i16-event_subscription" x="274" y="712" width="16" height="16"/><use href="#i20-event_subscription" x="302" y="710" width="20" height="20"/><use href="#i24-event_subscription" x="334" y="708" width="24" height="24"/><use href="#i32-event_subscription" x="370" y="704" width="32" height="32"/><use href="#i32-event_subscription" x="414" y="696" width="48" height="48"/><use href="#i32-event_subscription" x="474" y="688" width="64" height="64"/><use href="#i16-event_subscription" x="556" y="712" width="16" height="16"/><text x="578" y="725" font-size="13" fill="#e6e6e6">Подписки на события</text><path d="M0 756.5H544" stroke="#d0d7de"/><path d="M544 756.5H800" stroke="#3c3c3c"/>
+<use href="#i16-scheduled_job" x="12" y="776" width="16" height="16"/><text x="34" y="789" font-size="13">Регламентные задания</text><text x="34" y="808" font-size="10" fill="#57606a">МетаданныеРегламентноеЗадание</text><use href="#i16-scheduled_job" x="274" y="784" width="16" height="16"/><use href="#i20-scheduled_job" x="302" y="782" width="20" height="20"/><use href="#i24-scheduled_job" x="334" y="780" width="24" height="24"/><use href="#i32-scheduled_job" x="370" y="776" width="32" height="32"/><use href="#i32-scheduled_job" x="414" y="768" width="48" height="48"/><use href="#i32-scheduled_job" x="474" y="760" width="64" height="64"/><use href="#i16-scheduled_job" x="556" y="784" width="16" height="16"/><text x="578" y="797" font-size="13" fill="#e6e6e6">Регламентные задания</text><path d="M0 828.5H544" stroke="#d0d7de"/><path d="M544 828.5H800" stroke="#3c3c3c"/>
+<use href="#i16-functional_option" x="12" y="848" width="16" height="16"/><text x="34" y="861" font-size="13">Функциональные опции</text><text x="34" y="880" font-size="10" fill="#57606a">МетаданныеФункциональнаяОпция</text><use href="#i16-functional_option" x="274" y="856" width="16" height="16"/><use href="#i20-functional_option" x="302" y="854" width="20" height="20"/><use href="#i24-functional_option" x="334" y="852" width="24" height="24"/><use href="#i32-functional_option" x="370" y="848" width="32" height="32"/><use href="#i32-functional_option" x="414" y="840" width="48" height="48"/><use href="#i32-functional_option" x="474" y="832" width="64" height="64"/><use href="#i16-functional_option" x="556" y="856" width="16" height="16"/><text x="578" y="869" font-size="13" fill="#e6e6e6">Функциональные опции</text><path d="M0 900.5H544" stroke="#d0d7de"/><path d="M544 900.5H800" stroke="#3c3c3c"/>
+<use href="#i16-functional_option_parameter" x="12" y="920" width="16" height="16"/><text x="34" y="933" font-size="13">Параметры функциональных опций</text><text x="34" y="952" font-size="10" fill="#57606a">МетаданныеПараметрФункциональныхОпций</text><use href="#i16-functional_option_parameter" x="274" y="928" width="16" height="16"/><use href="#i20-functional_option_parameter" x="302" y="926" width="20" height="20"/><use href="#i24-functional_option_parameter" x="334" y="924" width="24" height="24"/><use href="#i32-functional_option_parameter" x="370" y="920" width="32" height="32"/><use href="#i32-functional_option_parameter" x="414" y="912" width="48" height="48"/><use href="#i32-functional_option_parameter" x="474" y="904" width="64" height="64"/><use href="#i16-functional_option_parameter" x="556" y="928" width="16" height="16"/><text x="578" y="941" font-size="13" fill="#e6e6e6">Параметры функциональных опций</text><path d="M0 972.5H544" stroke="#d0d7de"/><path d="M544 972.5H800" stroke="#3c3c3c"/>
+<use href="#i16-defined_type" x="12" y="992" width="16" height="16"/><text x="34" y="1005" font-size="13">Определяемые типы</text><text x="34" y="1024" font-size="10" fill="#57606a">МетаданныеОпределяемыйТип</text><use href="#i16-defined_type" x="274" y="1000" width="16" height="16"/><use href="#i20-defined_type" x="302" y="998" width="20" height="20"/><use href="#i24-defined_type" x="334" y="996" width="24" height="24"/><use href="#i32-defined_type" x="370" y="992" width="32" height="32"/><use href="#i32-defined_type" x="414" y="984" width="48" height="48"/><use href="#i32-defined_type" x="474" y="976" width="64" height="64"/><use href="#i16-defined_type" x="556" y="1000" width="16" height="16"/><text x="578" y="1013" font-size="13" fill="#e6e6e6">Определяемые типы</text><path d="M0 1044.5H544" stroke="#d0d7de"/><path d="M544 1044.5H800" stroke="#3c3c3c"/>
+<use href="#i16-settings_storage" x="12" y="1064" width="16" height="16"/><text x="34" y="1077" font-size="13">Хранилища настроек</text><text x="34" y="1096" font-size="10" fill="#57606a">МетаданныеХранилищеНастроек</text><use href="#i16-settings_storage" x="274" y="1072" width="16" height="16"/><use href="#i20-settings_storage" x="302" y="1070" width="20" height="20"/><use href="#i24-settings_storage" x="334" y="1068" width="24" height="24"/><use href="#i32-settings_storage" x="370" y="1064" width="32" height="32"/><use href="#i32-settings_storage" x="414" y="1056" width="48" height="48"/><use href="#i32-settings_storage" x="474" y="1048" width="64" height="64"/><use href="#i16-settings_storage" x="556" y="1072" width="16" height="16"/><text x="578" y="1085" font-size="13" fill="#e6e6e6">Хранилища настроек</text><path d="M0 1116.5H544" stroke="#d0d7de"/><path d="M544 1116.5H800" stroke="#3c3c3c"/>
+<use href="#i16-common_command" x="12" y="1136" width="16" height="16"/><text x="34" y="1149" font-size="13">Общие команды</text><text x="34" y="1168" font-size="10" fill="#57606a">МетаданныеОбщаяКоманда</text><use href="#i16-common_command" x="274" y="1144" width="16" height="16"/><use href="#i20-common_command" x="302" y="1142" width="20" height="20"/><use href="#i24-common_command" x="334" y="1140" width="24" height="24"/><use href="#i32-common_command" x="370" y="1136" width="32" height="32"/><use href="#i32-common_command" x="414" y="1128" width="48" height="48"/><use href="#i32-common_command" x="474" y="1120" width="64" height="64"/><use href="#i16-common_command" x="556" y="1144" width="16" height="16"/><text x="578" y="1157" font-size="13" fill="#e6e6e6">Общие команды</text><path d="M0 1188.5H544" stroke="#d0d7de"/><path d="M544 1188.5H800" stroke="#3c3c3c"/>
+<use href="#i16-command_group" x="12" y="1208" width="16" height="16"/><text x="34" y="1221" font-size="13">Группы команд</text><text x="34" y="1240" font-size="10" fill="#57606a">МетаданныеГруппаКоманд</text><use href="#i16-command_group" x="274" y="1216" width="16" height="16"/><use href="#i20-command_group" x="302" y="1214" width="20" height="20"/><use href="#i24-command_group" x="334" y="1212" width="24" height="24"/><use href="#i32-command_group" x="370" y="1208" width="32" height="32"/><use href="#i32-command_group" x="414" y="1200" width="48" height="48"/><use href="#i32-command_group" x="474" y="1192" width="64" height="64"/><use href="#i16-command_group" x="556" y="1216" width="16" height="16"/><text x="578" y="1229" font-size="13" fill="#e6e6e6">Группы команд</text><path d="M0 1260.5H544" stroke="#d0d7de"/><path d="M544 1260.5H800" stroke="#3c3c3c"/>
+<use href="#i16-common_form" x="12" y="1280" width="16" height="16"/><text x="34" y="1293" font-size="13">Общие формы</text><text x="34" y="1312" font-size="10" fill="#57606a">МетаданныеОбщаяФорма</text><use href="#i16-common_form" x="274" y="1288" width="16" height="16"/><use href="#i20-common_form" x="302" y="1286" width="20" height="20"/><use href="#i24-common_form" x="334" y="1284" width="24" height="24"/><use href="#i32-common_form" x="370" y="1280" width="32" height="32"/><use href="#i32-common_form" x="414" y="1272" width="48" height="48"/><use href="#i32-common_form" x="474" y="1264" width="64" height="64"/><use href="#i16-common_form" x="556" y="1288" width="16" height="16"/><text x="578" y="1301" font-size="13" fill="#e6e6e6">Общие формы</text><path d="M0 1332.5H544" stroke="#d0d7de"/><path d="M544 1332.5H800" stroke="#3c3c3c"/>
+<use href="#i16-common_template" x="12" y="1352" width="16" height="16"/><text x="34" y="1365" font-size="13">Общие макеты</text><text x="34" y="1384" font-size="10" fill="#57606a">МетаданныеОбщийМакет</text><use href="#i16-common_template" x="274" y="1360" width="16" height="16"/><use href="#i20-common_template" x="302" y="1358" width="20" height="20"/><use href="#i24-common_template" x="334" y="1356" width="24" height="24"/><use href="#i32-common_template" x="370" y="1352" width="32" height="32"/><use href="#i32-common_template" x="414" y="1344" width="48" height="48"/><use href="#i32-common_template" x="474" y="1336" width="64" height="64"/><use href="#i16-common_template" x="556" y="1360" width="16" height="16"/><text x="578" y="1373" font-size="13" fill="#e6e6e6">Общие макеты</text><path d="M0 1404.5H544" stroke="#d0d7de"/><path d="M544 1404.5H800" stroke="#3c3c3c"/>
+<use href="#i16-common_picture" x="12" y="1424" width="16" height="16"/><text x="34" y="1437" font-size="13">Общие картинки</text><text x="34" y="1456" font-size="10" fill="#57606a">МетаданныеОбщаяКартинка</text><use href="#i16-common_picture" x="274" y="1432" width="16" height="16"/><use href="#i20-common_picture" x="302" y="1430" width="20" height="20"/><use href="#i24-common_picture" x="334" y="1428" width="24" height="24"/><use href="#i32-common_picture" x="370" y="1424" width="32" height="32"/><use href="#i32-common_picture" x="414" y="1416" width="48" height="48"/><use href="#i32-common_picture" x="474" y="1408" width="64" height="64"/><use href="#i16-common_picture" x="556" y="1432" width="16" height="16"/><text x="578" y="1445" font-size="13" fill="#e6e6e6">Общие картинки</text><path d="M0 1476.5H544" stroke="#d0d7de"/><path d="M544 1476.5H800" stroke="#3c3c3c"/>
+<use href="#i16-xdto_package" x="12" y="1496" width="16" height="16"/><text x="34" y="1509" font-size="13">XDTO-пакеты</text><text x="34" y="1528" font-size="10" fill="#57606a">МетаданныеПакетXDTO</text><use href="#i16-xdto_package" x="274" y="1504" width="16" height="16"/><use href="#i20-xdto_package" x="302" y="1502" width="20" height="20"/><use href="#i24-xdto_package" x="334" y="1500" width="24" height="24"/><use href="#i32-xdto_package" x="370" y="1496" width="32" height="32"/><use href="#i32-xdto_package" x="414" y="1488" width="48" height="48"/><use href="#i32-xdto_package" x="474" y="1480" width="64" height="64"/><use href="#i16-xdto_package" x="556" y="1504" width="16" height="16"/><text x="578" y="1517" font-size="13" fill="#e6e6e6">XDTO-пакеты</text><path d="M0 1548.5H544" stroke="#d0d7de"/><path d="M544 1548.5H800" stroke="#3c3c3c"/>
+<use href="#i16-web_service" x="12" y="1568" width="16" height="16"/><text x="34" y="1581" font-size="13">Web-сервисы</text><text x="34" y="1600" font-size="10" fill="#57606a">МетаданныеWebСервис</text><use href="#i16-web_service" x="274" y="1576" width="16" height="16"/><use href="#i20-web_service" x="302" y="1574" width="20" height="20"/><use href="#i24-web_service" x="334" y="1572" width="24" height="24"/><use href="#i32-web_service" x="370" y="1568" width="32" height="32"/><use href="#i32-web_service" x="414" y="1560" width="48" height="48"/><use href="#i32-web_service" x="474" y="1552" width="64" height="64"/><use href="#i16-web_service" x="556" y="1576" width="16" height="16"/><text x="578" y="1589" font-size="13" fill="#e6e6e6">Web-сервисы</text><path d="M0 1620.5H544" stroke="#d0d7de"/><path d="M544 1620.5H800" stroke="#3c3c3c"/>
+<use href="#i16-http_service" x="12" y="1640" width="16" height="16"/><text x="34" y="1653" font-size="13">HTTP-сервисы</text><text x="34" y="1672" font-size="10" fill="#57606a">МетаданныеHTTPСервис</text><use href="#i16-http_service" x="274" y="1648" width="16" height="16"/><use href="#i20-http_service" x="302" y="1646" width="20" height="20"/><use href="#i24-http_service" x="334" y="1644" width="24" height="24"/><use href="#i32-http_service" x="370" y="1640" width="32" height="32"/><use href="#i32-http_service" x="414" y="1632" width="48" height="48"/><use href="#i32-http_service" x="474" y="1624" width="64" height="64"/><use href="#i16-http_service" x="556" y="1648" width="16" height="16"/><text x="578" y="1661" font-size="13" fill="#e6e6e6">HTTP-сервисы</text><path d="M0 1692.5H544" stroke="#d0d7de"/><path d="M544 1692.5H800" stroke="#3c3c3c"/>
+<use href="#i16-ws_reference" x="12" y="1712" width="16" height="16"/><text x="34" y="1725" font-size="13">WS-ссылки</text><text x="34" y="1744" font-size="10" fill="#57606a">МетаданныеWSСсылка</text><use href="#i16-ws_reference" x="274" y="1720" width="16" height="16"/><use href="#i20-ws_reference" x="302" y="1718" width="20" height="20"/><use href="#i24-ws_reference" x="334" y="1716" width="24" height="24"/><use href="#i32-ws_reference" x="370" y="1712" width="32" height="32"/><use href="#i32-ws_reference" x="414" y="1704" width="48" height="48"/><use href="#i32-ws_reference" x="474" y="1696" width="64" height="64"/><use href="#i16-ws_reference" x="556" y="1720" width="16" height="16"/><text x="578" y="1733" font-size="13" fill="#e6e6e6">WS-ссылки</text><path d="M0 1764.5H544" stroke="#d0d7de"/><path d="M544 1764.5H800" stroke="#3c3c3c"/>
+<use href="#i16-web_socket_client" x="12" y="1784" width="16" height="16"/><text x="34" y="1797" font-size="13">WebSocket-клиенты</text><text x="34" y="1816" font-size="10" fill="#57606a">МетаданныеWebSocketКлиент</text><use href="#i16-web_socket_client" x="274" y="1792" width="16" height="16"/><use href="#i20-web_socket_client" x="302" y="1790" width="20" height="20"/><use href="#i24-web_socket_client" x="334" y="1788" width="24" height="24"/><use href="#i32-web_socket_client" x="370" y="1784" width="32" height="32"/><use href="#i32-web_socket_client" x="414" y="1776" width="48" height="48"/><use href="#i32-web_socket_client" x="474" y="1768" width="64" height="64"/><use href="#i16-web_socket_client" x="556" y="1792" width="16" height="16"/><text x="578" y="1805" font-size="13" fill="#e6e6e6">WebSocket-клиенты</text><path d="M0 1836.5H544" stroke="#d0d7de"/><path d="M544 1836.5H800" stroke="#3c3c3c"/>
+<use href="#i16-integration_service" x="12" y="1856" width="16" height="16"/><text x="34" y="1869" font-size="13">Сервисы интеграции</text><text x="34" y="1888" font-size="10" fill="#57606a">МетаданныеСервисИнтеграции</text><use href="#i16-integration_service" x="274" y="1864" width="16" height="16"/><use href="#i20-integration_service" x="302" y="1862" width="20" height="20"/><use href="#i24-integration_service" x="334" y="1860" width="24" height="24"/><use href="#i32-integration_service" x="370" y="1856" width="32" height="32"/><use href="#i32-integration_service" x="414" y="1848" width="48" height="48"/><use href="#i32-integration_service" x="474" y="1840" width="64" height="64"/><use href="#i16-integration_service" x="556" y="1864" width="16" height="16"/><text x="578" y="1877" font-size="13" fill="#e6e6e6">Сервисы интеграции</text><path d="M0 1908.5H544" stroke="#d0d7de"/><path d="M544 1908.5H800" stroke="#3c3c3c"/>
+<use href="#i16-bot" x="12" y="1928" width="16" height="16"/><text x="34" y="1941" font-size="13">Боты</text><text x="34" y="1960" font-size="10" fill="#57606a">МетаданныеБот</text><use href="#i16-bot" x="274" y="1936" width="16" height="16"/><use href="#i20-bot" x="302" y="1934" width="20" height="20"/><use href="#i24-bot" x="334" y="1932" width="24" height="24"/><use href="#i32-bot" x="370" y="1928" width="32" height="32"/><use href="#i32-bot" x="414" y="1920" width="48" height="48"/><use href="#i32-bot" x="474" y="1912" width="64" height="64"/><use href="#i16-bot" x="556" y="1936" width="16" height="16"/><text x="578" y="1949" font-size="13" fill="#e6e6e6">Боты</text><path d="M0 1980.5H544" stroke="#d0d7de"/><path d="M544 1980.5H800" stroke="#3c3c3c"/>
+<use href="#i16-palette_color" x="12" y="2000" width="16" height="16"/><text x="34" y="2013" font-size="13">Цвета палитры</text><text x="34" y="2032" font-size="10" fill="#57606a">МетаданныеЦветПалитры</text><use href="#i16-palette_color" x="274" y="2008" width="16" height="16"/><use href="#i20-palette_color" x="302" y="2006" width="20" height="20"/><use href="#i24-palette_color" x="334" y="2004" width="24" height="24"/><use href="#i32-palette_color" x="370" y="2000" width="32" height="32"/><use href="#i32-palette_color" x="414" y="1992" width="48" height="48"/><use href="#i32-palette_color" x="474" y="1984" width="64" height="64"/><use href="#i16-palette_color" x="556" y="2008" width="16" height="16"/><text x="578" y="2021" font-size="13" fill="#e6e6e6">Цвета палитры</text><path d="M0 2052.5H544" stroke="#d0d7de"/><path d="M544 2052.5H800" stroke="#3c3c3c"/>
+<use href="#i16-style_item" x="12" y="2072" width="16" height="16"/><text x="34" y="2085" font-size="13">Элементы стиля</text><text x="34" y="2104" font-size="10" fill="#57606a">МетаданныеЭлементСтиля</text><use href="#i16-style_item" x="274" y="2080" width="16" height="16"/><use href="#i20-style_item" x="302" y="2078" width="20" height="20"/><use href="#i24-style_item" x="334" y="2076" width="24" height="24"/><use href="#i32-style_item" x="370" y="2072" width="32" height="32"/><use href="#i32-style_item" x="414" y="2064" width="48" height="48"/><use href="#i32-style_item" x="474" y="2056" width="64" height="64"/><use href="#i16-style_item" x="556" y="2080" width="16" height="16"/><text x="578" y="2093" font-size="13" fill="#e6e6e6">Элементы стиля</text><path d="M0 2124.5H544" stroke="#d0d7de"/><path d="M544 2124.5H800" stroke="#3c3c3c"/>
+<use href="#i16-style" x="12" y="2144" width="16" height="16"/><text x="34" y="2157" font-size="13">Стили</text><text x="34" y="2176" font-size="10" fill="#57606a">МетаданныеСтиль</text><use href="#i16-style" x="274" y="2152" width="16" height="16"/><use href="#i20-style" x="302" y="2150" width="20" height="20"/><use href="#i24-style" x="334" y="2148" width="24" height="24"/><use href="#i32-style" x="370" y="2144" width="32" height="32"/><use href="#i32-style" x="414" y="2136" width="48" height="48"/><use href="#i32-style" x="474" y="2128" width="64" height="64"/><use href="#i16-style" x="556" y="2152" width="16" height="16"/><text x="578" y="2165" font-size="13" fill="#e6e6e6">Стили</text><path d="M0 2196.5H544" stroke="#d0d7de"/><path d="M544 2196.5H800" stroke="#3c3c3c"/>
+<use href="#i16-language" x="12" y="2216" width="16" height="16"/><text x="34" y="2229" font-size="13">Языки</text><text x="34" y="2248" font-size="10" fill="#57606a">МетаданныеЯзык</text><use href="#i16-language" x="274" y="2224" width="16" height="16"/><use href="#i20-language" x="302" y="2222" width="20" height="20"/><use href="#i24-language" x="334" y="2220" width="24" height="24"/><use href="#i32-language" x="370" y="2216" width="32" height="32"/><use href="#i32-language" x="414" y="2208" width="48" height="48"/><use href="#i32-language" x="474" y="2200" width="64" height="64"/><use href="#i16-language" x="556" y="2224" width="16" height="16"/><text x="578" y="2237" font-size="13" fill="#e6e6e6">Языки</text><path d="M0 2268.5H544" stroke="#d0d7de"/><path d="M544 2268.5H800" stroke="#3c3c3c"/>
+<use href="#i16-constant" x="12" y="2288" width="16" height="16"/><text x="34" y="2301" font-size="13">Константы</text><text x="34" y="2320" font-size="10" fill="#57606a">МетаданныеКонстанта</text><use href="#i16-constant" x="274" y="2296" width="16" height="16"/><use href="#i20-constant" x="302" y="2294" width="20" height="20"/><use href="#i24-constant" x="334" y="2292" width="24" height="24"/><use href="#i32-constant" x="370" y="2288" width="32" height="32"/><use href="#i32-constant" x="414" y="2280" width="48" height="48"/><use href="#i32-constant" x="474" y="2272" width="64" height="64"/><use href="#i16-constant" x="556" y="2296" width="16" height="16"/><text x="578" y="2309" font-size="13" fill="#e6e6e6">Константы</text><path d="M0 2340.5H544" stroke="#d0d7de"/><path d="M544 2340.5H800" stroke="#3c3c3c"/>
+<use href="#i16-catalog" x="12" y="2360" width="16" height="16"/><text x="34" y="2373" font-size="13">Справочники</text><text x="34" y="2392" font-size="10" fill="#57606a">МетаданныеСправочник</text><use href="#i16-catalog" x="274" y="2368" width="16" height="16"/><use href="#i20-catalog" x="302" y="2366" width="20" height="20"/><use href="#i24-catalog" x="334" y="2364" width="24" height="24"/><use href="#i32-catalog" x="370" y="2360" width="32" height="32"/><use href="#i32-catalog" x="414" y="2352" width="48" height="48"/><use href="#i32-catalog" x="474" y="2344" width="64" height="64"/><use href="#i16-catalog" x="556" y="2368" width="16" height="16"/><text x="578" y="2381" font-size="13" fill="#e6e6e6">Справочники</text><path d="M0 2412.5H544" stroke="#d0d7de"/><path d="M544 2412.5H800" stroke="#3c3c3c"/>
+<use href="#i16-document" x="12" y="2432" width="16" height="16"/><text x="34" y="2445" font-size="13">Документы</text><text x="34" y="2464" font-size="10" fill="#57606a">МетаданныеДокумент</text><use href="#i16-document" x="274" y="2440" width="16" height="16"/><use href="#i20-document" x="302" y="2438" width="20" height="20"/><use href="#i24-document" x="334" y="2436" width="24" height="24"/><use href="#i32-document" x="370" y="2432" width="32" height="32"/><use href="#i32-document" x="414" y="2424" width="48" height="48"/><use href="#i32-document" x="474" y="2416" width="64" height="64"/><use href="#i16-document" x="556" y="2440" width="16" height="16"/><text x="578" y="2453" font-size="13" fill="#e6e6e6">Документы</text><path d="M0 2484.5H544" stroke="#d0d7de"/><path d="M544 2484.5H800" stroke="#3c3c3c"/>
+<use href="#i16-document_numerator" x="12" y="2504" width="16" height="16"/><text x="34" y="2517" font-size="13">Нумераторы документов</text><text x="34" y="2536" font-size="10" fill="#57606a">МетаданныеНумераторДокументов</text><use href="#i16-document_numerator" x="274" y="2512" width="16" height="16"/><use href="#i20-document_numerator" x="302" y="2510" width="20" height="20"/><use href="#i24-document_numerator" x="334" y="2508" width="24" height="24"/><use href="#i32-document_numerator" x="370" y="2504" width="32" height="32"/><use href="#i32-document_numerator" x="414" y="2496" width="48" height="48"/><use href="#i32-document_numerator" x="474" y="2488" width="64" height="64"/><use href="#i16-document_numerator" x="556" y="2512" width="16" height="16"/><text x="578" y="2525" font-size="13" fill="#e6e6e6">Нумераторы документов</text><path d="M0 2556.5H544" stroke="#d0d7de"/><path d="M544 2556.5H800" stroke="#3c3c3c"/>
+<use href="#i16-sequence" x="12" y="2576" width="16" height="16"/><text x="34" y="2589" font-size="13">Последовательности</text><text x="34" y="2608" font-size="10" fill="#57606a">МетаданныеПоследовательность</text><use href="#i16-sequence" x="274" y="2584" width="16" height="16"/><use href="#i20-sequence" x="302" y="2582" width="20" height="20"/><use href="#i24-sequence" x="334" y="2580" width="24" height="24"/><use href="#i32-sequence" x="370" y="2576" width="32" height="32"/><use href="#i32-sequence" x="414" y="2568" width="48" height="48"/><use href="#i32-sequence" x="474" y="2560" width="64" height="64"/><use href="#i16-sequence" x="556" y="2584" width="16" height="16"/><text x="578" y="2597" font-size="13" fill="#e6e6e6">Последовательности</text><path d="M0 2628.5H544" stroke="#d0d7de"/><path d="M544 2628.5H800" stroke="#3c3c3c"/>
+<use href="#i16-document_journal" x="12" y="2648" width="16" height="16"/><text x="34" y="2661" font-size="13">Журналы документов</text><text x="34" y="2680" font-size="10" fill="#57606a">МетаданныеЖурналДокументов</text><use href="#i16-document_journal" x="274" y="2656" width="16" height="16"/><use href="#i20-document_journal" x="302" y="2654" width="20" height="20"/><use href="#i24-document_journal" x="334" y="2652" width="24" height="24"/><use href="#i32-document_journal" x="370" y="2648" width="32" height="32"/><use href="#i32-document_journal" x="414" y="2640" width="48" height="48"/><use href="#i32-document_journal" x="474" y="2632" width="64" height="64"/><use href="#i16-document_journal" x="556" y="2656" width="16" height="16"/><text x="578" y="2669" font-size="13" fill="#e6e6e6">Журналы документов</text><path d="M0 2700.5H544" stroke="#d0d7de"/><path d="M544 2700.5H800" stroke="#3c3c3c"/>
+<use href="#i16-enum" x="12" y="2720" width="16" height="16"/><text x="34" y="2733" font-size="13">Перечисления</text><text x="34" y="2752" font-size="10" fill="#57606a">МетаданныеПеречисление</text><use href="#i16-enum" x="274" y="2728" width="16" height="16"/><use href="#i20-enum" x="302" y="2726" width="20" height="20"/><use href="#i24-enum" x="334" y="2724" width="24" height="24"/><use href="#i32-enum" x="370" y="2720" width="32" height="32"/><use href="#i32-enum" x="414" y="2712" width="48" height="48"/><use href="#i32-enum" x="474" y="2704" width="64" height="64"/><use href="#i16-enum" x="556" y="2728" width="16" height="16"/><text x="578" y="2741" font-size="13" fill="#e6e6e6">Перечисления</text><path d="M0 2772.5H544" stroke="#d0d7de"/><path d="M544 2772.5H800" stroke="#3c3c3c"/>
+<use href="#i16-report" x="12" y="2792" width="16" height="16"/><text x="34" y="2805" font-size="13">Отчеты</text><text x="34" y="2824" font-size="10" fill="#57606a">МетаданныеОтчет</text><use href="#i16-report" x="274" y="2800" width="16" height="16"/><use href="#i20-report" x="302" y="2798" width="20" height="20"/><use href="#i24-report" x="334" y="2796" width="24" height="24"/><use href="#i32-report" x="370" y="2792" width="32" height="32"/><use href="#i32-report" x="414" y="2784" width="48" height="48"/><use href="#i32-report" x="474" y="2776" width="64" height="64"/><use href="#i16-report" x="556" y="2800" width="16" height="16"/><text x="578" y="2813" font-size="13" fill="#e6e6e6">Отчеты</text><path d="M0 2844.5H544" stroke="#d0d7de"/><path d="M544 2844.5H800" stroke="#3c3c3c"/>
+<use href="#i16-data_processor" x="12" y="2864" width="16" height="16"/><text x="34" y="2877" font-size="13">Обработки</text><text x="34" y="2896" font-size="10" fill="#57606a">МетаданныеОбработка</text><use href="#i16-data_processor" x="274" y="2872" width="16" height="16"/><use href="#i20-data_processor" x="302" y="2870" width="20" height="20"/><use href="#i24-data_processor" x="334" y="2868" width="24" height="24"/><use href="#i32-data_processor" x="370" y="2864" width="32" height="32"/><use href="#i32-data_processor" x="414" y="2856" width="48" height="48"/><use href="#i32-data_processor" x="474" y="2848" width="64" height="64"/><use href="#i16-data_processor" x="556" y="2872" width="16" height="16"/><text x="578" y="2885" font-size="13" fill="#e6e6e6">Обработки</text><path d="M0 2916.5H544" stroke="#d0d7de"/><path d="M544 2916.5H800" stroke="#3c3c3c"/>
+<use href="#i16-chart_of_characteristic_types" x="12" y="2936" width="16" height="16"/><text x="34" y="2949" font-size="13">Планы видов характеристик</text><text x="34" y="2968" font-size="10" fill="#57606a">МетаданныеПланВидовХарактеристик</text><use href="#i16-chart_of_characteristic_types" x="274" y="2944" width="16" height="16"/><use href="#i20-chart_of_characteristic_types" x="302" y="2942" width="20" height="20"/><use href="#i24-chart_of_characteristic_types" x="334" y="2940" width="24" height="24"/><use href="#i32-chart_of_characteristic_types" x="370" y="2936" width="32" height="32"/><use href="#i32-chart_of_characteristic_types" x="414" y="2928" width="48" height="48"/><use href="#i32-chart_of_characteristic_types" x="474" y="2920" width="64" height="64"/><use href="#i16-chart_of_characteristic_types" x="556" y="2944" width="16" height="16"/><text x="578" y="2957" font-size="13" fill="#e6e6e6">Планы видов характеристик</text><path d="M0 2988.5H544" stroke="#d0d7de"/><path d="M544 2988.5H800" stroke="#3c3c3c"/>
+<use href="#i16-chart_of_accounts" x="12" y="3008" width="16" height="16"/><text x="34" y="3021" font-size="13">Планы счетов</text><text x="34" y="3040" font-size="10" fill="#57606a">МетаданныеПланСчетов</text><use href="#i16-chart_of_accounts" x="274" y="3016" width="16" height="16"/><use href="#i20-chart_of_accounts" x="302" y="3014" width="20" height="20"/><use href="#i24-chart_of_accounts" x="334" y="3012" width="24" height="24"/><use href="#i32-chart_of_accounts" x="370" y="3008" width="32" height="32"/><use href="#i32-chart_of_accounts" x="414" y="3000" width="48" height="48"/><use href="#i32-chart_of_accounts" x="474" y="2992" width="64" height="64"/><use href="#i16-chart_of_accounts" x="556" y="3016" width="16" height="16"/><text x="578" y="3029" font-size="13" fill="#e6e6e6">Планы счетов</text><path d="M0 3060.5H544" stroke="#d0d7de"/><path d="M544 3060.5H800" stroke="#3c3c3c"/>
+<use href="#i16-chart_of_calculation_types" x="12" y="3080" width="16" height="16"/><text x="34" y="3093" font-size="13">Планы видов расчета</text><text x="34" y="3112" font-size="10" fill="#57606a">МетаданныеПланВидовРасчета</text><use href="#i16-chart_of_calculation_types" x="274" y="3088" width="16" height="16"/><use href="#i20-chart_of_calculation_types" x="302" y="3086" width="20" height="20"/><use href="#i24-chart_of_calculation_types" x="334" y="3084" width="24" height="24"/><use href="#i32-chart_of_calculation_types" x="370" y="3080" width="32" height="32"/><use href="#i32-chart_of_calculation_types" x="414" y="3072" width="48" height="48"/><use href="#i32-chart_of_calculation_types" x="474" y="3064" width="64" height="64"/><use href="#i16-chart_of_calculation_types" x="556" y="3088" width="16" height="16"/><text x="578" y="3101" font-size="13" fill="#e6e6e6">Планы видов расчета</text><path d="M0 3132.5H544" stroke="#d0d7de"/><path d="M544 3132.5H800" stroke="#3c3c3c"/>
+<use href="#i16-information_register" x="12" y="3152" width="16" height="16"/><text x="34" y="3165" font-size="13">Регистры сведений</text><text x="34" y="3184" font-size="10" fill="#57606a">МетаданныеРегистрСведений</text><use href="#i16-information_register" x="274" y="3160" width="16" height="16"/><use href="#i20-information_register" x="302" y="3158" width="20" height="20"/><use href="#i24-information_register" x="334" y="3156" width="24" height="24"/><use href="#i32-information_register" x="370" y="3152" width="32" height="32"/><use href="#i32-information_register" x="414" y="3144" width="48" height="48"/><use href="#i32-information_register" x="474" y="3136" width="64" height="64"/><use href="#i16-information_register" x="556" y="3160" width="16" height="16"/><text x="578" y="3173" font-size="13" fill="#e6e6e6">Регистры сведений</text><path d="M0 3204.5H544" stroke="#d0d7de"/><path d="M544 3204.5H800" stroke="#3c3c3c"/>
+<use href="#i16-accumulation_register" x="12" y="3224" width="16" height="16"/><text x="34" y="3237" font-size="13">Регистры накопления</text><text x="34" y="3256" font-size="10" fill="#57606a">МетаданныеРегистрНакопления</text><use href="#i16-accumulation_register" x="274" y="3232" width="16" height="16"/><use href="#i20-accumulation_register" x="302" y="3230" width="20" height="20"/><use href="#i24-accumulation_register" x="334" y="3228" width="24" height="24"/><use href="#i32-accumulation_register" x="370" y="3224" width="32" height="32"/><use href="#i32-accumulation_register" x="414" y="3216" width="48" height="48"/><use href="#i32-accumulation_register" x="474" y="3208" width="64" height="64"/><use href="#i16-accumulation_register" x="556" y="3232" width="16" height="16"/><text x="578" y="3245" font-size="13" fill="#e6e6e6">Регистры накопления</text><path d="M0 3276.5H544" stroke="#d0d7de"/><path d="M544 3276.5H800" stroke="#3c3c3c"/>
+<use href="#i16-accounting_register" x="12" y="3296" width="16" height="16"/><text x="34" y="3309" font-size="13">Регистры бухгалтерии</text><text x="34" y="3328" font-size="10" fill="#57606a">МетаданныеРегистрБухгалтерии</text><use href="#i16-accounting_register" x="274" y="3304" width="16" height="16"/><use href="#i20-accounting_register" x="302" y="3302" width="20" height="20"/><use href="#i24-accounting_register" x="334" y="3300" width="24" height="24"/><use href="#i32-accounting_register" x="370" y="3296" width="32" height="32"/><use href="#i32-accounting_register" x="414" y="3288" width="48" height="48"/><use href="#i32-accounting_register" x="474" y="3280" width="64" height="64"/><use href="#i16-accounting_register" x="556" y="3304" width="16" height="16"/><text x="578" y="3317" font-size="13" fill="#e6e6e6">Регистры бухгалтерии</text><path d="M0 3348.5H544" stroke="#d0d7de"/><path d="M544 3348.5H800" stroke="#3c3c3c"/>
+<use href="#i16-calculation_register" x="12" y="3368" width="16" height="16"/><text x="34" y="3381" font-size="13">Регистры расчета</text><text x="34" y="3400" font-size="10" fill="#57606a">МетаданныеРегистрРасчета</text><use href="#i16-calculation_register" x="274" y="3376" width="16" height="16"/><use href="#i20-calculation_register" x="302" y="3374" width="20" height="20"/><use href="#i24-calculation_register" x="334" y="3372" width="24" height="24"/><use href="#i32-calculation_register" x="370" y="3368" width="32" height="32"/><use href="#i32-calculation_register" x="414" y="3360" width="48" height="48"/><use href="#i32-calculation_register" x="474" y="3352" width="64" height="64"/><use href="#i16-calculation_register" x="556" y="3376" width="16" height="16"/><text x="578" y="3389" font-size="13" fill="#e6e6e6">Регистры расчета</text><path d="M0 3420.5H544" stroke="#d0d7de"/><path d="M544 3420.5H800" stroke="#3c3c3c"/>
+<use href="#i16-business_process" x="12" y="3440" width="16" height="16"/><text x="34" y="3453" font-size="13">Бизнес-процессы</text><text x="34" y="3472" font-size="10" fill="#57606a">МетаданныеБизнесПроцесс</text><use href="#i16-business_process" x="274" y="3448" width="16" height="16"/><use href="#i20-business_process" x="302" y="3446" width="20" height="20"/><use href="#i24-business_process" x="334" y="3444" width="24" height="24"/><use href="#i32-business_process" x="370" y="3440" width="32" height="32"/><use href="#i32-business_process" x="414" y="3432" width="48" height="48"/><use href="#i32-business_process" x="474" y="3424" width="64" height="64"/><use href="#i16-business_process" x="556" y="3448" width="16" height="16"/><text x="578" y="3461" font-size="13" fill="#e6e6e6">Бизнес-процессы</text><path d="M0 3492.5H544" stroke="#d0d7de"/><path d="M544 3492.5H800" stroke="#3c3c3c"/>
+<use href="#i16-task" x="12" y="3512" width="16" height="16"/><text x="34" y="3525" font-size="13">Задачи</text><text x="34" y="3544" font-size="10" fill="#57606a">МетаданныеЗадача</text><use href="#i16-task" x="274" y="3520" width="16" height="16"/><use href="#i20-task" x="302" y="3518" width="20" height="20"/><use href="#i24-task" x="334" y="3516" width="24" height="24"/><use href="#i32-task" x="370" y="3512" width="32" height="32"/><use href="#i32-task" x="414" y="3504" width="48" height="48"/><use href="#i32-task" x="474" y="3496" width="64" height="64"/><use href="#i16-task" x="556" y="3520" width="16" height="16"/><text x="578" y="3533" font-size="13" fill="#e6e6e6">Задачи</text><path d="M0 3564.5H544" stroke="#d0d7de"/><path d="M544 3564.5H800" stroke="#3c3c3c"/>
+<use href="#i16-external_data_source" x="12" y="3584" width="16" height="16"/><text x="34" y="3597" font-size="13">Внешние источники данных</text><text x="34" y="3616" font-size="10" fill="#57606a">МетаданныеВнешнийИсточникДанных</text><use href="#i16-external_data_source" x="274" y="3592" width="16" height="16"/><use href="#i20-external_data_source" x="302" y="3590" width="20" height="20"/><use href="#i24-external_data_source" x="334" y="3588" width="24" height="24"/><use href="#i32-external_data_source" x="370" y="3584" width="32" height="32"/><use href="#i32-external_data_source" x="414" y="3576" width="48" height="48"/><use href="#i32-external_data_source" x="474" y="3568" width="64" height="64"/><use href="#i16-external_data_source" x="556" y="3592" width="16" height="16"/><text x="578" y="3605" font-size="13" fill="#e6e6e6">Внешние источники данных</text><path d="M0 3636.5H544" stroke="#d0d7de"/><path d="M544 3636.5H800" stroke="#3c3c3c"/>
+<use href="#i16-attribute" x="12" y="3656" width="16" height="16"/><text x="34" y="3669" font-size="13">Реквизиты</text><text x="34" y="3688" font-size="10" fill="#57606a">МетаданныеРеквизит</text><use href="#i16-attribute" x="274" y="3664" width="16" height="16"/><use href="#i20-attribute" x="302" y="3662" width="20" height="20"/><use href="#i24-attribute" x="334" y="3660" width="24" height="24"/><use href="#i32-attribute" x="370" y="3656" width="32" height="32"/><use href="#i32-attribute" x="414" y="3648" width="48" height="48"/><use href="#i32-attribute" x="474" y="3640" width="64" height="64"/><use href="#i16-attribute" x="556" y="3664" width="16" height="16"/><text x="578" y="3677" font-size="13" fill="#e6e6e6">Реквизиты</text><path d="M0 3708.5H544" stroke="#d0d7de"/><path d="M544 3708.5H800" stroke="#3c3c3c"/>
+<use href="#i16-addressing_attribute" x="12" y="3728" width="16" height="16"/><text x="34" y="3741" font-size="13">Реквизиты адресации</text><text x="34" y="3760" font-size="10" fill="#57606a">МетаданныеРеквизитАдресации</text><use href="#i16-addressing_attribute" x="274" y="3736" width="16" height="16"/><use href="#i20-addressing_attribute" x="302" y="3734" width="20" height="20"/><use href="#i24-addressing_attribute" x="334" y="3732" width="24" height="24"/><use href="#i32-addressing_attribute" x="370" y="3728" width="32" height="32"/><use href="#i32-addressing_attribute" x="414" y="3720" width="48" height="48"/><use href="#i32-addressing_attribute" x="474" y="3712" width="64" height="64"/><use href="#i16-addressing_attribute" x="556" y="3736" width="16" height="16"/><text x="578" y="3749" font-size="13" fill="#e6e6e6">Реквизиты адресации</text><path d="M0 3780.5H544" stroke="#d0d7de"/><path d="M544 3780.5H800" stroke="#3c3c3c"/>
+<use href="#i16-tabular_section" x="12" y="3800" width="16" height="16"/><text x="34" y="3813" font-size="13">Табличные части</text><text x="34" y="3832" font-size="10" fill="#57606a">МетаданныеТабличнаяЧасть</text><use href="#i16-tabular_section" x="274" y="3808" width="16" height="16"/><use href="#i20-tabular_section" x="302" y="3806" width="20" height="20"/><use href="#i24-tabular_section" x="334" y="3804" width="24" height="24"/><use href="#i32-tabular_section" x="370" y="3800" width="32" height="32"/><use href="#i32-tabular_section" x="414" y="3792" width="48" height="48"/><use href="#i32-tabular_section" x="474" y="3784" width="64" height="64"/><use href="#i16-tabular_section" x="556" y="3808" width="16" height="16"/><text x="578" y="3821" font-size="13" fill="#e6e6e6">Табличные части</text><path d="M0 3852.5H544" stroke="#d0d7de"/><path d="M544 3852.5H800" stroke="#3c3c3c"/>
+<use href="#i16-form" x="12" y="3872" width="16" height="16"/><text x="34" y="3885" font-size="13">Формы</text><text x="34" y="3904" font-size="10" fill="#57606a">МетаданныеФорма</text><use href="#i16-form" x="274" y="3880" width="16" height="16"/><use href="#i20-form" x="302" y="3878" width="20" height="20"/><use href="#i24-form" x="334" y="3876" width="24" height="24"/><use href="#i32-form" x="370" y="3872" width="32" height="32"/><use href="#i32-form" x="414" y="3864" width="48" height="48"/><use href="#i32-form" x="474" y="3856" width="64" height="64"/><use href="#i16-form" x="556" y="3880" width="16" height="16"/><text x="578" y="3893" font-size="13" fill="#e6e6e6">Формы</text><path d="M0 3924.5H544" stroke="#d0d7de"/><path d="M544 3924.5H800" stroke="#3c3c3c"/>
+<use href="#i16-command" x="12" y="3944" width="16" height="16"/><text x="34" y="3957" font-size="13">Команды</text><text x="34" y="3976" font-size="10" fill="#57606a">МетаданныеКоманда</text><use href="#i16-command" x="274" y="3952" width="16" height="16"/><use href="#i20-command" x="302" y="3950" width="20" height="20"/><use href="#i24-command" x="334" y="3948" width="24" height="24"/><use href="#i32-command" x="370" y="3944" width="32" height="32"/><use href="#i32-command" x="414" y="3936" width="48" height="48"/><use href="#i32-command" x="474" y="3928" width="64" height="64"/><use href="#i16-command" x="556" y="3952" width="16" height="16"/><text x="578" y="3965" font-size="13" fill="#e6e6e6">Команды</text><path d="M0 3996.5H544" stroke="#d0d7de"/><path d="M544 3996.5H800" stroke="#3c3c3c"/>
+<use href="#i16-template" x="12" y="4016" width="16" height="16"/><text x="34" y="4029" font-size="13">Макеты</text><text x="34" y="4048" font-size="10" fill="#57606a">МетаданныеМакет</text><use href="#i16-template" x="274" y="4024" width="16" height="16"/><use href="#i20-template" x="302" y="4022" width="20" height="20"/><use href="#i24-template" x="334" y="4020" width="24" height="24"/><use href="#i32-template" x="370" y="4016" width="32" height="32"/><use href="#i32-template" x="414" y="4008" width="48" height="48"/><use href="#i32-template" x="474" y="4000" width="64" height="64"/><use href="#i16-template" x="556" y="4024" width="16" height="16"/><text x="578" y="4037" font-size="13" fill="#e6e6e6">Макеты</text><path d="M0 4068.5H544" stroke="#d0d7de"/><path d="M544 4068.5H800" stroke="#3c3c3c"/>
+<use href="#i16-dimension" x="12" y="4088" width="16" height="16"/><text x="34" y="4101" font-size="13">Измерения</text><text x="34" y="4120" font-size="10" fill="#57606a">МетаданныеИзмерение</text><use href="#i16-dimension" x="274" y="4096" width="16" height="16"/><use href="#i20-dimension" x="302" y="4094" width="20" height="20"/><use href="#i24-dimension" x="334" y="4092" width="24" height="24"/><use href="#i32-dimension" x="370" y="4088" width="32" height="32"/><use href="#i32-dimension" x="414" y="4080" width="48" height="48"/><use href="#i32-dimension" x="474" y="4072" width="64" height="64"/><use href="#i16-dimension" x="556" y="4096" width="16" height="16"/><text x="578" y="4109" font-size="13" fill="#e6e6e6">Измерения</text><path d="M0 4140.5H544" stroke="#d0d7de"/><path d="M544 4140.5H800" stroke="#3c3c3c"/>
+<use href="#i16-resource" x="12" y="4160" width="16" height="16"/><text x="34" y="4173" font-size="13">Ресурсы</text><text x="34" y="4192" font-size="10" fill="#57606a">МетаданныеРесурс</text><use href="#i16-resource" x="274" y="4168" width="16" height="16"/><use href="#i20-resource" x="302" y="4166" width="20" height="20"/><use href="#i24-resource" x="334" y="4164" width="24" height="24"/><use href="#i32-resource" x="370" y="4160" width="32" height="32"/><use href="#i32-resource" x="414" y="4152" width="48" height="48"/><use href="#i32-resource" x="474" y="4144" width="64" height="64"/><use href="#i16-resource" x="556" y="4168" width="16" height="16"/><text x="578" y="4181" font-size="13" fill="#e6e6e6">Ресурсы</text><path d="M0 4212.5H544" stroke="#d0d7de"/><path d="M544 4212.5H800" stroke="#3c3c3c"/>
+<use href="#i16-enum_value" x="12" y="4232" width="16" height="16"/><text x="34" y="4245" font-size="13">Значения перечислений</text><text x="34" y="4264" font-size="10" fill="#57606a">МетаданныеЗначениеПеречисления</text><use href="#i16-enum_value" x="274" y="4240" width="16" height="16"/><use href="#i20-enum_value" x="302" y="4238" width="20" height="20"/><use href="#i24-enum_value" x="334" y="4236" width="24" height="24"/><use href="#i32-enum_value" x="370" y="4232" width="32" height="32"/><use href="#i32-enum_value" x="414" y="4224" width="48" height="48"/><use href="#i32-enum_value" x="474" y="4216" width="64" height="64"/><use href="#i16-enum_value" x="556" y="4240" width="16" height="16"/><text x="578" y="4253" font-size="13" fill="#e6e6e6">Значения перечислений</text><path d="M0 4284.5H544" stroke="#d0d7de"/><path d="M544 4284.5H800" stroke="#3c3c3c"/>
+<use href="#i16-column" x="12" y="4304" width="16" height="16"/><text x="34" y="4317" font-size="13">Графы журналов</text><text x="34" y="4336" font-size="10" fill="#57606a">МетаданныеГрафа</text><use href="#i16-column" x="274" y="4312" width="16" height="16"/><use href="#i20-column" x="302" y="4310" width="20" height="20"/><use href="#i24-column" x="334" y="4308" width="24" height="24"/><use href="#i32-column" x="370" y="4304" width="32" height="32"/><use href="#i32-column" x="414" y="4296" width="48" height="48"/><use href="#i32-column" x="474" y="4288" width="64" height="64"/><use href="#i16-column" x="556" y="4312" width="16" height="16"/><text x="578" y="4325" font-size="13" fill="#e6e6e6">Графы журналов</text><path d="M0 4356.5H544" stroke="#d0d7de"/><path d="M544 4356.5H800" stroke="#3c3c3c"/>
+<use href="#i16-accounting_flag" x="12" y="4376" width="16" height="16"/><text x="34" y="4389" font-size="13">Признаки учета</text><text x="34" y="4408" font-size="10" fill="#57606a">МетаданныеПризнакУчета</text><use href="#i16-accounting_flag" x="274" y="4384" width="16" height="16"/><use href="#i20-accounting_flag" x="302" y="4382" width="20" height="20"/><use href="#i24-accounting_flag" x="334" y="4380" width="24" height="24"/><use href="#i32-accounting_flag" x="370" y="4376" width="32" height="32"/><use href="#i32-accounting_flag" x="414" y="4368" width="48" height="48"/><use href="#i32-accounting_flag" x="474" y="4360" width="64" height="64"/><use href="#i16-accounting_flag" x="556" y="4384" width="16" height="16"/><text x="578" y="4397" font-size="13" fill="#e6e6e6">Признаки учета</text><path d="M0 4428.5H544" stroke="#d0d7de"/><path d="M544 4428.5H800" stroke="#3c3c3c"/>
+<use href="#i16-ext_dimension_accounting_flag" x="12" y="4448" width="16" height="16"/><text x="34" y="4461" font-size="13">Признаки учета субконто</text><text x="34" y="4480" font-size="10" fill="#57606a">МетаданныеПризнакУчетаСубконто</text><use href="#i16-ext_dimension_accounting_flag" x="274" y="4456" width="16" height="16"/><use href="#i20-ext_dimension_accounting_flag" x="302" y="4454" width="20" height="20"/><use href="#i24-ext_dimension_accounting_flag" x="334" y="4452" width="24" height="24"/><use href="#i32-ext_dimension_accounting_flag" x="370" y="4448" width="32" height="32"/><use href="#i32-ext_dimension_accounting_flag" x="414" y="4440" width="48" height="48"/><use href="#i32-ext_dimension_accounting_flag" x="474" y="4432" width="64" height="64"/><use href="#i16-ext_dimension_accounting_flag" x="556" y="4456" width="16" height="16"/><text x="578" y="4469" font-size="13" fill="#e6e6e6">Признаки учета субконто</text><path d="M0 4500.5H544" stroke="#d0d7de"/><path d="M544 4500.5H800" stroke="#3c3c3c"/>
+<use href="#i16-recalculation" x="12" y="4520" width="16" height="16"/><text x="34" y="4533" font-size="13">Перерасчеты</text><text x="34" y="4552" font-size="10" fill="#57606a">МетаданныеПерерасчет</text><use href="#i16-recalculation" x="274" y="4528" width="16" height="16"/><use href="#i20-recalculation" x="302" y="4526" width="20" height="20"/><use href="#i24-recalculation" x="334" y="4524" width="24" height="24"/><use href="#i32-recalculation" x="370" y="4520" width="32" height="32"/><use href="#i32-recalculation" x="414" y="4512" width="48" height="48"/><use href="#i32-recalculation" x="474" y="4504" width="64" height="64"/><use href="#i16-recalculation" x="556" y="4528" width="16" height="16"/><text x="578" y="4541" font-size="13" fill="#e6e6e6">Перерасчеты</text><path d="M0 4572.5H544" stroke="#d0d7de"/><path d="M544 4572.5H800" stroke="#3c3c3c"/>
+<use href="#i16-web_service_operation" x="12" y="4592" width="16" height="16"/><text x="34" y="4605" font-size="13">Операции Web-сервисов</text><text x="34" y="4624" font-size="10" fill="#57606a">МетаданныеОперацияWebСервиса</text><use href="#i16-web_service_operation" x="274" y="4600" width="16" height="16"/><use href="#i20-web_service_operation" x="302" y="4598" width="20" height="20"/><use href="#i24-web_service_operation" x="334" y="4596" width="24" height="24"/><use href="#i32-web_service_operation" x="370" y="4592" width="32" height="32"/><use href="#i32-web_service_operation" x="414" y="4584" width="48" height="48"/><use href="#i32-web_service_operation" x="474" y="4576" width="64" height="64"/><use href="#i16-web_service_operation" x="556" y="4600" width="16" height="16"/><text x="578" y="4613" font-size="13" fill="#e6e6e6">Операции Web-сервисов</text><path d="M0 4644.5H544" stroke="#d0d7de"/><path d="M544 4644.5H800" stroke="#3c3c3c"/>
+<use href="#i16-parameter" x="12" y="4664" width="16" height="16"/><text x="34" y="4677" font-size="13">Параметры операций и функций</text><text x="34" y="4696" font-size="10" fill="#57606a">МетаданныеПараметр</text><use href="#i16-parameter" x="274" y="4672" width="16" height="16"/><use href="#i20-parameter" x="302" y="4670" width="20" height="20"/><use href="#i24-parameter" x="334" y="4668" width="24" height="24"/><use href="#i32-parameter" x="370" y="4664" width="32" height="32"/><use href="#i32-parameter" x="414" y="4656" width="48" height="48"/><use href="#i32-parameter" x="474" y="4648" width="64" height="64"/><use href="#i16-parameter" x="556" y="4672" width="16" height="16"/><text x="578" y="4685" font-size="13" fill="#e6e6e6">Параметры операций и функций</text><path d="M0 4716.5H544" stroke="#d0d7de"/><path d="M544 4716.5H800" stroke="#3c3c3c"/>
+<use href="#i16-url_template" x="12" y="4736" width="16" height="16"/><text x="34" y="4749" font-size="13">Шаблоны URL</text><text x="34" y="4768" font-size="10" fill="#57606a">МетаданныеШаблонURL</text><use href="#i16-url_template" x="274" y="4744" width="16" height="16"/><use href="#i20-url_template" x="302" y="4742" width="20" height="20"/><use href="#i24-url_template" x="334" y="4740" width="24" height="24"/><use href="#i32-url_template" x="370" y="4736" width="32" height="32"/><use href="#i32-url_template" x="414" y="4728" width="48" height="48"/><use href="#i32-url_template" x="474" y="4720" width="64" height="64"/><use href="#i16-url_template" x="556" y="4744" width="16" height="16"/><text x="578" y="4757" font-size="13" fill="#e6e6e6">Шаблоны URL</text><path d="M0 4788.5H544" stroke="#d0d7de"/><path d="M544 4788.5H800" stroke="#3c3c3c"/>
+<use href="#i16-method" x="12" y="4808" width="16" height="16"/><text x="34" y="4821" font-size="13">Методы HTTP-сервисов</text><text x="34" y="4840" font-size="10" fill="#57606a">МетаданныеМетод</text><use href="#i16-method" x="274" y="4816" width="16" height="16"/><use href="#i20-method" x="302" y="4814" width="20" height="20"/><use href="#i24-method" x="334" y="4812" width="24" height="24"/><use href="#i32-method" x="370" y="4808" width="32" height="32"/><use href="#i32-method" x="414" y="4800" width="48" height="48"/><use href="#i32-method" x="474" y="4792" width="64" height="64"/><use href="#i16-method" x="556" y="4816" width="16" height="16"/><text x="578" y="4829" font-size="13" fill="#e6e6e6">Методы HTTP-сервисов</text><path d="M0 4860.5H544" stroke="#d0d7de"/><path d="M544 4860.5H800" stroke="#3c3c3c"/>
+<use href="#i16-integration_service_channel" x="12" y="4880" width="16" height="16"/><text x="34" y="4893" font-size="13">Каналы сервисов интеграции</text><text x="34" y="4912" font-size="10" fill="#57606a">МетаданныеКаналСервисаИнтеграции</text><use href="#i16-integration_service_channel" x="274" y="4888" width="16" height="16"/><use href="#i20-integration_service_channel" x="302" y="4886" width="20" height="20"/><use href="#i24-integration_service_channel" x="334" y="4884" width="24" height="24"/><use href="#i32-integration_service_channel" x="370" y="4880" width="32" height="32"/><use href="#i32-integration_service_channel" x="414" y="4872" width="48" height="48"/><use href="#i32-integration_service_channel" x="474" y="4864" width="64" height="64"/><use href="#i16-integration_service_channel" x="556" y="4888" width="16" height="16"/><text x="578" y="4901" font-size="13" fill="#e6e6e6">Каналы сервисов интеграции</text><path d="M0 4932.5H544" stroke="#d0d7de"/><path d="M544 4932.5H800" stroke="#3c3c3c"/>
+<use href="#i16-external_data_source_table" x="12" y="4952" width="16" height="16"/><text x="34" y="4965" font-size="13">Таблицы внешних источников</text><text x="34" y="4984" font-size="10" fill="#57606a">МетаданныеВнешнийИсточникДанныхТаблица</text><use href="#i16-external_data_source_table" x="274" y="4960" width="16" height="16"/><use href="#i20-external_data_source_table" x="302" y="4958" width="20" height="20"/><use href="#i24-external_data_source_table" x="334" y="4956" width="24" height="24"/><use href="#i32-external_data_source_table" x="370" y="4952" width="32" height="32"/><use href="#i32-external_data_source_table" x="414" y="4944" width="48" height="48"/><use href="#i32-external_data_source_table" x="474" y="4936" width="64" height="64"/><use href="#i16-external_data_source_table" x="556" y="4960" width="16" height="16"/><text x="578" y="4973" font-size="13" fill="#e6e6e6">Таблицы внешних источников</text><path d="M0 5004.5H544" stroke="#d0d7de"/><path d="M544 5004.5H800" stroke="#3c3c3c"/>
+<use href="#i16-field" x="12" y="5024" width="16" height="16"/><text x="34" y="5037" font-size="13">Поля таблиц</text><text x="34" y="5056" font-size="10" fill="#57606a">МетаданныеПоле</text><use href="#i16-field" x="274" y="5032" width="16" height="16"/><use href="#i20-field" x="302" y="5030" width="20" height="20"/><use href="#i24-field" x="334" y="5028" width="24" height="24"/><use href="#i32-field" x="370" y="5024" width="32" height="32"/><use href="#i32-field" x="414" y="5016" width="48" height="48"/><use href="#i32-field" x="474" y="5008" width="64" height="64"/><use href="#i16-field" x="556" y="5032" width="16" height="16"/><text x="578" y="5045" font-size="13" fill="#e6e6e6">Поля таблиц</text><path d="M0 5076.5H544" stroke="#d0d7de"/><path d="M544 5076.5H800" stroke="#3c3c3c"/>
+<use href="#i16-cube" x="12" y="5096" width="16" height="16"/><text x="34" y="5109" font-size="13">Кубы</text><text x="34" y="5128" font-size="10" fill="#57606a">МетаданныеВнешнийИсточникДанныхКуб</text><use href="#i16-cube" x="274" y="5104" width="16" height="16"/><use href="#i20-cube" x="302" y="5102" width="20" height="20"/><use href="#i24-cube" x="334" y="5100" width="24" height="24"/><use href="#i32-cube" x="370" y="5096" width="32" height="32"/><use href="#i32-cube" x="414" y="5088" width="48" height="48"/><use href="#i32-cube" x="474" y="5080" width="64" height="64"/><use href="#i16-cube" x="556" y="5104" width="16" height="16"/><text x="578" y="5117" font-size="13" fill="#e6e6e6">Кубы</text><path d="M0 5148.5H544" stroke="#d0d7de"/><path d="M544 5148.5H800" stroke="#3c3c3c"/>
+<use href="#i16-dimension_table" x="12" y="5168" width="16" height="16"/><text x="34" y="5181" font-size="13">Таблицы измерений</text><text x="34" y="5200" font-size="10" fill="#57606a">МетаданныеВнешнийИсточникДанныхКубТаблицаИзмерения</text><use href="#i16-dimension_table" x="274" y="5176" width="16" height="16"/><use href="#i20-dimension_table" x="302" y="5174" width="20" height="20"/><use href="#i24-dimension_table" x="334" y="5172" width="24" height="24"/><use href="#i32-dimension_table" x="370" y="5168" width="32" height="32"/><use href="#i32-dimension_table" x="414" y="5160" width="48" height="48"/><use href="#i32-dimension_table" x="474" y="5152" width="64" height="64"/><use href="#i16-dimension_table" x="556" y="5176" width="16" height="16"/><text x="578" y="5189" font-size="13" fill="#e6e6e6">Таблицы измерений</text><path d="M0 5220.5H544" stroke="#d0d7de"/><path d="M544 5220.5H800" stroke="#3c3c3c"/>
+<use href="#i16-function" x="12" y="5240" width="16" height="16"/><text x="34" y="5253" font-size="13">Функции внешних источников</text><text x="34" y="5272" font-size="10" fill="#57606a">МетаданныеВнешнийИсточникДанныхФункция</text><use href="#i16-function" x="274" y="5248" width="16" height="16"/><use href="#i20-function" x="302" y="5246" width="20" height="20"/><use href="#i24-function" x="334" y="5244" width="24" height="24"/><use href="#i32-function" x="370" y="5240" width="32" height="32"/><use href="#i32-function" x="414" y="5232" width="48" height="48"/><use href="#i32-function" x="474" y="5224" width="64" height="64"/><use href="#i16-function" x="556" y="5248" width="16" height="16"/><text x="578" y="5261" font-size="13" fill="#e6e6e6">Функции внешних источников</text><path d="M0 5292.5H544" stroke="#d0d7de"/><path d="M544 5292.5H800" stroke="#3c3c3c"/>
+<path d="M267.5 0V5292" stroke="#d0d7de"/>
+<text x="12" y="5311" font-size="12" fill="#57606a">Иконки метаданных 1С © 2026 Журавлев Анатолий, CC BY 4.0.</text>
+<text x="12" y="5327" font-size="11" fill="#57606a">Исходники: 16, 20, 24 и 32 px. Размер 14 px — из 16; 28, 48 и 64 px — из 32.</text>
+<rect x="0.5" y="0.5" width="799" height="5335" fill="none" stroke="#d0d7de"/>
 </svg>
